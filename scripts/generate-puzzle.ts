@@ -73,24 +73,33 @@ Return ONLY valid JSON matching this TypeScript interface. Do not wrap in markdo
     let responseText: string | undefined;
 
     for (const model of candidateModels) {
-      try {
-        console.log(`Trying model: ${model}...`);
-        const response = await ai.models.generateContent({
-          model: model,
-          contents: prompt,
-          config: {
-            responseMimeType: "application/json",
-            temperature: 0.7,
-          },
-        });
-        responseText = response.text();
-        if (responseText) {
-          console.log(`Successfully generated using ${model}`);
-          break;
+      const maxRetries = 3;
+      for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+          console.log(`Trying model: ${model} (Attempt ${attempt}/${maxRetries})...`);
+          const response = await ai.models.generateContent({
+            model: model,
+            contents: prompt,
+            config: {
+              responseMimeType: "application/json",
+              temperature: 0.7,
+            },
+          });
+          responseText = response.text();
+          if (responseText) {
+            console.log(`Successfully generated using ${model}`);
+            break;
+          }
+        } catch (e: any) {
+          console.log(`Failed with model ${model} (Attempt ${attempt}): ${e.message}`);
+          if (attempt < maxRetries) {
+            console.log(`Waiting 5 seconds before retrying...`);
+            await new Promise(resolve => setTimeout(resolve, 5000));
+          }
         }
-      } catch (e: any) {
-        console.log(`Failed with model ${model}: ${e.message}`);
       }
+      
+      if (responseText) break;
     }
 
     if (!responseText) {
