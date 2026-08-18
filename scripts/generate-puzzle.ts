@@ -65,40 +65,42 @@ Return ONLY valid JSON matching this TypeScript interface. Do not wrap in markdo
 }
 `;
 
-  const candidateModels = [
-    "gemini-3.1-flash-preview",
-    "gemini-3.1-flash",
-    "gemini-3.0-flash",
-    "gemini-2.5-flash",
-    "gemini-2.0-flash"
-  ];
+  try {
+    const candidateModels = [
+      "gemini-3.1-flash-preview",
+      "gemini-3.1-flash",
+      "gemini-3.0-flash",
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-1.5-flash"
+    ];
 
-  let responseText: string | undefined;
+    let responseText: string | undefined;
 
-  for (const model of candidateModels) {
-    try {
-      console.log(`Trying model: ${model}...`);
-      const response = await ai.models.generateContent({
-        model: model,
-        contents: prompt,
-        config: {
-          responseMimeType: "application/json",
-          temperature: 0.7,
-        },
-      });
-      responseText = response.text();
-      if (responseText) {
-        console.log(`Successfully generated using ${model}`);
-        break;
+    for (const model of candidateModels) {
+      try {
+        console.log(`Trying model: ${model}...`);
+        const response = await ai.models.generateContent({
+          model: model,
+          contents: prompt,
+          config: {
+            responseMimeType: "application/json",
+            temperature: 0.7,
+          },
+        });
+        responseText = response.text();
+        if (responseText) {
+          console.log(`Successfully generated using ${model}`);
+          break;
+        }
+      } catch (e: any) {
+        console.log(`Failed with model ${model}: ${e.message}`);
       }
-    } catch (e: any) {
-      console.log(`Failed with model ${model}: ${e.message}`);
     }
-  }
 
-  if (!responseText) {
-    throw new Error("All candidate models failed.");
-  }
+    if (!responseText) {
+      throw new Error("All candidate models failed.");
+    }
 
 
     const newPuzzle = JSON.parse(responseText);
