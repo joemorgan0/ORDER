@@ -23,7 +23,9 @@ export interface PuzzleResult {
 
 export interface GameState {
   completedPuzzles: Record<string, PuzzleResult>; // key is puzzle id
-  currentStreak: number;
-  bestStreak: number;
+  playStreak: number;
+  bestPlayStreak: number;
+  perfectStreak: number;
+  bestPerfectStreak: number;
   lastPlayedDate: string | null;
 }

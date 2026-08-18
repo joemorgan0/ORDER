@@ -102,10 +102,10 @@ export function ResultView({ puzzle, result }: ResultViewProps) {
         <ShareButton puzzle={puzzle} result={result} />
         
         <Link 
-          href="/archive"
+          href="/"
           className="px-6 py-3 font-semibold text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-full transition-colors"
         >
-          Play Archive
+          Back to Categories
         </Link>
       </div>
     </div>

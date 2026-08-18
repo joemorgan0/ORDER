@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import { StatsModal } from "@/components/StatsModal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,10 +24,8 @@ export default function RootLayout({
             <Link href="/" className="font-black text-2xl tracking-tighter hover:opacity-80 transition-opacity">
               ORDER
             </Link>
-            <nav className="flex gap-4 font-semibold text-sm">
-              <Link href="/archive" className="text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors">
-                Archive
-              </Link>
+            <nav className="flex gap-4 font-semibold text-sm items-center">
+              <StatsModal />
             </nav>
           </div>
         </header>

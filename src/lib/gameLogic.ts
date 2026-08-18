@@ -36,6 +36,13 @@ export function getPuzzleByDate(puzzles: Puzzle[], dateString: string): Puzzle |
 }
 
 /**
+ * Gets all puzzles for a specific date (one per category)
+ */
+export function getPuzzlesByDate(puzzles: Puzzle[], dateString: string): Puzzle[] {
+  return puzzles.filter(p => p.date === dateString);
+}
+
+/**
  * Gets today's date formatted as YYYY-MM-DD
  */
 export function getTodayDateString(): string {

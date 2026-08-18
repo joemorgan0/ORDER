@@ -9,7 +9,6 @@ import { use } from "react";
 export default function PlayPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = use(params);
   const searchParams = useSearchParams();
-  const isArchive = searchParams.get("archive") === "true";
   
   const puzzle = puzzles.find(p => p.id === resolvedParams.id);
 
@@ -21,14 +20,14 @@ export default function PlayPage({ params }: { params: Promise<{ id: string }> }
           We couldn&apos;t find the puzzle you were looking for.
         </p>
         <Link 
-          href="/archive" 
+          href="/" 
           className="px-8 py-4 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-bold rounded-full transition-transform hover:scale-105"
         >
-          View Archive
+          Back to Categories
         </Link>
       </div>
     );
   }
 
-  return <GameContainer puzzle={puzzle} isArchive={isArchive} />;
+  return <GameContainer puzzle={puzzle} />;
 }

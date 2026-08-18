@@ -9,10 +9,9 @@ import { getGameState, saveGameState } from "@/lib/storage";
 
 interface GameContainerProps {
   puzzle: Puzzle;
-  isArchive?: boolean;
 }
 
-export function GameContainer({ puzzle, isArchive = false }: GameContainerProps) {
+export function GameContainer({ puzzle }: GameContainerProps) {
   const [mounted, setMounted] = useState(false);
   const [items, setItems] = useState<PuzzleItem[]>(puzzle.items);
   const [gameState, setGameState] = useState<GameState | null>(null);
@@ -53,20 +52,49 @@ export function GameContainer({ puzzle, isArchive = false }: GameContainerProps)
       dateCompleted: new Date().toISOString(),
     };
 
-    let newCurrentStreak = gameState.currentStreak;
-    let newBestStreak = gameState.bestStreak;
+    let newPlayStreak = gameState.playStreak;
+    let newBestPlayStreak = gameState.bestPlayStreak;
+    let newPerfectStreak = gameState.perfectStreak;
+    let newBestPerfectStreak = gameState.bestPerfectStreak;
     let newLastPlayed = gameState.lastPlayedDate;
 
-    // Only update streak if it's not an archive play
-    if (!isArchive) {
-      if (gameState.lastPlayedDate && isConsecutiveDay(gameState.lastPlayedDate, result.dateCompleted)) {
-        newCurrentStreak += 1;
-      } else {
-        newCurrentStreak = 1;
+    // Helper to check if two ISO dates are the same day
+    const isSameDay = (d1: string, d2: string) => {
+      return d1.split('T')[0] === d2.split('T')[0];
+    };
+
+    if (gameState.lastPlayedDate) {
+      if (isConsecutiveDay(gameState.lastPlayedDate, result.dateCompleted)) {
+        newPlayStreak += 1;
+      } else if (!isSameDay(gameState.lastPlayedDate, result.dateCompleted)) {
+        newPlayStreak = 1;
       }
-      newBestStreak = Math.max(gameState.bestStreak, newCurrentStreak);
-      newLastPlayed = result.dateCompleted;
+    } else {
+      newPlayStreak = 1;
     }
+    
+    if (score === 5) {
+      // Find the last perfect score date by checking completed puzzles
+      const previousPerfects = Object.values(gameState.completedPuzzles)
+        .filter(p => p.score === 5)
+        .sort((a, b) => new Date(b.dateCompleted).getTime() - new Date(a.dateCompleted).getTime());
+      
+      const lastPerfect = previousPerfects.length > 0 ? previousPerfects[0].dateCompleted : null;
+      
+      if (lastPerfect) {
+        if (isConsecutiveDay(lastPerfect, result.dateCompleted)) {
+          newPerfectStreak += 1;
+        } else if (!isSameDay(lastPerfect, result.dateCompleted)) {
+          newPerfectStreak = 1;
+        }
+      } else {
+        newPerfectStreak = 1;
+      }
+    }
+
+    newBestPlayStreak = Math.max(gameState.bestPlayStreak, newPlayStreak);
+    newBestPerfectStreak = Math.max(gameState.bestPerfectStreak, newPerfectStreak);
+    newLastPlayed = result.dateCompleted;
 
     const newState: GameState = {
       ...gameState,
@@ -74,8 +102,10 @@ export function GameContainer({ puzzle, isArchive = false }: GameContainerProps)
         ...gameState.completedPuzzles,
         [puzzle.id]: result
       },
-      currentStreak: newCurrentStreak,
-      bestStreak: newBestStreak,
+      playStreak: newPlayStreak,
+      bestPlayStreak: newBestPlayStreak,
+      perfectStreak: newPerfectStreak,
+      bestPerfectStreak: newBestPerfectStreak,
       lastPlayedDate: newLastPlayed
     };
 

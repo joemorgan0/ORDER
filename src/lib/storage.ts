@@ -6,8 +6,10 @@ export const getGameState = (): GameState => {
   if (typeof window === "undefined") {
     return {
       completedPuzzles: {},
-      currentStreak: 0,
-      bestStreak: 0,
+      playStreak: 0,
+      bestPlayStreak: 0,
+      perfectStreak: 0,
+      bestPerfectStreak: 0,
       lastPlayedDate: null,
     };
   }
@@ -15,7 +17,17 @@ export const getGameState = (): GameState => {
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved) {
     try {
-      return JSON.parse(saved);
+      const parsed = JSON.parse(saved);
+      // Migration from old state
+      if (parsed.currentStreak !== undefined) {
+        parsed.playStreak = parsed.currentStreak;
+        parsed.bestPlayStreak = parsed.bestStreak;
+        parsed.perfectStreak = 0;
+        parsed.bestPerfectStreak = 0;
+        delete parsed.currentStreak;
+        delete parsed.bestStreak;
+      }
+      return parsed;
     } catch (e) {
       console.error("Failed to parse game state", e);
     }
@@ -23,8 +35,10 @@ export const getGameState = (): GameState => {
   
   return {
     completedPuzzles: {},
-    currentStreak: 0,
-    bestStreak: 0,
+    playStreak: 0,
+    bestPlayStreak: 0,
+    perfectStreak: 0,
+    bestPerfectStreak: 0,
     lastPlayedDate: null,
   };
 };

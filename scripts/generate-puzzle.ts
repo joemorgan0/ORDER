@@ -23,6 +23,8 @@ function getNextDate(latestDateStr: string): string {
   return date.toISOString().split("T")[0];
 }
 
+const CATEGORIES = ["Movies", "Video Games", "Geography", "Music", "Science"];
+
 async function generatePuzzle() {
   console.log("Reading existing puzzles...");
   const puzzlesRaw = fs.readFileSync(PUZZLES_FILE_PATH, "utf-8");
@@ -30,14 +32,17 @@ async function generatePuzzle() {
 
   const latestPuzzle = puzzles[puzzles.length - 1];
   const nextDate = getNextDate(latestPuzzle.date);
-  const nextId = (parseInt(latestPuzzle.id) + 1).toString();
+  let nextId = parseInt(latestPuzzle.id) + 1;
 
-  console.log(`Generating puzzle for ${nextDate} (ID: ${nextId})...`);
+  console.log(`Generating puzzles for ${nextDate}...`);
 
-  const prompt = `
+  for (const category of CATEGORIES) {
+    console.log(`Generating puzzle for ${category} (ID: ${nextId})...`);
+    
+    const prompt = `
 You are an expert trivia puzzle generator. Generate a puzzle where the player must order 5 items according to a specific criterion. 
 
-Categories could be: History, Geography, Science, Pop Culture, Literature, Music, Movies, Sports. Pick a random, interesting topic.
+The category MUST be strictly about: ${category}.
 
 CRITICAL REQUIREMENTS:
 - Produce EXACTLY 5 items.
@@ -50,7 +55,7 @@ Return ONLY valid JSON matching this TypeScript interface. Do not wrap in markdo
 {
   "id": "${nextId}",
   "date": "${nextDate}",
-  "category": "string",
+  "category": "${category}",
   "question": "string",
   "order": "asc" | "desc",
   "difficulty": "Easy" | "Medium" | "Hard",
@@ -102,30 +107,31 @@ Return ONLY valid JSON matching this TypeScript interface. Do not wrap in markdo
       if (responseText) break;
     }
 
-    if (!responseText) {
-      throw new Error("All candidate models failed.");
+      if (!responseText) {
+        throw new Error(`All candidate models failed for ${category}.`);
+      }
+
+      const newPuzzle = JSON.parse(responseText);
+
+      if (!newPuzzle.items || newPuzzle.items.length !== 5) {
+        throw new Error("AI did not return exactly 5 items.");
+      }
+
+      console.log(`Successfully generated ${category} puzzle!`);
+      puzzles.push(newPuzzle);
+      
+      // Increment ID for the next category
+      nextId++;
+
+    } catch (error) {
+      console.error(`Failed to generate or save puzzle for ${category}:`, error);
+      // We don't exit(1) here so that we can at least try the other categories
     }
-
-
-    const newPuzzle = JSON.parse(responseText);
-
-    // Minor validation
-    if (!newPuzzle.items || newPuzzle.items.length !== 5) {
-      throw new Error("AI did not return exactly 5 items.");
-    }
-
-    console.log("Successfully generated puzzle:");
-    console.log(JSON.stringify(newPuzzle, null, 2));
-
-    puzzles.push(newPuzzle);
-
-    fs.writeFileSync(PUZZLES_FILE_PATH, JSON.stringify(puzzles, null, 2));
-    console.log(`Appended new puzzle to ${PUZZLES_FILE_PATH}`);
-
-  } catch (error) {
-    console.error("Failed to generate or save puzzle:", error);
-    process.exit(1);
   }
+
+  // Save all successfully generated puzzles
+  fs.writeFileSync(PUZZLES_FILE_PATH, JSON.stringify(puzzles, null, 2));
+  console.log(`Saved new puzzles to ${PUZZLES_FILE_PATH}`);
 }
 
 generatePuzzle();
