@@ -48,6 +48,23 @@ The game will automatically pick up the puzzle on that date.
 }
 ```
 
+## AI Puzzle Generation
+
+The project includes an automated script that uses Google Gemini to generate new puzzles. 
+This script runs automatically every night at midnight via a **GitHub Action** (`.github/workflows/daily-puzzle.yml`), appending a new puzzle for the next day to `src/data/puzzles.json`.
+
+**To run the AI generator locally:**
+
+1. Create a `.env` file in the root directory.
+2. Add your Google Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+3. Run the generator script:
+   ```bash
+   npm run generate-puzzle
+   ```
+
 ## Running locally
 
 Make sure you have Node.js installed.

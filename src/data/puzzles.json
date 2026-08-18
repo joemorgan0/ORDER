@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "date": "2026-08-17",
+    "category": "Movies",
+    "question": "Put these films in order of release date, oldest to newest.",
+    "items": [
+      { "id": "p1-i1", "name": "Jaws", "value": "1975", "numericValue": 1975 },
+      { "id": "p1-i2", "name": "The Matrix", "value": "1999", "numericValue": 1999 },
+      { "id": "p1-i3", "name": "Titanic", "value": "1997", "numericValue": 1997 },
+      { "id": "p1-i4", "name": "Avatar", "value": "2009", "numericValue": 2009 },
+      { "id": "p1-i5", "name": "Interstellar", "value": "2014", "numericValue": 2014 }
+    ],
+    "difficulty": "Easy"
+  },
+  {
+    "id": "2",
+    "date": "2026-08-18",
+    "category": "Video Games",
+    "question": "Put these video game consoles in order of worldwide sales, highest to lowest.",
+    "order": "desc",
+    "items": [
+      { "id": "p2-i1", "name": "Nintendo 64", "value": "32.93 million", "numericValue": 32.93 },
+      { "id": "p2-i2", "name": "Sega Genesis", "value": "30.75 million", "numericValue": 30.75 },
+      { "id": "p2-i3", "name": "Xbox One", "value": "58 million", "numericValue": 58 },
+      { "id": "p2-i4", "name": "PlayStation 2", "value": "155 million", "numericValue": 155 },
+      { "id": "p2-i5", "name": "Nintendo Switch", "value": "141 million", "numericValue": 141 }
+    ],
+    "difficulty": "Medium"
+  },
+  {
+    "id": "3",
+    "date": "2026-08-19",
+    "category": "Geography",
+    "question": "Put these countries in order of land area, smallest to largest.",
+    "items": [
+      { "id": "p3-i1", "name": "Canada", "value": "9.98 million km²", "numericValue": 9.98 },
+      { "id": "p3-i2", "name": "Russia", "value": "17.1 million km²", "numericValue": 17.1 },
+      { "id": "p3-i3", "name": "Vatican City", "value": "0.49 km²", "numericValue": 0.00000049 },
+      { "id": "p3-i4", "name": "Australia", "value": "7.69 million km²", "numericValue": 7.69 },
+      { "id": "p3-i5", "name": "Brazil", "value": "8.51 million km²", "numericValue": 8.51 }
+    ],
+    "difficulty": "Hard"
+  },
+  {
+    "id": "4",
+    "date": "2026-08-20",
+    "category": "Music",
+    "question": "Put these albums in order of their release year, oldest to newest.",
+    "items": [
+      { "id": "p4-i1", "name": "Abbey Road (The Beatles)", "value": "1969", "numericValue": 1969 },
+      { "id": "p4-i2", "name": "Thriller (Michael Jackson)", "value": "1982", "numericValue": 1982 },
+      { "id": "p4-i3", "name": "Nevermind (Nirvana)", "value": "1991", "numericValue": 1991 },
+      { "id": "p4-i4", "name": "1989 (Taylor Swift)", "value": "2014", "numericValue": 2014 },
+      { "id": "p4-i5", "name": "Rumours (Fleetwood Mac)", "value": "1977", "numericValue": 1977 }
+    ],
+    "difficulty": "Medium"
+  }
+]

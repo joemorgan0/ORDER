@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate-puzzle": "tsx scripts/generate-puzzle.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -18,14 +19,17 @@
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
+    "@google/genai": "^2.17.1",
     "@tailwindcss/postcss": "^4",
     "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.12",
     "typescript": "^5"
   }
 }
