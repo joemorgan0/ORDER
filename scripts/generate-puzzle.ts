@@ -67,7 +67,7 @@ Return ONLY valid JSON matching this TypeScript interface. Do not wrap in markdo
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3.1-pro-preview",
+      model: "gemini-3.1-flash",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
