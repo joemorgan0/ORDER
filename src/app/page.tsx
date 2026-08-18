@@ -17,8 +17,8 @@ export default function Home() {
   const today = getTodayDateString();
   let todayPuzzles = getPuzzlesByDate(puzzles, today);
   
-  // Dev fallback: if no puzzles today, use the latest available date
-  if (todayPuzzles.length === 0 && fallbackDate) {
+  // Dev fallback: if we haven't generated a full batch for today yet, use the latest available date
+  if (todayPuzzles.length < 5 && fallbackDate) {
     todayPuzzles = getPuzzlesByDate(puzzles, fallbackDate);
   }
 

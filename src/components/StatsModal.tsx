@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { BarChart3, X, Flame, Trophy } from "lucide-react";
 import { getGameState } from "@/lib/storage";
 import { GameState } from "@/types/game";
@@ -34,7 +35,7 @@ export function StatsModal() {
         <BarChart3 className="w-5 h-5" />
       </button>
 
-      {isOpen && (
+      {isOpen && typeof document !== "undefined" && createPortal(
         <div 
           className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-in fade-in duration-200"
           onClick={() => setIsOpen(false)}
@@ -98,7 +99,8 @@ export function StatsModal() {
 
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
