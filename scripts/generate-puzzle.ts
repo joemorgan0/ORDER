@@ -85,7 +85,7 @@ Return ONLY valid JSON matching this TypeScript interface. Do not wrap in markdo
               temperature: 0.7,
             },
           });
-          responseText = response.text();
+          responseText = response.text;
           if (responseText) {
             console.log(`Successfully generated using ${model}`);
             break;
