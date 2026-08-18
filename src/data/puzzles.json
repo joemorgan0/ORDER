@@ -195,5 +195,205 @@
         "numericValue": 1940
       }
     ]
+  },
+  {
+    "id": "6",
+    "date": "2026-08-22",
+    "category": "Movies",
+    "question": "Order these Best Picture Oscar winners by their release year, from oldest to newest.",
+    "order": "asc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p6-i1",
+        "name": "Wings",
+        "value": "1927",
+        "numericValue": 1927
+      },
+      {
+        "id": "p6-i2",
+        "name": "Casablanca",
+        "value": "1942",
+        "numericValue": 1942
+      },
+      {
+        "id": "p6-i3",
+        "name": "The Godfather",
+        "value": "1972",
+        "numericValue": 1972
+      },
+      {
+        "id": "p6-i4",
+        "name": "Titanic",
+        "value": "1997",
+        "numericValue": 1997
+      },
+      {
+        "id": "p6-i5",
+        "name": "Parasite",
+        "value": "2019",
+        "numericValue": 2019
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "date": "2026-08-22",
+    "category": "Video Games",
+    "question": "Order these iconic home video game consoles by their North American release year, from earliest to latest.",
+    "order": "asc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p7-i1",
+        "name": "Magnavox Odyssey",
+        "value": "1972",
+        "numericValue": 1972
+      },
+      {
+        "id": "p7-i2",
+        "name": "Atari 2600",
+        "value": "1977",
+        "numericValue": 1977
+      },
+      {
+        "id": "p7-i3",
+        "name": "Nintendo Entertainment System (NES)",
+        "value": "1985",
+        "numericValue": 1985
+      },
+      {
+        "id": "p7-i4",
+        "name": "Sony PlayStation",
+        "value": "1995",
+        "numericValue": 1995
+      },
+      {
+        "id": "p7-i5",
+        "name": "Nintendo Wii",
+        "value": "2006",
+        "numericValue": 2006
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "date": "2026-08-22",
+    "category": "Geography",
+    "question": "Order these islands by total land area, from largest to smallest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p8-i1",
+        "name": "Greenland",
+        "value": "2,166,086 km²",
+        "numericValue": 2166086
+      },
+      {
+        "id": "p8-i2",
+        "name": "New Guinea",
+        "value": "785,753 km²",
+        "numericValue": 785753
+      },
+      {
+        "id": "p8-i3",
+        "name": "Borneo",
+        "value": "748,168 km²",
+        "numericValue": 748168
+      },
+      {
+        "id": "p8-i4",
+        "name": "Madagascar",
+        "value": "587,041 km²",
+        "numericValue": 587041
+      },
+      {
+        "id": "p8-i5",
+        "name": "Baffin Island",
+        "value": "507,451 km²",
+        "numericValue": 507451
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "date": "2026-08-22",
+    "category": "Music",
+    "question": "Order these legendary music albums by their release year, from earliest to latest.",
+    "order": "asc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p9-i1",
+        "name": "\"Abbey Road\" by The Beatles",
+        "value": "1969",
+        "numericValue": 1969
+      },
+      {
+        "id": "p9-i2",
+        "name": "\"The Dark Side of the Moon\" by Pink Floyd",
+        "value": "1973",
+        "numericValue": 1973
+      },
+      {
+        "id": "p9-i3",
+        "name": "\"Rumours\" by Fleetwood Mac",
+        "value": "1977",
+        "numericValue": 1977
+      },
+      {
+        "id": "p9-i4",
+        "name": "\"Thriller\" by Michael Jackson",
+        "value": "1982",
+        "numericValue": 1982
+      },
+      {
+        "id": "p9-i5",
+        "name": "\"Nevermind\" by Nirvana",
+        "value": "1991",
+        "numericValue": 1991
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "date": "2026-08-22",
+    "category": "Science",
+    "question": "Order these materials by the speed of sound traveling through them, from slowest to fastest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p10-i1",
+        "name": "Air (at 20°C)",
+        "value": "343 m/s",
+        "numericValue": 343
+      },
+      {
+        "id": "p10-i2",
+        "name": "Water (at 20°C)",
+        "value": "1,482 m/s",
+        "numericValue": 1482
+      },
+      {
+        "id": "p10-i3",
+        "name": "Copper",
+        "value": "3,750 m/s",
+        "numericValue": 3750
+      },
+      {
+        "id": "p10-i4",
+        "name": "Aluminum",
+        "value": "6,320 m/s",
+        "numericValue": 6320
+      },
+      {
+        "id": "p10-i5",
+        "name": "Diamond",
+        "value": "12,000 m/s",
+        "numericValue": 12000
+      }
+    ]
   }
 ]
