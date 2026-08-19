@@ -113,16 +113,18 @@ export function generateDailyShareText(
   
   text += "\n";
   
-  if (totalScore === 25) {
-    text += `💎 PERFECT DAY\n25/25\n\n`;
+  const maxScore = dailyPuzzles.length * 5;
+  
+  if (totalScore === maxScore) {
+    text += `💎 PERFECT DAY\n${totalScore}/${maxScore}\n\n`;
   } else {
-    text += `${totalScore}/25\n\n`;
+    text += `${totalScore}/${maxScore}\n\n`;
   }
   
   text += `🔥 ${stats.playStreak} day streak\n\n`;
   
-  if (totalScore === 25) {
-    text += `Can you get 25/25?\nhttps://joemorgan0.github.io/ORDER`;
+  if (totalScore === maxScore) {
+    text += `Can you get ${maxScore}/${maxScore}?\nhttps://joemorgan0.github.io/ORDER`;
   } else {
     text += `Can you beat me?\nhttps://joemorgan0.github.io/ORDER`;
   }

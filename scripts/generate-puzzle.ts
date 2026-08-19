@@ -23,7 +23,7 @@ function getNextDate(latestDateStr: string): string {
   return date.toISOString().split("T")[0];
 }
 
-const CATEGORIES = ["Movies", "Video Games", "Geography", "Music", "Science"];
+const CATEGORIES = ["Movies", "Video Games", "Geography", "Music", "Science", "Sports"];
 
 async function generatePuzzle() {
   console.log("Reading existing puzzles...");
@@ -40,13 +40,26 @@ async function generatePuzzle() {
     console.log(`Generating puzzle for ${category} (ID: ${nextId})...`);
     
     const prompt = `
-You are an expert trivia puzzle generator. Generate a puzzle where the player must order 5 items according to a specific criterion. 
+You are an expert trivia puzzle generator for the game "ORDER". Generate a puzzle where the player must order 5 items according to a specific criterion. 
 
 The category MUST be strictly about: ${category}.
 
-CRITICAL REQUIREMENTS:
+CRITICAL REQUIREMENTS FOR QUESTION DIVERSITY:
+- ORDER is an ordering game, but the fun comes from varied knowledge!
+- DO NOT repeatedly default to "release year", "chronological order", "sales figures", or "dates". 
+- Instead, use highly diverse criteria: e.g., population density, career goals, boiling points, runtime, Academy Award wins, GDP, Grand Slam titles, distance from Earth, highest elevation, album lengths, atomic numbers, etc.
+- If you generated a date-based question yesterday, do NOT generate one today. Surprise the player!
+- In Sports, DO NOT make it just about football (soccer). Mix it up with Tennis, Formula 1, Rugby, Cricket, Golf, Basketball, Olympics, etc.
+
+FACTUAL RELIABILITY:
+- All five values must be objectively correct and use the exact same definition.
+- AVOID TIES. No two items should have the exact same value. If unavoidable, use a clear secondary ordering criterion.
+- Do not mix definitions (e.g., "worldwide sales" vs "copies shipped").
+
+JSON FORMAT REQUIREMENTS:
 - Produce EXACTLY 5 items.
-- Provide a clear 'question' (e.g. "Put these events in chronological order, oldest to newest").
+- Provide a clear, explicit 'question' (e.g. "Order these countries by population density, lowest to highest.").
+- The player should never have to guess what the criterion means.
 - Provide an 'order' field which must be either "asc" (if the correct answer is lowest-to-highest/oldest-to-newest) or "desc" (highest-to-lowest).
 - For each item, provide a 'name', a 'value' (string representation of the truth, e.g. "1969" or "4,500 km"), and a 'numericValue' (a pure number used to sort them behind the scenes). 
 - Ensure all numericValues are correct and can be sorted uniquely! Do not use duplicate numeric values.

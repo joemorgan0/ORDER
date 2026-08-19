@@ -62,7 +62,7 @@ describe("gameLogic", () => {
     const text = generateDailyShareText([mockPuzzle], { "test": result }, stats);
     expect(text).toContain("ORDER — Daily Challenge");
     expect(text).toContain("🟩🟩🟥🟩🟥");
-    expect(text).toContain("3/25");
+    expect(text).toContain("3/5");
     expect(text).toContain("2 day streak");
   });
 

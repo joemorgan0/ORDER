@@ -37,6 +37,7 @@ export default function Home() {
   // Calculate today's overall score
   let todayScore = 0;
   let completedCount = 0;
+  const maxScore = todayPuzzles.length * 5;
   
   todayPuzzles.forEach(puzzle => {
     const result = gameState.completedPuzzles[puzzle.id];
@@ -50,16 +51,16 @@ export default function Home() {
     <div className="flex flex-col items-center max-w-2xl mx-auto w-full animate-in fade-in duration-500">
       <div className="text-center mb-8">
         <h1 className="text-5xl font-black mb-2 text-neutral-800 dark:text-neutral-100 tracking-tighter">ORDER</h1>
-        <p className="text-lg font-medium text-neutral-500 dark:text-neutral-400">Can you get 25/25?</p>
+        <p className="text-lg font-medium text-neutral-500 dark:text-neutral-400">Can you get {maxScore}/{maxScore}?</p>
       </div>
 
       <div className="w-full mb-8">
-        {completedCount === 5 ? (
-          todayScore === 25 ? (
+        {completedCount === todayPuzzles.length && todayPuzzles.length > 0 ? (
+          todayScore === maxScore ? (
             <div className="w-full bg-gradient-to-br from-yellow-400 to-orange-500 text-white rounded-3xl p-8 text-center shadow-lg transform transition-all hover:scale-[1.02]">
               <Trophy className="w-12 h-12 mx-auto mb-4 text-yellow-100" />
               <h2 className="text-3xl font-black mb-1 tracking-tight">PERFECT DAY</h2>
-              <div className="text-5xl font-black">25/25</div>
+              <div className="text-5xl font-black">{maxScore}/{maxScore}</div>
               
               <DailyShareButton 
                 dailyPuzzles={todayPuzzles}
@@ -70,7 +71,7 @@ export default function Home() {
           ) : (
             <div className="w-full bg-neutral-900 dark:bg-neutral-800 text-white rounded-3xl p-8 text-center shadow-md">
               <h2 className="text-xl font-bold mb-2 text-neutral-400 uppercase tracking-widest">Today's Score</h2>
-              <div className="text-5xl font-black mb-2">{todayScore}<span className="text-3xl text-neutral-500">/25</span></div>
+              <div className="text-5xl font-black mb-2">{todayScore}<span className="text-3xl text-neutral-500">/{maxScore}</span></div>
               
               <DailyShareButton 
                 dailyPuzzles={todayPuzzles}
@@ -84,7 +85,7 @@ export default function Home() {
             <h2 className="text-sm font-bold mb-2 text-neutral-400 uppercase tracking-widest">Today's Score</h2>
             <div className="text-5xl font-black text-neutral-800 dark:text-neutral-100">
               {completedCount === 0 ? "__" : todayScore}
-              <span className="text-3xl text-neutral-300 dark:text-neutral-700">/25</span>
+              <span className="text-3xl text-neutral-300 dark:text-neutral-700">/{maxScore}</span>
             </div>
           </div>
         )}

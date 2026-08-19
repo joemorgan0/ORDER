@@ -90,7 +90,7 @@ export function StatsModal() {
               </div>
 
               <h3 className="font-semibold text-sm text-neutral-400 uppercase tracking-wider mb-3">💎 Perfect Streak</h3>
-              <p className="text-xs text-neutral-500 mb-4 uppercase tracking-wider">Consecutive days with 25/25</p>
+              <p className="text-xs text-neutral-500 mb-4 uppercase tracking-wider">Consecutive days with a perfect score</p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex flex-col items-center justify-center p-4 border border-blue-100 dark:border-blue-900/30 bg-blue-50/50 dark:bg-blue-900/10 rounded-xl">
                   <Flame className="w-6 h-6 text-blue-500 mb-2" />
@@ -105,7 +105,7 @@ export function StatsModal() {
               </div>
 
               <div className="w-full bg-neutral-50 dark:bg-neutral-800/50 p-4 rounded-xl flex justify-between items-center">
-                <div className="text-sm font-semibold text-neutral-500 uppercase tracking-wider">Perfect Days (25/25)</div>
+                <div className="text-sm font-semibold text-neutral-500 uppercase tracking-wider">Perfect Days</div>
                 <div className="text-2xl font-black text-yellow-500">{derivedStats?.perfectDays || 0}</div>
               </div>
 
