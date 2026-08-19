@@ -1,14 +1,15 @@
-"use client";
-
-import { useSearchParams } from "next/navigation";
 import { puzzles } from "@/data/puzzles";
 import { GameContainer } from "@/components/GameContainer";
 import Link from "next/link";
-import { use } from "react";
 
-export default function PlayPage({ params }: { params: Promise<{ id: string }> }) {
-  const resolvedParams = use(params);
-  const searchParams = useSearchParams();
+export async function generateStaticParams() {
+  return puzzles.map((puzzle) => ({
+    id: puzzle.id,
+  }));
+}
+
+export default async function PlayPage({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = await params;
   
   const puzzle = puzzles.find(p => p.id === resolvedParams.id);
 
