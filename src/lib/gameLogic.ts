@@ -88,6 +88,65 @@ export function generateShareText(puzzle: Puzzle, result: PuzzleResult): string 
   return `ORDER #${puzzle.id}\n${puzzle.category}\n${grid.trim()}\n${result.score}/5\n\nCan you beat me?`;
 }
 
+const CATEGORY_EMOJIS: Record<string, string> = {
+  'Movies': '🎬',
+  'Video Games': '🎮',
+  'Geography': '🌍',
+  'Music': '🎵',
+  'Science': '🔬',
+  'History': '🏛️',
+  'Sports': '⚽',
+  'Literature': '📚',
+  'Art': '🎨',
+  'Technology': '💻',
+  'Nature': '🌲'
+};
+
+/**
+ * Generates spoiler-free text for sharing the full daily challenge result
+ */
+export function generateDailyShareText(
+  dailyPuzzles: Puzzle[],
+  completedPuzzles: Record<string, PuzzleResult>,
+  stats: PlayerStats
+): string {
+  let text = "ORDER — Daily Challenge\n\n";
+  let totalScore = 0;
+  
+  for (const puzzle of dailyPuzzles) {
+    const result = completedPuzzles[puzzle.id];
+    if (!result) continue; // Should only be called when all 5 are done
+    
+    totalScore += result.score;
+    const correctOrder = getCorrectOrder(puzzle);
+    
+    const emoji = CATEGORY_EMOJIS[puzzle.category] || '🔹';
+    let grid = "";
+    for (let i = 0; i < result.submittedOrder.length; i++) {
+      grid += result.submittedOrder[i] === correctOrder[i] ? "🟩" : "🟥";
+    }
+    text += `${emoji} ${grid}\n`;
+  }
+  
+  text += "\n";
+  
+  if (totalScore === 25) {
+    text += `💎 PERFECT DAY\n25/25\n\n`;
+  } else {
+    text += `${totalScore}/25\n\n`;
+  }
+  
+  text += `🔥 ${stats.playStreak} day streak\n\n`;
+  
+  if (totalScore === 25) {
+    text += `Can you get 25/25?\nhttps://joemorgan0.github.io/ORDER`;
+  } else {
+    text += `Can you beat me?\nhttps://joemorgan0.github.io/ORDER`;
+  }
+  
+  return text;
+}
+
 export interface PlayerStats {
   playStreak: number;
   bestPlayStreak: number;

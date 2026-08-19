@@ -2,17 +2,19 @@
 
 import { useEffect, useState } from "react";
 import { puzzles } from "@/data/puzzles";
-import { getPuzzlesByDate, getTodayDateString } from "@/lib/gameLogic";
+import { getPuzzlesByDate, getTodayDateString, computePlayerStats, PlayerStats } from "@/lib/gameLogic";
 import { getGameState } from "@/lib/storage";
 import { GameState } from "@/types/game";
 import Link from "next/link";
 import { Play, CheckCircle2, Trophy, Flame } from "lucide-react";
+import { DailyShareButton } from "@/components/DailyShareButton";
 
 // Fallback to recent date if no puzzles are available for today during development/MVP
 const fallbackDate = puzzles[puzzles.length - 1]?.date;
 
 export default function Home() {
   const [gameState, setGameState] = useState<GameState | null>(null);
+  const [derivedStats, setDerivedStats] = useState<PlayerStats | null>(null);
   
   const today = getTodayDateString();
   let todayPuzzles = getPuzzlesByDate(puzzles, today);
@@ -23,10 +25,12 @@ export default function Home() {
   }
 
   useEffect(() => {
-    setGameState(getGameState());
+    const state = getGameState();
+    setGameState(state);
+    setDerivedStats(computePlayerStats(state.completedPuzzles, puzzles));
   }, []);
 
-  if (!gameState) {
+  if (!gameState || !derivedStats) {
     return null; // avoid hydration mismatch
   }
 
@@ -56,11 +60,23 @@ export default function Home() {
               <Trophy className="w-12 h-12 mx-auto mb-4 text-yellow-100" />
               <h2 className="text-3xl font-black mb-1 tracking-tight">PERFECT DAY</h2>
               <div className="text-5xl font-black">25/25</div>
+              
+              <DailyShareButton 
+                dailyPuzzles={todayPuzzles}
+                completedPuzzles={gameState.completedPuzzles}
+                stats={derivedStats}
+              />
             </div>
           ) : (
             <div className="w-full bg-neutral-900 dark:bg-neutral-800 text-white rounded-3xl p-8 text-center shadow-md">
               <h2 className="text-xl font-bold mb-2 text-neutral-400 uppercase tracking-widest">Today's Score</h2>
-              <div className="text-5xl font-black">{todayScore}<span className="text-3xl text-neutral-500">/25</span></div>
+              <div className="text-5xl font-black mb-2">{todayScore}<span className="text-3xl text-neutral-500">/25</span></div>
+              
+              <DailyShareButton 
+                dailyPuzzles={todayPuzzles}
+                completedPuzzles={gameState.completedPuzzles}
+                stats={derivedStats}
+              />
             </div>
           )
         ) : (
