@@ -70,23 +70,6 @@ export function isConsecutiveDay(lastDateStr: string, currentDateStr: string): b
   return diffDays === 1;
 }
 
-/**
- * Generates spoiler-free text for sharing
- */
-export function generateShareText(puzzle: Puzzle, result: PuzzleResult): string {
-  const correctOrder = getCorrectOrder(puzzle);
-  
-  let grid = "";
-  for (let i = 0; i < result.submittedOrder.length; i++) {
-    if (result.submittedOrder[i] === correctOrder[i]) {
-      grid += "🟩 ";
-    } else {
-      grid += "🟥 ";
-    }
-  }
-  
-  return `ORDER #${puzzle.id}\n${puzzle.category}\n${grid.trim()}\n${result.score}/5\n\nCan you beat me?`;
-}
 
 const CATEGORY_EMOJIS: Record<string, string> = {
   'Movies': '🎬',

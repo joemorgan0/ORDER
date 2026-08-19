@@ -2,7 +2,6 @@
 
 import { Puzzle, PuzzleResult } from "@/types/game";
 import { getCorrectOrder } from "@/lib/gameLogic";
-import { ShareButton } from "./ShareButton";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
@@ -99,11 +98,9 @@ export function ResultView({ puzzle, result }: ResultViewProps) {
       )}
 
       <div className="w-full flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <ShareButton puzzle={puzzle} result={result} />
-        
         <Link 
           href="/"
-          className="px-6 py-3 font-semibold text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-full transition-colors"
+          className="px-8 py-4 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-bold rounded-full transition-transform hover:scale-105"
         >
           Back to Categories
         </Link>

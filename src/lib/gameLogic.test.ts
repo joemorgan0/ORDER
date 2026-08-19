@@ -1,4 +1,4 @@
-import { calculateScore, getCorrectOrder, isConsecutiveDay, generateShareText, getPuzzleByDate } from "./gameLogic";
+import { calculateScore, getCorrectOrder, isConsecutiveDay, generateDailyShareText, getPuzzleByDate, PlayerStats } from "./gameLogic";
 import { Puzzle, PuzzleResult } from "@/types/game";
 
 describe("gameLogic", () => {
@@ -44,17 +44,26 @@ describe("gameLogic", () => {
     expect(isConsecutiveDay("2026-08-31", "2026-09-01")).toBe(true);
   });
 
-  test("generateShareText", () => {
+  test("generateDailyShareText", () => {
     const result: PuzzleResult = {
       score: 3,
       submittedOrder: ["1", "2", "5", "4", "3"],
       dateCompleted: "2026-08-18"
     };
-    const text = generateShareText(mockPuzzle, result);
-    expect(text).toContain("ORDER #test");
-    expect(text).toContain("Test");
-    expect(text).toContain("🟩 🟩 🟥 🟩 🟥");
-    expect(text).toContain("3/5");
+    
+    const stats: PlayerStats = {
+      playStreak: 2,
+      bestPlayStreak: 2,
+      perfectStreak: 0,
+      bestPerfectStreak: 1,
+      perfectDays: 1
+    };
+
+    const text = generateDailyShareText([mockPuzzle], { "test": result }, stats);
+    expect(text).toContain("ORDER — Daily Challenge");
+    expect(text).toContain("🟩🟩🟥🟩🟥");
+    expect(text).toContain("3/25");
+    expect(text).toContain("2 day streak");
   });
 
   test("getPuzzleByDate", () => {
