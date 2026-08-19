@@ -52,48 +52,13 @@ export function GameContainer({ puzzle }: GameContainerProps) {
       dateCompleted: new Date().toISOString(),
     };
 
-    let newPlayStreak = gameState.playStreak;
-    let newBestPlayStreak = gameState.bestPlayStreak;
-    let newPerfectStreak = gameState.perfectStreak;
-    let newBestPerfectStreak = gameState.bestPerfectStreak;
-    let newLastPlayed = gameState.lastPlayedDate;
-
-    // Helper to check if two ISO dates are the same day
-    const isSameDay = (d1: string, d2: string) => {
-      return d1.split('T')[0] === d2.split('T')[0];
-    };
-
-    if (gameState.lastPlayedDate) {
-      if (isConsecutiveDay(gameState.lastPlayedDate, result.dateCompleted)) {
-        newPlayStreak += 1;
-      } else if (!isSameDay(gameState.lastPlayedDate, result.dateCompleted)) {
-        newPlayStreak = 1;
-      }
-    } else {
-      newPlayStreak = 1;
-    }
-    
-    if (score === 5) {
-      newPerfectStreak += 1;
-    } else {
-      newPerfectStreak = 0;
-    }
-
-    newBestPlayStreak = Math.max(gameState.bestPlayStreak, newPlayStreak);
-    newBestPerfectStreak = Math.max(gameState.bestPerfectStreak, newPerfectStreak);
-    newLastPlayed = result.dateCompleted;
-
     const newState: GameState = {
       ...gameState,
       completedPuzzles: {
         ...gameState.completedPuzzles,
         [puzzle.id]: result
       },
-      playStreak: newPlayStreak,
-      bestPlayStreak: newBestPlayStreak,
-      perfectStreak: newPerfectStreak,
-      bestPerfectStreak: newBestPerfectStreak,
-      lastPlayedDate: newLastPlayed
+      lastPlayedDate: result.dateCompleted
     };
 
     setGameState(newState);

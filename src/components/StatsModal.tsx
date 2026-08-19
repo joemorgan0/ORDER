@@ -5,14 +5,19 @@ import { createPortal } from "react-dom";
 import { BarChart3, X, Flame, Trophy } from "lucide-react";
 import { getGameState } from "@/lib/storage";
 import { GameState } from "@/types/game";
+import { computePlayerStats, PlayerStats } from "@/lib/gameLogic";
+import { puzzles } from "@/data/puzzles";
 
 export function StatsModal() {
   const [isOpen, setIsOpen] = useState(false);
   const [stats, setStats] = useState<GameState | null>(null);
+  const [derivedStats, setDerivedStats] = useState<PlayerStats | null>(null);
 
   useEffect(() => {
     if (isOpen) {
-      setStats(getGameState());
+      const state = getGameState();
+      setStats(state);
+      setDerivedStats(computePlayerStats(state.completedPuzzles, puzzles));
     }
   }, [isOpen]);
 
@@ -69,32 +74,39 @@ export function StatsModal() {
                 </div>
               </div>
 
-              <h3 className="font-semibold text-sm text-neutral-400 uppercase tracking-wider mb-3">Play Streaks</h3>
+              <h3 className="font-semibold text-sm text-neutral-400 uppercase tracking-wider mb-3">🔥 Daily Streak</h3>
+              <p className="text-xs text-neutral-500 mb-4 uppercase tracking-wider">Consecutive days played</p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex flex-col items-center justify-center p-4 border border-orange-100 dark:border-orange-900/30 bg-orange-50/50 dark:bg-orange-900/10 rounded-xl">
                   <Flame className="w-6 h-6 text-orange-500 mb-2" />
-                  <div className="text-2xl font-bold">{stats?.playStreak || 0}</div>
-                  <div className="text-xs text-neutral-500 text-center">Current Days</div>
+                  <div className="text-2xl font-bold">{derivedStats?.playStreak || 0}</div>
+                  <div className="text-xs text-neutral-500 text-center">Current</div>
                 </div>
                 <div className="flex flex-col items-center justify-center p-4 border border-neutral-100 dark:border-neutral-800 rounded-xl">
                   <Trophy className="w-6 h-6 text-neutral-400 mb-2" />
-                  <div className="text-2xl font-bold">{stats?.bestPlayStreak || 0}</div>
-                  <div className="text-xs text-neutral-500 text-center">Best Days</div>
+                  <div className="text-2xl font-bold">{derivedStats?.bestPlayStreak || 0}</div>
+                  <div className="text-xs text-neutral-500 text-center">Best</div>
                 </div>
               </div>
 
-              <h3 className="font-semibold text-sm text-neutral-400 uppercase tracking-wider mb-3">Perfect Streaks (5/5)</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <h3 className="font-semibold text-sm text-neutral-400 uppercase tracking-wider mb-3">💎 Perfect Streak</h3>
+              <p className="text-xs text-neutral-500 mb-4 uppercase tracking-wider">Consecutive days with 25/25</p>
+              <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex flex-col items-center justify-center p-4 border border-blue-100 dark:border-blue-900/30 bg-blue-50/50 dark:bg-blue-900/10 rounded-xl">
                   <Flame className="w-6 h-6 text-blue-500 mb-2" />
-                  <div className="text-2xl font-bold">{stats?.perfectStreak || 0}</div>
-                  <div className="text-xs text-neutral-500 text-center">Current Perfects</div>
+                  <div className="text-2xl font-bold">{derivedStats?.perfectStreak || 0}</div>
+                  <div className="text-xs text-neutral-500 text-center">Current</div>
                 </div>
                 <div className="flex flex-col items-center justify-center p-4 border border-neutral-100 dark:border-neutral-800 rounded-xl">
                   <Trophy className="w-6 h-6 text-neutral-400 mb-2" />
-                  <div className="text-2xl font-bold">{stats?.bestPerfectStreak || 0}</div>
-                  <div className="text-xs text-neutral-500 text-center">Best Perfects</div>
+                  <div className="text-2xl font-bold">{derivedStats?.bestPerfectStreak || 0}</div>
+                  <div className="text-xs text-neutral-500 text-center">Best</div>
                 </div>
+              </div>
+
+              <div className="w-full bg-neutral-50 dark:bg-neutral-800/50 p-4 rounded-xl flex justify-between items-center">
+                <div className="text-sm font-semibold text-neutral-500 uppercase tracking-wider">Perfect Days (25/25)</div>
+                <div className="text-2xl font-black text-yellow-500">{derivedStats?.perfectDays || 0}</div>
               </div>
 
             </div>

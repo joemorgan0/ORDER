@@ -87,3 +87,73 @@ export function generateShareText(puzzle: Puzzle, result: PuzzleResult): string 
   
   return `ORDER #${puzzle.id}\n${puzzle.category}\n${grid.trim()}\n${result.score}/5\n\nCan you beat me?`;
 }
+
+export interface PlayerStats {
+  playStreak: number;
+  bestPlayStreak: number;
+  perfectStreak: number;
+  bestPerfectStreak: number;
+  perfectDays: number;
+}
+
+/**
+ * Computes all streaks and stats dynamically from the history of completed puzzles
+ */
+export function computePlayerStats(completedPuzzles: Record<string, PuzzleResult>, puzzles: Puzzle[]): PlayerStats {
+  let playStreak = 0;
+  let bestPlayStreak = 0;
+  let perfectStreak = 0;
+  let bestPerfectStreak = 0;
+  let perfectDays = 0;
+
+  // Group puzzles by date
+  const puzzlesByDate: Record<string, Puzzle[]> = {};
+  for (const p of puzzles) {
+    if (!puzzlesByDate[p.date]) puzzlesByDate[p.date] = [];
+    puzzlesByDate[p.date].push(p);
+  }
+
+  // Sort dates chronologically
+  const sortedDates = Object.keys(puzzlesByDate).sort();
+  const today = getTodayDateString();
+
+  for (const date of sortedDates) {
+    // Ignore future dates that shouldn't affect current streaks
+    if (date > today) continue;
+
+    const dailyPuzzles = puzzlesByDate[date];
+    const totalPuzzles = dailyPuzzles.length;
+    let completedCount = 0;
+    let dailyScore = 0;
+
+    for (const p of dailyPuzzles) {
+      if (completedPuzzles[p.id]) {
+        completedCount++;
+        dailyScore += completedPuzzles[p.id].score;
+      }
+    }
+
+    if (totalPuzzles > 0 && completedCount === totalPuzzles) {
+      // Completed all puzzles for this day!
+      playStreak++;
+      bestPlayStreak = Math.max(bestPlayStreak, playStreak);
+
+      if (dailyScore === totalPuzzles * 5) {
+        perfectStreak++;
+        bestPerfectStreak = Math.max(bestPerfectStreak, perfectStreak);
+        perfectDays++;
+      } else {
+        perfectStreak = 0;
+      }
+    } else {
+      // Did not complete all puzzles for this day.
+      // Break streaks, unless the date is today (they might still be playing today).
+      if (date !== today) {
+        playStreak = 0;
+        perfectStreak = 0;
+      }
+    }
+  }
+
+  return { playStreak, bestPlayStreak, perfectStreak, bestPerfectStreak, perfectDays };
+}
