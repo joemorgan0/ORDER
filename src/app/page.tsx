@@ -6,7 +6,7 @@ import { getPuzzlesByDate, getTodayDateString } from "@/lib/gameLogic";
 import { getGameState } from "@/lib/storage";
 import { GameState } from "@/types/game";
 import Link from "next/link";
-import { Play, CheckCircle2 } from "lucide-react";
+import { Play, CheckCircle2, Trophy, Flame } from "lucide-react";
 
 // Fallback to recent date if no puzzles are available for today during development/MVP
 const fallbackDate = puzzles[puzzles.length - 1]?.date;
@@ -30,11 +30,52 @@ export default function Home() {
     return null; // avoid hydration mismatch
   }
 
+  // Calculate today's overall score
+  let todayScore = 0;
+  let completedCount = 0;
+  
+  todayPuzzles.forEach(puzzle => {
+    const result = gameState.completedPuzzles[puzzle.id];
+    if (result) {
+      todayScore += result.score;
+      completedCount += 1;
+    }
+  });
+
   return (
     <div className="flex flex-col items-center max-w-2xl mx-auto w-full animate-in fade-in duration-500">
-      <div className="text-center mb-10">
-        <h1 className="text-3xl font-black mb-2 text-neutral-800 dark:text-neutral-100">Daily Categories</h1>
-        <p className="text-neutral-500 dark:text-neutral-400">Play all categories to keep your perfect streak alive!</p>
+      <div className="text-center mb-8">
+        <h1 className="text-5xl font-black mb-2 text-neutral-800 dark:text-neutral-100 tracking-tighter">ORDER</h1>
+        <p className="text-lg font-medium text-neutral-500 dark:text-neutral-400">Can you get 25/25?</p>
+      </div>
+
+      <div className="w-full mb-8">
+        {completedCount === 5 ? (
+          todayScore === 25 ? (
+            <div className="w-full bg-gradient-to-br from-yellow-400 to-orange-500 text-white rounded-3xl p-8 text-center shadow-lg transform transition-all hover:scale-[1.02]">
+              <Trophy className="w-12 h-12 mx-auto mb-4 text-yellow-100" />
+              <h2 className="text-3xl font-black mb-1 tracking-tight">PERFECT DAY</h2>
+              <div className="text-5xl font-black">25/25</div>
+            </div>
+          ) : (
+            <div className="w-full bg-neutral-900 dark:bg-neutral-800 text-white rounded-3xl p-8 text-center shadow-md">
+              <h2 className="text-xl font-bold mb-2 text-neutral-400 uppercase tracking-widest">Today's Score</h2>
+              <div className="text-5xl font-black">{todayScore}<span className="text-3xl text-neutral-500">/25</span></div>
+            </div>
+          )
+        ) : (
+          <div className="w-full bg-white dark:bg-neutral-900 border-2 border-neutral-200 dark:border-neutral-800 rounded-3xl p-8 text-center shadow-sm">
+            <h2 className="text-sm font-bold mb-2 text-neutral-400 uppercase tracking-widest">Today's Score</h2>
+            <div className="text-5xl font-black text-neutral-800 dark:text-neutral-100">
+              {completedCount === 0 ? "__" : todayScore}
+              <span className="text-3xl text-neutral-300 dark:text-neutral-700">/25</span>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className="w-full flex items-center mb-6">
+        <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200">Today's Challenge</h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
