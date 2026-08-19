@@ -395,5 +395,205 @@
         "numericValue": 12000
       }
     ]
+  },
+  {
+    "id": "11",
+    "date": "2026-08-23",
+    "category": "Movies",
+    "question": "Order these Academy Award Best Picture winners by their release year, from oldest to newest.",
+    "order": "asc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p11-i1",
+        "name": "Wings",
+        "value": "1927",
+        "numericValue": 1927
+      },
+      {
+        "id": "p11-i2",
+        "name": "Gone with the Wind",
+        "value": "1939",
+        "numericValue": 1939
+      },
+      {
+        "id": "p11-i3",
+        "name": "Casablanca",
+        "value": "1942",
+        "numericValue": 1942
+      },
+      {
+        "id": "p11-i4",
+        "name": "The Godfather",
+        "value": "1972",
+        "numericValue": 1972
+      },
+      {
+        "id": "p11-i5",
+        "name": "Schindler's List",
+        "value": "1993",
+        "numericValue": 1993
+      }
+    ]
+  },
+  {
+    "id": "vg-012",
+    "date": "2026-08-23",
+    "category": "Video Games",
+    "question": "Order these iconic video games by their original release year, from oldest to newest.",
+    "order": "asc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p12-i1",
+        "name": "Space Invaders",
+        "value": "1978",
+        "numericValue": 1978
+      },
+      {
+        "id": "p12-i2",
+        "name": "Super Mario Bros.",
+        "value": "1985",
+        "numericValue": 1985
+      },
+      {
+        "id": "p12-i3",
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "value": "1998",
+        "numericValue": 1998
+      },
+      {
+        "id": "p12-i4",
+        "name": "Minecraft",
+        "value": "2011",
+        "numericValue": 2011
+      },
+      {
+        "id": "p12-i5",
+        "name": "Elden Ring",
+        "value": "2022",
+        "numericValue": 2022
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "date": "2026-08-23",
+    "category": "Geography",
+    "question": "Order these islands by land area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p13-i1",
+        "name": "Java",
+        "value": "138,794 km²",
+        "numericValue": 138794
+      },
+      {
+        "id": "p13-i2",
+        "name": "Honshu",
+        "value": "227,960 km²",
+        "numericValue": 227960
+      },
+      {
+        "id": "p13-i3",
+        "name": "Madagascar",
+        "value": "587,041 km²",
+        "numericValue": 587041
+      },
+      {
+        "id": "p13-i4",
+        "name": "New Guinea",
+        "value": "785,753 km²",
+        "numericValue": 785753
+      },
+      {
+        "id": "p13-i5",
+        "name": "Greenland",
+        "value": "2,166,086 km²",
+        "numericValue": 2166086
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "date": "2026-08-23",
+    "category": "Music",
+    "question": "Order these iconic albums by their release year, from earliest to latest.",
+    "order": "asc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p14-i1",
+        "name": "Abbey Road (The Beatles)",
+        "value": "1969",
+        "numericValue": 1969
+      },
+      {
+        "id": "p14-i2",
+        "name": "The Dark Side of the Moon (Pink Floyd)",
+        "value": "1973",
+        "numericValue": 1973
+      },
+      {
+        "id": "p14-i3",
+        "name": "Thriller (Michael Jackson)",
+        "value": "1982",
+        "numericValue": 1982
+      },
+      {
+        "id": "p14-i4",
+        "name": "Nevermind (Nirvana)",
+        "value": "1991",
+        "numericValue": 1991
+      },
+      {
+        "id": "p14-i5",
+        "name": "21 (Adele)",
+        "value": "2011",
+        "numericValue": 2011
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "date": "2026-08-23",
+    "category": "Science",
+    "question": "Order these major scientific discoveries from earliest to latest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p15-i1",
+        "name": "Invention of the Compound Microscope",
+        "value": "1590",
+        "numericValue": 1590
+      },
+      {
+        "id": "p15-i2",
+        "name": "Publication of the Law of Universal Gravitation",
+        "value": "1687",
+        "numericValue": 1687
+      },
+      {
+        "id": "p15-i3",
+        "name": "Discovery of Oxygen",
+        "value": "1774",
+        "numericValue": 1774
+      },
+      {
+        "id": "p15-i4",
+        "name": "Creation of the First Periodic Table",
+        "value": "1869",
+        "numericValue": 1869
+      },
+      {
+        "id": "p15-i5",
+        "name": "Discovery of Penicillin",
+        "value": "1928",
+        "numericValue": 1928
+      }
+    ]
   }
 ]
