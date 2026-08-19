@@ -595,5 +595,245 @@
         "numericValue": 1928
       }
     ]
+  },
+  {
+    "id": "16",
+    "date": "2026-08-24",
+    "category": "Movies",
+    "question": "Order these iconic movies by the total number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p16-i1",
+        "name": "The Shawshank Redemption",
+        "value": "0 Oscars",
+        "numericValue": 0
+      },
+      {
+        "id": "p16-i2",
+        "name": "Forrest Gump",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p16-i3",
+        "name": "Cabaret",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p16-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p16-i5",
+        "name": "Titanic",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "date": "2026-08-24",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their official base Speed stat in the mainline video games, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p17-i1",
+        "name": "Snorlax",
+        "value": "30",
+        "numericValue": 30
+      },
+      {
+        "id": "p17-i2",
+        "name": "Pikachu",
+        "value": "90",
+        "numericValue": 90
+      },
+      {
+        "id": "p17-i3",
+        "name": "Charizard",
+        "value": "100",
+        "numericValue": 100
+      },
+      {
+        "id": "p17-i4",
+        "name": "Gengar",
+        "value": "110",
+        "numericValue": 110
+      },
+      {
+        "id": "p17-i5",
+        "name": "Electrode",
+        "value": "150",
+        "numericValue": 150
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "date": "2026-08-24",
+    "category": "Geography",
+    "question": "Order these European capital cities by their latitude from south to north (closest to the Equator to farthest).",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p18-i1",
+        "name": "Valletta",
+        "value": "35.9° N",
+        "numericValue": 35.9
+      },
+      {
+        "id": "p18-i2",
+        "name": "Athens",
+        "value": "38.0° N",
+        "numericValue": 38
+      },
+      {
+        "id": "p18-i3",
+        "name": "Rome",
+        "value": "41.9° N",
+        "numericValue": 41.9
+      },
+      {
+        "id": "p18-i4",
+        "name": "Paris",
+        "value": "48.9° N",
+        "numericValue": 48.9
+      },
+      {
+        "id": "p18-i5",
+        "name": "Oslo",
+        "value": "59.9° N",
+        "numericValue": 59.9
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "date": "2026-08-24",
+    "category": "Music",
+    "question": "Order these iconic rock songs by their original studio album track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p19-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p19-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p19-i3",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p19-i4",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:37",
+        "numericValue": 517
+      },
+      {
+        "id": "p19-i5",
+        "name": "\"Free Bird\" (Lynyrd Skynyrd)",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "date": "2026-08-24",
+    "category": "Science",
+    "question": "Order these metals by their density at room temperature, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p20-i2",
+        "name": "Aluminum",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p20-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p20-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p20-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "date": "2026-08-24",
+    "category": "Sports",
+    "question": "Order these male tennis legends by the total number of Grand Slam singles titles won in their career, lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p21-i1",
+        "name": "Andy Murray",
+        "value": "3 titles",
+        "numericValue": 3
+      },
+      {
+        "id": "p21-i2",
+        "name": "Boris Becker",
+        "value": "6 titles",
+        "numericValue": 6
+      },
+      {
+        "id": "p21-i3",
+        "name": "Andre Agassi",
+        "value": "8 titles",
+        "numericValue": 8
+      },
+      {
+        "id": "p21-i4",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      },
+      {
+        "id": "p21-i5",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      }
+    ]
   }
 ]
