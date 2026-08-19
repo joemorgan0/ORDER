@@ -74,22 +74,9 @@ export function GameContainer({ puzzle }: GameContainerProps) {
     }
     
     if (score === 5) {
-      // Find the last perfect score date by checking completed puzzles
-      const previousPerfects = Object.values(gameState.completedPuzzles)
-        .filter(p => p.score === 5)
-        .sort((a, b) => new Date(b.dateCompleted).getTime() - new Date(a.dateCompleted).getTime());
-      
-      const lastPerfect = previousPerfects.length > 0 ? previousPerfects[0].dateCompleted : null;
-      
-      if (lastPerfect) {
-        if (isConsecutiveDay(lastPerfect, result.dateCompleted)) {
-          newPerfectStreak += 1;
-        } else if (!isSameDay(lastPerfect, result.dateCompleted)) {
-          newPerfectStreak = 1;
-        }
-      } else {
-        newPerfectStreak = 1;
-      }
+      newPerfectStreak += 1;
+    } else {
+      newPerfectStreak = 0;
     }
 
     newBestPlayStreak = Math.max(gameState.bestPlayStreak, newPlayStreak);
