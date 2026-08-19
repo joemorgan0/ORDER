@@ -5,6 +5,12 @@ on:
   push:
     branches: ["main"]
 
+  # Runs automatically after the daily puzzle is generated
+  workflow_run:
+    workflows: ["Generate Daily Puzzle"]
+    types:
+      - completed
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
