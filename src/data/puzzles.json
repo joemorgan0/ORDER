@@ -835,5 +835,245 @@
         "numericValue": 14
       }
     ]
+  },
+  {
+    "id": "22",
+    "date": "2026-08-25",
+    "category": "Movies",
+    "question": "Order these animated Disney films by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p22-i1",
+        "name": "Dumbo",
+        "value": "64 minutes",
+        "numericValue": 64
+      },
+      {
+        "id": "p22-i2",
+        "name": "Bambi",
+        "value": "70 minutes",
+        "numericValue": 70
+      },
+      {
+        "id": "p22-i3",
+        "name": "Beauty and the Beast",
+        "value": "84 minutes",
+        "numericValue": 84
+      },
+      {
+        "id": "p22-i4",
+        "name": "The Lion King",
+        "value": "88 minutes",
+        "numericValue": 88
+      },
+      {
+        "id": "p22-i5",
+        "name": "Zootopia",
+        "value": "108 minutes",
+        "numericValue": 108
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "date": "2026-08-25",
+    "category": "Video Games",
+    "question": "Order these Pokémon generations by the number of new Pokémon species introduced, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p23-i1",
+        "name": "Generation VI (X & Y)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "p23-i2",
+        "name": "Generation VII (Sun & Moon)",
+        "value": "88 species",
+        "numericValue": 88
+      },
+      {
+        "id": "p23-i3",
+        "name": "Generation II (Gold & Silver)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "p23-i4",
+        "name": "Generation IV (Diamond & Pearl)",
+        "value": "107 species",
+        "numericValue": 107
+      },
+      {
+        "id": "p23-i5",
+        "name": "Generation V (Black & White)",
+        "value": "156 species",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "date": "2026-08-25",
+    "category": "Geography",
+    "question": "Order these world capital cities by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p24-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m (-92 ft)",
+        "numericValue": -28
+      },
+      {
+        "id": "p24-i2",
+        "name": "Dublin (Ireland)",
+        "value": "17 m (56 ft)",
+        "numericValue": 17
+      },
+      {
+        "id": "p24-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 m (2,188 ft)",
+        "numericValue": 667
+      },
+      {
+        "id": "p24-i4",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m (7,350 ft)",
+        "numericValue": 2240
+      },
+      {
+        "id": "p24-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m (11,942 ft)",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "date": "2026-08-25",
+    "category": "Music",
+    "question": "Order these musical artists by the total number of Grammy Awards they have won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p25-i1",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      },
+      {
+        "id": "p25-i2",
+        "name": "Quincy Jones",
+        "value": "28 Grammys",
+        "numericValue": 28
+      },
+      {
+        "id": "p25-i3",
+        "name": "Stevie Wonder",
+        "value": "25 Grammys",
+        "numericValue": 25
+      },
+      {
+        "id": "p25-i4",
+        "name": "Bruce Springsteen",
+        "value": "20 Grammys",
+        "numericValue": 20
+      },
+      {
+        "id": "p25-i5",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "date": "2026-08-25",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p26-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p26-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p26-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p26-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p26-i5",
+        "name": "Gold",
+        "value": "19.30 g/cm³",
+        "numericValue": 19.3
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "date": "2026-08-25",
+    "category": "Sports",
+    "question": "Order these iconic Formula 1 circuits by their official track lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p27-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p27-i2",
+        "name": "Circuit de Zandvoort",
+        "value": "4.259 km",
+        "numericValue": 4.259
+      },
+      {
+        "id": "p27-i3",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "p27-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p27-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
