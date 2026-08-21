@@ -1075,5 +1075,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "28",
+    "date": "2026-08-26",
+    "category": "Movies",
+    "question": "Order these Best Picture Oscar-winning films by theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p28-i1",
+        "name": "Annie Hall",
+        "value": "93 minutes",
+        "numericValue": 93
+      },
+      {
+        "id": "p28-i2",
+        "name": "The Silence of the Lambs",
+        "value": "118 minutes",
+        "numericValue": 118
+      },
+      {
+        "id": "p28-i3",
+        "name": "Parasite",
+        "value": "132 minutes",
+        "numericValue": 132
+      },
+      {
+        "id": "p28-i4",
+        "name": "Gladiator",
+        "value": "155 minutes",
+        "numericValue": 155
+      },
+      {
+        "id": "p28-i5",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "201 minutes",
+        "numericValue": 201
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "date": "2026-08-26",
+    "category": "Video Games",
+    "question": "Order these video games by the number of playable characters in their initial base launch roster, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p29-i1",
+        "name": "Mortal Kombat (1992 Arcade)",
+        "value": "7 characters",
+        "numericValue": 7
+      },
+      {
+        "id": "p29-i2",
+        "name": "Street Fighter II (1991 Arcade)",
+        "value": "8 characters",
+        "numericValue": 8
+      },
+      {
+        "id": "p29-i3",
+        "name": "Super Smash Bros. (Nintendo 64)",
+        "value": "12 characters",
+        "numericValue": 12
+      },
+      {
+        "id": "p29-i4",
+        "name": "Overwatch (2016 Launch)",
+        "value": "21 heroes",
+        "numericValue": 21
+      },
+      {
+        "id": "p29-i5",
+        "name": "Marvel vs. Capcom 2",
+        "value": "56 characters",
+        "numericValue": 56
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "date": "2026-08-26",
+    "category": "Geography",
+    "question": "Order these famous lakes by their maximum depth, from shallowest to deepest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p30-i1",
+        "name": "Lake Superior",
+        "value": "406 meters",
+        "numericValue": 406
+      },
+      {
+        "id": "p30-i2",
+        "name": "Crater Lake",
+        "value": "594 meters",
+        "numericValue": 594
+      },
+      {
+        "id": "p30-i3",
+        "name": "Lake Malawi",
+        "value": "706 meters",
+        "numericValue": 706
+      },
+      {
+        "id": "p30-i4",
+        "name": "Lake Tanganyika",
+        "value": "1,470 meters",
+        "numericValue": 1470
+      },
+      {
+        "id": "p30-i5",
+        "name": "Lake Baikal",
+        "value": "1,642 meters",
+        "numericValue": 1642
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "date": "2026-08-26",
+    "category": "Music",
+    "question": "Order these iconic songs by their standard studio recording duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p31-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p31-i2",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p31-i3",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p31-i4",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:36",
+        "numericValue": 516
+      },
+      {
+        "id": "p31-i5",
+        "name": "\"Free Bird\" (Lynyrd Skynyrd)",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "date": "2026-08-26",
+    "category": "Science",
+    "question": "Order these Solar System planets by their surface gravity, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p32-i1",
+        "name": "Mars",
+        "value": "3.71 m/s²",
+        "numericValue": 3.71
+      },
+      {
+        "id": "p32-i2",
+        "name": "Venus",
+        "value": "8.87 m/s²",
+        "numericValue": 8.87
+      },
+      {
+        "id": "p32-i3",
+        "name": "Earth",
+        "value": "9.81 m/s²",
+        "numericValue": 9.81
+      },
+      {
+        "id": "p32-i4",
+        "name": "Saturn",
+        "value": "10.44 m/s²",
+        "numericValue": 10.44
+      },
+      {
+        "id": "p32-i5",
+        "name": "Jupiter",
+        "value": "24.79 m/s²",
+        "numericValue": 24.79
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "date": "2026-08-26",
+    "category": "Sports",
+    "question": "Order these male tennis players by their total career Grand Slam singles titles, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p33-i1",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      },
+      {
+        "id": "p33-i2",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p33-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p33-i4",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p33-i5",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      }
+    ]
   }
 ]
