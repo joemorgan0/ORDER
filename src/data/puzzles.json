@@ -1315,5 +1315,245 @@
         "numericValue": 24
       }
     ]
+  },
+  {
+    "id": "34",
+    "date": "2026-08-27",
+    "category": "Movies",
+    "question": "Order these Academy Award Best Picture winners by theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p34-i1",
+        "name": "Marty",
+        "value": "90 mins",
+        "numericValue": 90
+      },
+      {
+        "id": "p34-i2",
+        "name": "Annie Hall",
+        "value": "93 mins",
+        "numericValue": 93
+      },
+      {
+        "id": "p34-i3",
+        "name": "The Silence of the Lambs",
+        "value": "118 mins",
+        "numericValue": 118
+      },
+      {
+        "id": "p34-i4",
+        "name": "Gladiator",
+        "value": "155 mins",
+        "numericValue": 155
+      },
+      {
+        "id": "p34-i5",
+        "name": "Gone with the Wind",
+        "value": "238 mins",
+        "numericValue": 238
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "date": "2026-08-27",
+    "category": "Video Games",
+    "question": "Order these open-world video games by the approximate area of their main in-game map, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p35-i1",
+        "name": "Fallout 4",
+        "value": "25 km²",
+        "numericValue": 25
+      },
+      {
+        "id": "p35-i2",
+        "name": "The Elder Scrolls V: Skyrim",
+        "value": "37 km²",
+        "numericValue": 37
+      },
+      {
+        "id": "p35-i3",
+        "name": "Grand Theft Auto V",
+        "value": "75 km²",
+        "numericValue": 75
+      },
+      {
+        "id": "p35-i4",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "135 km²",
+        "numericValue": 135
+      },
+      {
+        "id": "p35-i5",
+        "name": "Just Cause 3",
+        "value": "1,000 km²",
+        "numericValue": 1000
+      }
+    ]
+  },
+  {
+    "id": "geo-elevation-capitals-01",
+    "date": "2026-08-27",
+    "category": "Geography",
+    "question": "Order these world capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p36-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m (-92 ft)",
+        "numericValue": -28
+      },
+      {
+        "id": "p36-i2",
+        "name": "Amsterdam (Netherlands)",
+        "value": "-2 m (-7 ft)",
+        "numericValue": -2
+      },
+      {
+        "id": "p36-i3",
+        "name": "Dublin (Ireland)",
+        "value": "8 m (26 ft)",
+        "numericValue": 8
+      },
+      {
+        "id": "p36-i4",
+        "name": "Madrid (Spain)",
+        "value": "667 m (2,188 ft)",
+        "numericValue": 667
+      },
+      {
+        "id": "p36-i5",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m (9,350 ft)",
+        "numericValue": 2850
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "date": "2026-08-27",
+    "category": "Music",
+    "question": "Order these famous songs by their official studio track duration (runtime), from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p37-i1",
+        "name": "\"Stay\" (Maurice Williams & the Zodiacs)",
+        "value": "1:36",
+        "numericValue": 96
+      },
+      {
+        "id": "p37-i2",
+        "name": "\"Roxanne\" (The Police)",
+        "value": "3:12",
+        "numericValue": 192
+      },
+      {
+        "id": "p37-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p37-i4",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p37-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "date": "2026-08-27",
+    "category": "Science",
+    "question": "Order these minerals by their hardness on the Mohs scale, from softest to hardest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p38-i1",
+        "name": "Talc",
+        "value": "1 Mohs",
+        "numericValue": 1
+      },
+      {
+        "id": "p38-i2",
+        "name": "Calcite",
+        "value": "3 Mohs",
+        "numericValue": 3
+      },
+      {
+        "id": "p38-i3",
+        "name": "Apatite",
+        "value": "5 Mohs",
+        "numericValue": 5
+      },
+      {
+        "id": "p38-i4",
+        "name": "Quartz",
+        "value": "7 Mohs",
+        "numericValue": 7
+      },
+      {
+        "id": "p38-i5",
+        "name": "Diamond",
+        "value": "10 Mohs",
+        "numericValue": 10
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "date": "2026-08-27",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by their current official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p39-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p39-i2",
+        "name": "Red Bull Ring",
+        "value": "4.318 km",
+        "numericValue": 4.318
+      },
+      {
+        "id": "p39-i3",
+        "name": "Circuit Gilles Villeneuve",
+        "value": "4.361 km",
+        "numericValue": 4.361
+      },
+      {
+        "id": "p39-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p39-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
