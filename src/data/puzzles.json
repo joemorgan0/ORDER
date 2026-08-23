@@ -1555,5 +1555,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "40",
+    "date": "2026-08-28",
+    "category": "Movies",
+    "question": "Order these famous movies by the total number of Academy Award (Oscar) nominations they received, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p40-i1",
+        "name": "Jaws",
+        "value": "4 nominations",
+        "numericValue": 4
+      },
+      {
+        "id": "p40-i2",
+        "name": "The Shawshank Redemption",
+        "value": "7 nominations",
+        "numericValue": 7
+      },
+      {
+        "id": "p40-i3",
+        "name": "The Dark Knight",
+        "value": "8 nominations",
+        "numericValue": 8
+      },
+      {
+        "id": "p40-i4",
+        "name": "Forrest Gump",
+        "value": "13 nominations",
+        "numericValue": 13
+      },
+      {
+        "id": "p40-i5",
+        "name": "Titanic",
+        "value": "14 nominations",
+        "numericValue": 14
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "date": "2026-08-28",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their official Pokédex weight, from lightest to heaviest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p41-i1",
+        "name": "Gastly",
+        "value": "0.1 kg",
+        "numericValue": 0.1
+      },
+      {
+        "id": "p41-i2",
+        "name": "Pikachu",
+        "value": "6.0 kg",
+        "numericValue": 6
+      },
+      {
+        "id": "p41-i3",
+        "name": "Charizard",
+        "value": "90.5 kg",
+        "numericValue": 90.5
+      },
+      {
+        "id": "p41-i4",
+        "name": "Snorlax",
+        "value": "460.0 kg",
+        "numericValue": 460
+      },
+      {
+        "id": "p41-i5",
+        "name": "Groudon",
+        "value": "950.0 kg",
+        "numericValue": 950
+      }
+    ]
+  },
+  {
+    "id": "geo-capital-elevations-01",
+    "date": "2026-08-28",
+    "category": "Geography",
+    "question": "Order these world capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-cap-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m (-92 ft)",
+        "numericValue": -28
+      },
+      {
+        "id": "geo-cap-i2",
+        "name": "London (United Kingdom)",
+        "value": "11 m (36 ft)",
+        "numericValue": 11
+      },
+      {
+        "id": "geo-cap-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 m (2,188 ft)",
+        "numericValue": 667
+      },
+      {
+        "id": "geo-cap-i4",
+        "name": "Kathmandu (Nepal)",
+        "value": "1,400 m (4,593 ft)",
+        "numericValue": 1400
+      },
+      {
+        "id": "geo-cap-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m (11,942 ft)",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "date": "2026-08-28",
+    "category": "Music",
+    "question": "Order these iconic classic songs by the duration of their original album or single version, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p43-i1",
+        "name": "\"Bohemian Rhapsody\" by Queen",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p43-i2",
+        "name": "\"Hotel California\" by Eagles",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p43-i3",
+        "name": "\"Hey Jude\" by The Beatles",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p43-i4",
+        "name": "\"Stairway to Heaven\" by Led Zeppelin",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p43-i5",
+        "name": "\"American Pie\" by Don McLean",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "date": "2026-08-28",
+    "category": "Science",
+    "question": "Order these substances by the speed of sound through them at room temperature, from slowest to fastest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p44-i1",
+        "name": "Air (dry, 20°C)",
+        "value": "343 m/s",
+        "numericValue": 343
+      },
+      {
+        "id": "p44-i2",
+        "name": "Lead",
+        "value": "1,210 m/s",
+        "numericValue": 1210
+      },
+      {
+        "id": "p44-i3",
+        "name": "Freshwater (20°C)",
+        "value": "1,482 m/s",
+        "numericValue": 1482
+      },
+      {
+        "id": "p44-i4",
+        "name": "Copper",
+        "value": "3,810 m/s",
+        "numericValue": 3810
+      },
+      {
+        "id": "p44-i5",
+        "name": "Diamond",
+        "value": "12,000 m/s",
+        "numericValue": 12000
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length-45",
+    "date": "2026-08-28",
+    "category": "Sports",
+    "question": "Order these famous Formula 1 circuits by their lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p45-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p45-i2",
+        "name": "Circuit of the Americas",
+        "value": "5.513 km",
+        "numericValue": 5.513
+      },
+      {
+        "id": "p45-i3",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "p45-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p45-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
