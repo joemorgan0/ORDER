@@ -1795,5 +1795,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "p20260829-movies",
+    "date": "2026-08-29",
+    "category": "Movies",
+    "question": "Order these famous movies by the total number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260829-movies-i1",
+        "name": "Pulp Fiction",
+        "value": "1 Oscar",
+        "numericValue": 1
+      },
+      {
+        "id": "p20260829-movies-i2",
+        "name": "The Godfather",
+        "value": "3 Oscars",
+        "numericValue": 3
+      },
+      {
+        "id": "p20260829-movies-i3",
+        "name": "Gladiator",
+        "value": "5 Oscars",
+        "numericValue": 5
+      },
+      {
+        "id": "p20260829-movies-i4",
+        "name": "Cabaret",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p20260829-movies-i5",
+        "name": "Titanic",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "puzzle-vg-pokemon-attack-001",
+    "date": "2026-08-29",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their base Attack stat in the main-series video games, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-i1",
+        "name": "Pikachu",
+        "value": "55",
+        "numericValue": 55
+      },
+      {
+        "id": "p-vg-i2",
+        "name": "Machamp",
+        "value": "130",
+        "numericValue": 130
+      },
+      {
+        "id": "p-vg-i3",
+        "name": "Dragonite",
+        "value": "134",
+        "numericValue": 134
+      },
+      {
+        "id": "p-vg-i4",
+        "name": "Rayquaza",
+        "value": "150",
+        "numericValue": 150
+      },
+      {
+        "id": "p-vg-i5",
+        "name": "Rampardos",
+        "value": "165",
+        "numericValue": 165
+      }
+    ]
+  },
+  {
+    "id": "geo-2026-08-29",
+    "date": "2026-08-29",
+    "category": "Geography",
+    "question": "Order these countries by the number of neighboring countries with which they share a land border, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260829-i1",
+        "name": "Portugal",
+        "value": "1 country",
+        "numericValue": 1
+      },
+      {
+        "id": "p20260829-i2",
+        "name": "Mongolia",
+        "value": "2 countries",
+        "numericValue": 2
+      },
+      {
+        "id": "p20260829-i3",
+        "name": "Chile",
+        "value": "3 countries",
+        "numericValue": 3
+      },
+      {
+        "id": "p20260829-i4",
+        "name": "Germany",
+        "value": "9 countries",
+        "numericValue": 9
+      },
+      {
+        "id": "p20260829-i5",
+        "name": "China",
+        "value": "14 countries",
+        "numericValue": 14
+      }
+    ]
+  },
+  {
+    "id": "music-song-runtimes-01",
+    "date": "2026-08-29",
+    "category": "Music",
+    "question": "Order these classic songs by their original studio album track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260829-i1",
+        "name": "\"Bohemian Rhapsody\" by Queen",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p20260829-i2",
+        "name": "\"Hotel California\" by Eagles",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p20260829-i3",
+        "name": "\"Stairway to Heaven\" by Led Zeppelin",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p20260829-i4",
+        "name": "\"American Pie\" by Don McLean",
+        "value": "8:42",
+        "numericValue": 522
+      },
+      {
+        "id": "p20260829-i5",
+        "name": "\"Free Bird\" by Lynyrd Skynyrd",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "sci-mp-001",
+    "date": "2026-08-29",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-mp-001-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "sci-mp-001-i2",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.46
+      },
+      {
+        "id": "sci-mp-001-i3",
+        "name": "Aluminum",
+        "value": "660.3 °C",
+        "numericValue": 660.32
+      },
+      {
+        "id": "sci-mp-001-i4",
+        "name": "Gold",
+        "value": "1,064.2 °C",
+        "numericValue": 1064.18
+      },
+      {
+        "id": "sci-mp-001-i5",
+        "name": "Tungsten",
+        "value": "3,422.0 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-nba-points-001",
+    "date": "2026-08-29",
+    "category": "Sports",
+    "question": "Order these retired NBA legends by their total regular-season career points scored, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-nba-points-001-i1",
+        "name": "Wilt Chamberlain",
+        "value": "31,419 points",
+        "numericValue": 31419
+      },
+      {
+        "id": "sports-nba-points-001-i2",
+        "name": "Michael Jordan",
+        "value": "32,292 points",
+        "numericValue": 32292
+      },
+      {
+        "id": "sports-nba-points-001-i3",
+        "name": "Kobe Bryant",
+        "value": "33,643 points",
+        "numericValue": 33643
+      },
+      {
+        "id": "sports-nba-points-001-i4",
+        "name": "Karl Malone",
+        "value": "36,928 points",
+        "numericValue": 36928
+      },
+      {
+        "id": "sports-nba-points-001-i5",
+        "name": "Kareem Abdul-Jabbar",
+        "value": "38,387 points",
+        "numericValue": 38387
+      }
+    ]
   }
 ]
