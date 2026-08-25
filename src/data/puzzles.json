@@ -2035,5 +2035,245 @@
         "numericValue": 38387
       }
     ]
+  },
+  {
+    "id": "ord-mov-001",
+    "date": "2026-08-30",
+    "category": "Movies",
+    "question": "Order these Best Picture-winning movies by the total number of Academy Awards (Oscars) they won, fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "The Godfather",
+        "value": "3 Oscars",
+        "numericValue": 3
+      },
+      {
+        "id": "p1-i2",
+        "name": "Platoon",
+        "value": "4 Oscars",
+        "numericValue": 4
+      },
+      {
+        "id": "p1-i3",
+        "name": "Gladiator",
+        "value": "5 Oscars",
+        "numericValue": 5
+      },
+      {
+        "id": "p1-i4",
+        "name": "Forrest Gump",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p1-i5",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-heights-01",
+    "date": "2026-08-30",
+    "category": "Video Games",
+    "question": "Order these iconic video game characters by their official canon height, from shortest to tallest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "ord-vg-heights-01-i1",
+        "name": "Kirby",
+        "value": "20 cm",
+        "numericValue": 20
+      },
+      {
+        "id": "ord-vg-heights-01-i2",
+        "name": "Pikachu",
+        "value": "40 cm",
+        "numericValue": 40
+      },
+      {
+        "id": "ord-vg-heights-01-i3",
+        "name": "Sonic the Hedgehog",
+        "value": "100 cm",
+        "numericValue": 100
+      },
+      {
+        "id": "ord-vg-heights-01-i4",
+        "name": "Charizard",
+        "value": "170 cm",
+        "numericValue": 170
+      },
+      {
+        "id": "ord-vg-heights-01-i5",
+        "name": "Master Chief (in armor)",
+        "value": "218 cm",
+        "numericValue": 218
+      }
+    ]
+  },
+  {
+    "id": "geo-lake-depths-001",
+    "date": "2026-08-30",
+    "category": "Geography",
+    "question": "Order these lakes by their maximum depth, from deepest to shallowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Lake Baikal",
+        "value": "1,642 m",
+        "numericValue": 1642
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Lake Tanganyika",
+        "value": "1,470 m",
+        "numericValue": 1470
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Lake Malawi",
+        "value": "706 m",
+        "numericValue": 706
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Great Slave Lake",
+        "value": "614 m",
+        "numericValue": 614
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Crater Lake",
+        "value": "594 m",
+        "numericValue": 594
+      }
+    ]
+  },
+  {
+    "id": "music-001",
+    "date": "2026-08-30",
+    "category": "Music",
+    "question": "Order these famous classic songs by their official studio album track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-m01-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p-m01-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p-m01-i3",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p-m01-i4",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:33",
+        "numericValue": 513
+      },
+      {
+        "id": "p-m01-i5",
+        "name": "\"Free Bird\" (Lynyrd Skynyrd)",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "science-boiling-points-1",
+    "date": "2026-08-30",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Oxygen",
+        "value": "-183.0 °C",
+        "numericValue": -183
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Gold",
+        "value": "2,700 °C",
+        "numericValue": 2700
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-gs-001",
+    "date": "2026-08-30",
+    "category": "Sports",
+    "question": "Order these legendary women's tennis players by their total career Grand Slam singles titles, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-tennis-gs-001-i1",
+        "name": "Margaret Court",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "sports-tennis-gs-001-i2",
+        "name": "Serena Williams",
+        "value": "23 titles",
+        "numericValue": 23
+      },
+      {
+        "id": "sports-tennis-gs-001-i3",
+        "name": "Steffi Graf",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "sports-tennis-gs-001-i4",
+        "name": "Billie Jean King",
+        "value": "12 titles",
+        "numericValue": 12
+      },
+      {
+        "id": "sports-tennis-gs-001-i5",
+        "name": "Monica Seles",
+        "value": "9 titles",
+        "numericValue": 9
+      }
+    ]
   }
 ]
