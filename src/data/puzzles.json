@@ -2275,5 +2275,245 @@
         "numericValue": 9
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-08-31",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p101-i1",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "p101-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p101-i3",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p101-i4",
+        "name": "Gravity",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "p101-i5",
+        "name": "Mad Max: Fury Road",
+        "value": "6 Oscars",
+        "numericValue": 6
+      }
+    ]
+  },
+  {
+    "id": "puzzle-20260831-vg",
+    "date": "2026-08-31",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their base Speed stat in the mainline video games, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-i1",
+        "name": "Snorlax",
+        "value": "30",
+        "numericValue": 30
+      },
+      {
+        "id": "p-vg-i2",
+        "name": "Blastoise",
+        "value": "78",
+        "numericValue": 78
+      },
+      {
+        "id": "p-vg-i3",
+        "name": "Pikachu",
+        "value": "90",
+        "numericValue": 90
+      },
+      {
+        "id": "p-vg-i4",
+        "name": "Charizard",
+        "value": "100",
+        "numericValue": 100
+      },
+      {
+        "id": "p-vg-i5",
+        "name": "Mewtwo",
+        "value": "130",
+        "numericValue": 130
+      }
+    ]
+  },
+  {
+    "id": "geo-elev-001",
+    "date": "2026-08-31",
+    "category": "Geography",
+    "question": "Order these capital cities by their average elevation above sea level, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m",
+        "numericValue": 2850
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Addis Ababa (Ethiopia)",
+        "value": "2,355 m",
+        "numericValue": 2355
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Tokyo (Japan)",
+        "value": "44 m",
+        "numericValue": 44
+      }
+    ]
+  },
+  {
+    "id": "order-music-song-duration-001",
+    "date": "2026-08-31",
+    "category": "Music",
+    "question": "Order these iconic songs by their original studio album track duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mus-i1",
+        "name": "\"Blitzkrieg Bop\" (Ramones)",
+        "value": "2:12",
+        "numericValue": 132
+      },
+      {
+        "id": "p-mus-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p-mus-i3",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p-mus-i4",
+        "name": "\"Rime of the Ancient Mariner\" (Iron Maiden)",
+        "value": "13:36",
+        "numericValue": 816
+      },
+      {
+        "id": "p-mus-i5",
+        "name": "\"Echoes\" (Pink Floyd)",
+        "value": "23:31",
+        "numericValue": 1411
+      }
+    ]
+  },
+  {
+    "id": "701",
+    "date": "2026-08-31",
+    "category": "Science",
+    "question": "Order these chemical elements by density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p701-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p701-i2",
+        "name": "Aluminum",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p701-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p701-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p701-i5",
+        "name": "Gold",
+        "value": "19.32 g/cm³",
+        "numericValue": 19.32
+      }
+    ]
+  },
+  {
+    "id": "sports-ball-weight-asc",
+    "date": "2026-08-31",
+    "category": "Sports",
+    "question": "Order these sports balls by their standard regulation weight, from lightest to heaviest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-sp-i1",
+        "name": "Table Tennis Ball",
+        "value": "2.7 g",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p-sp-i2",
+        "name": "Golf Ball",
+        "value": "45.9 g",
+        "numericValue": 45.9
+      },
+      {
+        "id": "p-sp-i3",
+        "name": "Tennis Ball",
+        "value": "58.0 g",
+        "numericValue": 58
+      },
+      {
+        "id": "p-sp-i4",
+        "name": "Baseball",
+        "value": "145.0 g",
+        "numericValue": 145
+      },
+      {
+        "id": "p-sp-i5",
+        "name": "Regulation Men's Basketball",
+        "value": "623.0 g",
+        "numericValue": 623
+      }
+    ]
   }
 ]
