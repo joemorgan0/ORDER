@@ -2515,5 +2515,245 @@
         "numericValue": 623
       }
     ]
+  },
+  {
+    "id": "movie-runtimes-2026",
+    "date": "2026-09-01",
+    "category": "Movies",
+    "question": "Order these famous movies by their standard theatrical runtime, from longest to shortest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260901-i1",
+        "name": "The Irishman",
+        "value": "209 minutes",
+        "numericValue": 209
+      },
+      {
+        "id": "p20260901-i2",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "p20260901-i3",
+        "name": "Avengers: Endgame",
+        "value": "181 minutes",
+        "numericValue": 181
+      },
+      {
+        "id": "p20260901-i4",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "p20260901-i5",
+        "name": "Pulp Fiction",
+        "value": "154 minutes",
+        "numericValue": 154
+      }
+    ]
+  },
+  {
+    "id": "game-rpg-level-caps",
+    "date": "2026-09-01",
+    "category": "Video Games",
+    "question": "Order these famous RPGs by their maximum player level cap at initial launch (excluding expansions or DLC), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "game-rpg-level-caps-i1",
+        "name": "Baldur's Gate 3",
+        "value": "Level 12",
+        "numericValue": 12
+      },
+      {
+        "id": "game-rpg-level-caps-i2",
+        "name": "Fallout 3",
+        "value": "Level 20",
+        "numericValue": 20
+      },
+      {
+        "id": "game-rpg-level-caps-i3",
+        "name": "Borderlands",
+        "value": "Level 50",
+        "numericValue": 50
+      },
+      {
+        "id": "game-rpg-level-caps-i4",
+        "name": "World of Warcraft (Vanilla)",
+        "value": "Level 60",
+        "numericValue": 60
+      },
+      {
+        "id": "game-rpg-level-caps-i5",
+        "name": "Diablo II",
+        "value": "Level 99",
+        "numericValue": 99
+      }
+    ]
+  },
+  {
+    "id": "geo-capitals-elevation-001",
+    "date": "2026-09-01",
+    "category": "Geography",
+    "question": "Order these national capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-capitals-elevation-001-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 meters",
+        "numericValue": -28
+      },
+      {
+        "id": "geo-capitals-elevation-001-i2",
+        "name": "Cairo (Egypt)",
+        "value": "23 meters",
+        "numericValue": 23
+      },
+      {
+        "id": "geo-capitals-elevation-001-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 meters",
+        "numericValue": 667
+      },
+      {
+        "id": "geo-capitals-elevation-001-i4",
+        "name": "Nairobi (Kenya)",
+        "value": "1,795 meters",
+        "numericValue": 1795
+      },
+      {
+        "id": "geo-capitals-elevation-001-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 meters",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-001",
+    "date": "2026-09-01",
+    "category": "Music",
+    "question": "Order these iconic hit songs by their official original studio track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-001-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "music-001-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "music-001-i3",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "music-001-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "music-001-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:37",
+        "numericValue": 517
+      }
+    ]
+  },
+  {
+    "id": "sci-boil-001",
+    "date": "2026-09-01",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-boil-001-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "sci-boil-001-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.8
+      },
+      {
+        "id": "sci-boil-001-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "sci-boil-001-i4",
+        "name": "Gold",
+        "value": "2,707 °C",
+        "numericValue": 2707
+      },
+      {
+        "id": "sci-boil-001-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-track-length",
+    "date": "2026-09-01",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "f1-i2",
+        "name": "Red Bull Ring (Austria)",
+        "value": "4.318 km",
+        "numericValue": 4.318
+      },
+      {
+        "id": "f1-i3",
+        "name": "Silverstone Circuit (UK)",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "f1-i4",
+        "name": "Jeddah Corniche Circuit",
+        "value": "6.174 km",
+        "numericValue": 6.174
+      },
+      {
+        "id": "f1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
