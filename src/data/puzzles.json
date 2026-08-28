@@ -2755,5 +2755,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "402",
+    "date": "2026-09-02",
+    "category": "Movies",
+    "question": "Order these Christopher Nolan directed films by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p402-i1",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p402-i2",
+        "name": "Inception",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p402-i3",
+        "name": "The Dark Knight",
+        "value": "152 minutes",
+        "numericValue": 152
+      },
+      {
+        "id": "p402-i4",
+        "name": "Interstellar",
+        "value": "169 minutes",
+        "numericValue": 169
+      },
+      {
+        "id": "p402-i5",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-2026-0902",
+    "date": "2026-09-02",
+    "category": "Video Games",
+    "question": "Order these Pokémon generations by the number of brand-new Pokémon species introduced in their debut games, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-01",
+        "name": "Generation VI (X & Y)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "p-vg-02",
+        "name": "Generation VII (Sun & Moon)",
+        "value": "88 species",
+        "numericValue": 88
+      },
+      {
+        "id": "p-vg-03",
+        "name": "Generation II (Gold & Silver)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "p-vg-04",
+        "name": "Generation IV (Diamond & Pearl)",
+        "value": "107 species",
+        "numericValue": 107
+      },
+      {
+        "id": "p-vg-05",
+        "name": "Generation V (Black & White)",
+        "value": "156 species",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "geo-elevation-capitals-01",
+    "date": "2026-09-02",
+    "category": "Geography",
+    "question": "Order these national capital cities by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-elevation-capitals-01-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m",
+        "numericValue": -28
+      },
+      {
+        "id": "geo-elevation-capitals-01-i2",
+        "name": "London (United Kingdom)",
+        "value": "15 m",
+        "numericValue": 15
+      },
+      {
+        "id": "geo-elevation-capitals-01-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "geo-elevation-capitals-01-i4",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "geo-elevation-capitals-01-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-grammy-wins-01",
+    "date": "2026-09-02",
+    "category": "Music",
+    "question": "Order these music artists by the total number of Grammy Awards they have won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "mgw-i1",
+        "name": "Ed Sheeran",
+        "value": "4 Grammys",
+        "numericValue": 4
+      },
+      {
+        "id": "mgw-i2",
+        "name": "Rihanna",
+        "value": "9 Grammys",
+        "numericValue": 9
+      },
+      {
+        "id": "mgw-i3",
+        "name": "Eminem",
+        "value": "15 Grammys",
+        "numericValue": 15
+      },
+      {
+        "id": "mgw-i4",
+        "name": "Jay-Z",
+        "value": "24 Grammys",
+        "numericValue": 24
+      },
+      {
+        "id": "mgw-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "science-boiling-points-001",
+    "date": "2026-09-02",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p1-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.8
+      },
+      {
+        "id": "p1-i3",
+        "name": "Chlorine",
+        "value": "-34.0 °C",
+        "numericValue": -34
+      },
+      {
+        "id": "p1-i4",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "p1-i5",
+        "name": "Gold",
+        "value": "2,856 °C",
+        "numericValue": 2856
+      }
+    ]
+  },
+  {
+    "id": "sports-grand-slam-titles",
+    "date": "2026-09-02",
+    "category": "Sports",
+    "question": "Order these legendary male tennis players by the total number of Grand Slam singles titles won in their careers, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "p1-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p1-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p1-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i5",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      }
+    ]
   }
 ]
