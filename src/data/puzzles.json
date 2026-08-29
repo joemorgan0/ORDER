@@ -2995,5 +2995,245 @@
         "numericValue": 11
       }
     ]
+  },
+  {
+    "id": "puzzle-movies-oscars-001",
+    "date": "2026-09-03",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pm001-i1",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "pm001-i2",
+        "name": "Amadeus",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "pm001-i3",
+        "name": "The English Patient",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "pm001-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "pm001-i5",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "puzzle-vg-001",
+    "date": "2026-09-03",
+    "category": "Video Games",
+    "question": "Order these fighting games by the total number of playable characters in their base roster at launch, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-i1",
+        "name": "Street Fighter II (1991)",
+        "value": "8 characters",
+        "numericValue": 8
+      },
+      {
+        "id": "p-vg-i2",
+        "name": "Super Smash Bros. (N64)",
+        "value": "12 characters",
+        "numericValue": 12
+      },
+      {
+        "id": "p-vg-i3",
+        "name": "Street Fighter 6",
+        "value": "18 characters",
+        "numericValue": 18
+      },
+      {
+        "id": "p-vg-i4",
+        "name": "Marvel vs. Capcom 2",
+        "value": "56 characters",
+        "numericValue": 56
+      },
+      {
+        "id": "p-vg-i5",
+        "name": "Super Smash Bros. Ultimate",
+        "value": "74 characters",
+        "numericValue": 74
+      }
+    ]
+  },
+  {
+    "id": "geo-001",
+    "date": "2026-09-03",
+    "category": "Geography",
+    "question": "Order these islands by land area, from largest to smallest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Greenland",
+        "value": "2,166,086 km²",
+        "numericValue": 2166086
+      },
+      {
+        "id": "p001-i2",
+        "name": "New Guinea",
+        "value": "785,753 km²",
+        "numericValue": 785753
+      },
+      {
+        "id": "p001-i3",
+        "name": "Borneo",
+        "value": "748,168 km²",
+        "numericValue": 748168
+      },
+      {
+        "id": "p001-i4",
+        "name": "Madagascar",
+        "value": "587,041 km²",
+        "numericValue": 587041
+      },
+      {
+        "id": "p001-i5",
+        "name": "Baffin Island",
+        "value": "507,451 km²",
+        "numericValue": 507451
+      }
+    ]
+  },
+  {
+    "id": "music-track-length-01",
+    "date": "2026-09-03",
+    "category": "Music",
+    "question": "Order these famous songs by standard track length (runtime) of their original releases, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "\"You Shook Me All Night Long\" (AC/DC)",
+        "value": "3:30",
+        "numericValue": 210
+      },
+      {
+        "id": "p01-i2",
+        "name": "\"Billie Jean\" (Michael Jackson)",
+        "value": "4:54",
+        "numericValue": 294
+      },
+      {
+        "id": "p01-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p01-i4",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p01-i5",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      }
+    ]
+  },
+  {
+    "id": "science-element-melting-points",
+    "date": "2026-09-03",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-sci-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "p-sci-i2",
+        "name": "Gallium",
+        "value": "29.8 °C",
+        "numericValue": 29.76
+      },
+      {
+        "id": "p-sci-i3",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.46
+      },
+      {
+        "id": "p-sci-i4",
+        "name": "Gold",
+        "value": "1,064.2 °C",
+        "numericValue": 1064.18
+      },
+      {
+        "id": "p-sci-i5",
+        "name": "Tungsten",
+        "value": "3,422.0 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-001",
+    "date": "2026-09-03",
+    "category": "Sports",
+    "question": "Order these tennis players by their total career Grand Slam singles titles won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      },
+      {
+        "id": "p1-i2",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p1-i4",
+        "name": "Serena Williams",
+        "value": "23 titles",
+        "numericValue": 23
+      },
+      {
+        "id": "p1-i5",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      }
+    ]
   }
 ]
