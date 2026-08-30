@@ -3235,5 +3235,245 @@
         "numericValue": 24
       }
     ]
+  },
+  {
+    "id": "movie-oscar-wins-1",
+    "date": "2026-09-04",
+    "category": "Movies",
+    "question": "Order these Oscar-winning movies by the total number of Academy Awards won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "movie-oscar-wins-1-i1",
+        "name": "Hugo",
+        "value": "5 wins",
+        "numericValue": 5
+      },
+      {
+        "id": "movie-oscar-wins-1-i2",
+        "name": "La La Land",
+        "value": "6 wins",
+        "numericValue": 6
+      },
+      {
+        "id": "movie-oscar-wins-1-i3",
+        "name": "Gravity",
+        "value": "7 wins",
+        "numericValue": 7
+      },
+      {
+        "id": "movie-oscar-wins-1-i4",
+        "name": "Slumdog Millionaire",
+        "value": "8 wins",
+        "numericValue": 8
+      },
+      {
+        "id": "movie-oscar-wins-1-i5",
+        "name": "Titanic",
+        "value": "11 wins",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "order-vg-pokemon-height",
+    "date": "2026-09-04",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their official Pokédex height, from shortest to tallest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-i1",
+        "name": "Pikachu",
+        "value": "0.4 m",
+        "numericValue": 0.4
+      },
+      {
+        "id": "p-vg-i2",
+        "name": "Lucario",
+        "value": "1.2 m",
+        "numericValue": 1.2
+      },
+      {
+        "id": "p-vg-i3",
+        "name": "Charizard",
+        "value": "1.7 m",
+        "numericValue": 1.7
+      },
+      {
+        "id": "p-vg-i4",
+        "name": "Mewtwo",
+        "value": "2.0 m",
+        "numericValue": 2
+      },
+      {
+        "id": "p-vg-i5",
+        "name": "Gyarados",
+        "value": "6.5 m",
+        "numericValue": 6.5
+      }
+    ]
+  },
+  {
+    "id": "order-geo-001",
+    "date": "2026-09-04",
+    "category": "Geography",
+    "question": "Order these world islands by total land area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-geo-i1",
+        "name": "Tasmania",
+        "value": "68,401 km²",
+        "numericValue": 68401
+      },
+      {
+        "id": "p-geo-i2",
+        "name": "Luzon",
+        "value": "109,965 km²",
+        "numericValue": 109965
+      },
+      {
+        "id": "p-geo-i3",
+        "name": "South Island (New Zealand)",
+        "value": "150,437 km²",
+        "numericValue": 150437
+      },
+      {
+        "id": "p-geo-i4",
+        "name": "Great Britain",
+        "value": "209,331 km²",
+        "numericValue": 209331
+      },
+      {
+        "id": "p-geo-i5",
+        "name": "Madagascar",
+        "value": "587,041 km²",
+        "numericValue": 587041
+      }
+    ]
+  },
+  {
+    "id": "music-grammy-wins-2026",
+    "date": "2026-09-04",
+    "category": "Music",
+    "question": "Order these iconic musical artists by the number of Grammy Awards they have won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-grammy-wins-2026-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "music-grammy-wins-2026-i2",
+        "name": "Paul McCartney",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "music-grammy-wins-2026-i3",
+        "name": "Stevie Wonder",
+        "value": "25 Grammys",
+        "numericValue": 25
+      },
+      {
+        "id": "music-grammy-wins-2026-i4",
+        "name": "Quincy Jones",
+        "value": "28 Grammys",
+        "numericValue": 28
+      },
+      {
+        "id": "music-grammy-wins-2026-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-09-04",
+    "category": "Science",
+    "question": "Order these chemical elements by electronegativity on the Pauling scale, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Cesium",
+        "value": "0.79",
+        "numericValue": 0.79
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Sodium",
+        "value": "0.93",
+        "numericValue": 0.93
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Carbon",
+        "value": "2.55",
+        "numericValue": 2.55
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Chlorine",
+        "value": "3.16",
+        "numericValue": 3.16
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Fluorine",
+        "value": "3.98",
+        "numericValue": 3.98
+      }
+    ]
+  },
+  {
+    "id": "sports-male-grand-slams",
+    "date": "2026-09-04",
+    "category": "Sports",
+    "question": "Order these male tennis players by the number of career Grand Slam singles titles won, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "sports-male-grand-slams-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "sports-male-grand-slams-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "sports-male-grand-slams-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "sports-male-grand-slams-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "sports-male-grand-slams-i5",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      }
+    ]
   }
 ]
