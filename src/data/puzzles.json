@@ -3475,5 +3475,245 @@
         "numericValue": 11
       }
     ]
+  },
+  {
+    "id": "p20260905-movies-oscars",
+    "date": "2026-09-05",
+    "category": "Movies",
+    "question": "Order these famous films by the number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260905-i1",
+        "name": "Inception",
+        "value": "4 Oscars",
+        "numericValue": 4
+      },
+      {
+        "id": "p20260905-i2",
+        "name": "Mad Max: Fury Road",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p20260905-i3",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p20260905-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p20260905-i5",
+        "name": "Titanic (1997)",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-mk-drivers-001",
+    "date": "2026-09-05",
+    "category": "Video Games",
+    "question": "Order these Mario Kart games by the number of playable drivers in their base release, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Super Mario Kart (SNES)",
+        "value": "8 drivers",
+        "numericValue": 8
+      },
+      {
+        "id": "p1-i2",
+        "name": "Mario Kart DS",
+        "value": "12 drivers",
+        "numericValue": 12
+      },
+      {
+        "id": "p1-i3",
+        "name": "Mario Kart: Double Dash!!",
+        "value": "20 drivers",
+        "numericValue": 20
+      },
+      {
+        "id": "p1-i4",
+        "name": "Mario Kart Wii",
+        "value": "24 drivers",
+        "numericValue": 24
+      },
+      {
+        "id": "p1-i5",
+        "name": "Mario Kart 8 (Wii U base release)",
+        "value": "30 drivers",
+        "numericValue": 30
+      }
+    ]
+  },
+  {
+    "id": "geo-mountains-20260905",
+    "date": "2026-09-05",
+    "category": "Geography",
+    "question": "Order these famous mountain peaks by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-geo-i1",
+        "name": "Mont Blanc",
+        "value": "4,809 m",
+        "numericValue": 4809
+      },
+      {
+        "id": "p-geo-i2",
+        "name": "Mount Kilimanjaro",
+        "value": "5,895 m",
+        "numericValue": 5895
+      },
+      {
+        "id": "p-geo-i3",
+        "name": "Denali",
+        "value": "6,190 m",
+        "numericValue": 6190
+      },
+      {
+        "id": "p-geo-i4",
+        "name": "Aconcagua",
+        "value": "6,961 m",
+        "numericValue": 6961
+      },
+      {
+        "id": "p-geo-i5",
+        "name": "Mount Everest",
+        "value": "8,849 m",
+        "numericValue": 8849
+      }
+    ]
+  },
+  {
+    "id": "music-grammy-wins-001",
+    "date": "2026-09-05",
+    "category": "Music",
+    "question": "Order these musical artists by their total number of competitive Grammy Award wins, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i2",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      },
+      {
+        "id": "p1-i3",
+        "name": "Paul McCartney",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "p1-i4",
+        "name": "Stevie Wonder",
+        "value": "25 Grammys",
+        "numericValue": 25
+      },
+      {
+        "id": "p1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "puzzle-2026-09-05-sci",
+    "date": "2026-09-05",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.93
+      },
+      {
+        "id": "sci-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.79
+      },
+      {
+        "id": "sci-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.73
+      },
+      {
+        "id": "sci-i4",
+        "name": "Gold",
+        "value": "2,700 °C",
+        "numericValue": 2700
+      },
+      {
+        "id": "sci-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-grand-slams-001",
+    "date": "2026-09-05",
+    "category": "Sports",
+    "question": "Order these male tennis players by the number of Grand Slam singles titles won in their career, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-tennis-i1",
+        "name": "Andy Murray",
+        "value": "3 titles",
+        "numericValue": 3
+      },
+      {
+        "id": "sports-tennis-i2",
+        "name": "John McEnroe",
+        "value": "7 titles",
+        "numericValue": 7
+      },
+      {
+        "id": "sports-tennis-i3",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      },
+      {
+        "id": "sports-tennis-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "sports-tennis-i5",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      }
+    ]
   }
 ]
