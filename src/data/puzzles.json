@@ -3715,5 +3715,245 @@
         "numericValue": 22
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-09-06",
+    "category": "Movies",
+    "question": "Order these films by their total number of Academy Award (Oscar) wins, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "Mad Max: Fury Road",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p01-i2",
+        "name": "Gravity",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "p01-i3",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p01-i4",
+        "name": "The English Patient",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p01-i5",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      }
+    ]
+  },
+  {
+    "id": "vg-hltb-main-story-asc-001",
+    "date": "2026-09-06",
+    "category": "Video Games",
+    "question": "Order these video games by average main story completion time on HowLongToBeat, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-hltb-i1",
+        "name": "Portal",
+        "value": "3 hours",
+        "numericValue": 3
+      },
+      {
+        "id": "vg-hltb-i2",
+        "name": "Resident Evil 3 (2020)",
+        "value": "6 hours",
+        "numericValue": 6
+      },
+      {
+        "id": "vg-hltb-i3",
+        "name": "The Last of Us",
+        "value": "15 hours",
+        "numericValue": 15
+      },
+      {
+        "id": "vg-hltb-i4",
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "value": "50 hours",
+        "numericValue": 50
+      },
+      {
+        "id": "vg-hltb-i5",
+        "name": "Persona 5 Royal",
+        "value": "101 hours",
+        "numericValue": 101
+      }
+    ]
+  },
+  {
+    "id": "geo-borders-001",
+    "date": "2026-09-06",
+    "category": "Geography",
+    "question": "Order these countries by the number of neighboring countries they share a land border with, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "South Korea",
+        "value": "1 country",
+        "numericValue": 1
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Chile",
+        "value": "3 countries",
+        "numericValue": 3
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Switzerland",
+        "value": "5 countries",
+        "numericValue": 5
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Poland",
+        "value": "7 countries",
+        "numericValue": 7
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Germany",
+        "value": "9 countries",
+        "numericValue": 9
+      }
+    ]
+  },
+  {
+    "id": "p2026-09-06-music-1",
+    "date": "2026-09-06",
+    "category": "Music",
+    "question": "Order these musical artists by the total number of Grammy Awards they have won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p2026-09-06-music-1-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "p2026-09-06-music-1-i2",
+        "name": "U2",
+        "value": "22 Grammys",
+        "numericValue": 22
+      },
+      {
+        "id": "p2026-09-06-music-1-i3",
+        "name": "Kanye West",
+        "value": "24 Grammys",
+        "numericValue": 24
+      },
+      {
+        "id": "p2026-09-06-music-1-i4",
+        "name": "Quincy Jones",
+        "value": "28 Grammys",
+        "numericValue": 28
+      },
+      {
+        "id": "p2026-09-06-music-1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "science-element-density-01",
+    "date": "2026-09-06",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20°C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-sci-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p-sci-i2",
+        "name": "Aluminum",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p-sci-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p-sci-i4",
+        "name": "Gold",
+        "value": "19.32 g/cm³",
+        "numericValue": 19.32
+      },
+      {
+        "id": "p-sci-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-wins-01",
+    "date": "2026-09-06",
+    "category": "Sports",
+    "question": "Order these Formula 1 drivers by their total career Grand Prix wins, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Niki Lauda",
+        "value": "25 wins",
+        "numericValue": 25
+      },
+      {
+        "id": "p1-i2",
+        "name": "Nigel Mansell",
+        "value": "31 wins",
+        "numericValue": 31
+      },
+      {
+        "id": "p1-i3",
+        "name": "Ayrton Senna",
+        "value": "41 wins",
+        "numericValue": 41
+      },
+      {
+        "id": "p1-i4",
+        "name": "Alain Prost",
+        "value": "51 wins",
+        "numericValue": 51
+      },
+      {
+        "id": "p1-i5",
+        "name": "Sebastian Vettel",
+        "value": "53 wins",
+        "numericValue": 53
+      }
+    ]
   }
 ]
