@@ -3955,5 +3955,245 @@
         "numericValue": 53
       }
     ]
+  },
+  {
+    "id": "puzzle-movies-oscar-wins",
+    "date": "2026-09-07",
+    "category": "Movies",
+    "question": "Order these famous movies by the total number of Academy Awards (Oscars) they won, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mov-i1",
+        "name": "Titanic (1997)",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "p-mov-i2",
+        "name": "The Last Emperor (1987)",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p-mov-i3",
+        "name": "Slumdog Millionaire (2008)",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p-mov-i4",
+        "name": "Mad Max: Fury Road (2015)",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p-mov-i5",
+        "name": "Jurassic Park (1993)",
+        "value": "3 Oscars",
+        "numericValue": 3
+      }
+    ]
+  },
+  {
+    "id": "puzzle-vg-heights",
+    "date": "2026-09-07",
+    "category": "Video Games",
+    "question": "Order these video game characters by their official canonical height, from shortest to tallest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-i1",
+        "name": "Kirby",
+        "value": "20 cm (8 in)",
+        "numericValue": 20
+      },
+      {
+        "id": "p-vg-i2",
+        "name": "Pikachu",
+        "value": "40 cm (1 ft 4 in)",
+        "numericValue": 40
+      },
+      {
+        "id": "p-vg-i3",
+        "name": "Sonic the Hedgehog",
+        "value": "100 cm (3 ft 3 in)",
+        "numericValue": 100
+      },
+      {
+        "id": "p-vg-i4",
+        "name": "Mario",
+        "value": "155 cm (5 ft 1 in)",
+        "numericValue": 155
+      },
+      {
+        "id": "p-vg-i5",
+        "name": "Master Chief (in armor)",
+        "value": "218 cm (7 ft 2 in)",
+        "numericValue": 218
+      }
+    ]
+  },
+  {
+    "id": "p20260907-geo",
+    "date": "2026-09-07",
+    "category": "Geography",
+    "question": "Order these islands by their land area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260907-i1",
+        "name": "Bali",
+        "value": "5,780 km²",
+        "numericValue": 5780
+      },
+      {
+        "id": "p20260907-i2",
+        "name": "Jamaica",
+        "value": "10,991 km²",
+        "numericValue": 10991
+      },
+      {
+        "id": "p20260907-i3",
+        "name": "Sicily",
+        "value": "25,711 km²",
+        "numericValue": 25711
+      },
+      {
+        "id": "p20260907-i4",
+        "name": "Great Britain",
+        "value": "209,331 km²",
+        "numericValue": 209331
+      },
+      {
+        "id": "p20260907-i5",
+        "name": "Madagascar",
+        "value": "587,041 km²",
+        "numericValue": 587041
+      }
+    ]
+  },
+  {
+    "id": "music-grammy-wins-01",
+    "date": "2026-09-07",
+    "category": "Music",
+    "question": "Order these music artists by total Grammy Awards won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i2",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      },
+      {
+        "id": "p1-i3",
+        "name": "Paul McCartney",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "p1-i4",
+        "name": "Stevie Wonder",
+        "value": "25 Grammys",
+        "numericValue": 25
+      },
+      {
+        "id": "p1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "science-melting-points-1",
+    "date": "2026-09-07",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260907-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "p20260907-i2",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.46
+      },
+      {
+        "id": "p20260907-i3",
+        "name": "Aluminum",
+        "value": "660.3 °C",
+        "numericValue": 660.32
+      },
+      {
+        "id": "p20260907-i4",
+        "name": "Gold",
+        "value": "1,064.2 °C",
+        "numericValue": 1064.18
+      },
+      {
+        "id": "p20260907-i5",
+        "name": "Tungsten",
+        "value": "3,422.0 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length",
+    "date": "2026-09-07",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by lap distance, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-monaco",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "f1-interlagos",
+        "name": "Autódromo José Carlos Pace (Interlagos)",
+        "value": "4.309 km",
+        "numericValue": 4.309
+      },
+      {
+        "id": "f1-cota",
+        "name": "Circuit des Amériques (COTA)",
+        "value": "5.513 km",
+        "numericValue": 5.513
+      },
+      {
+        "id": "f1-silverstone",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "f1-spa",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
