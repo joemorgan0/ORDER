@@ -4195,5 +4195,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "p20260908-movie-runtimes",
+    "date": "2026-09-08",
+    "category": "Movies",
+    "question": "Order these iconic sci-fi movies by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260908-i1",
+        "name": "Gravity",
+        "value": "91 minutes",
+        "numericValue": 91
+      },
+      {
+        "id": "p20260908-i2",
+        "name": "Alien",
+        "value": "117 minutes",
+        "numericValue": 117
+      },
+      {
+        "id": "p20260908-i3",
+        "name": "Jurassic Park",
+        "value": "127 minutes",
+        "numericValue": 127
+      },
+      {
+        "id": "p20260908-i4",
+        "name": "The Matrix",
+        "value": "136 minutes",
+        "numericValue": 136
+      },
+      {
+        "id": "p20260908-i5",
+        "name": "Interstellar",
+        "value": "169 minutes",
+        "numericValue": 169
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-001",
+    "date": "2026-09-08",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their Base Stat Total (BST) in the main series games, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "ord-vg-001-i1",
+        "name": "Magikarp",
+        "value": "200",
+        "numericValue": 200
+      },
+      {
+        "id": "ord-vg-001-i2",
+        "name": "Eevee",
+        "value": "325",
+        "numericValue": 325
+      },
+      {
+        "id": "ord-vg-001-i3",
+        "name": "Snorlax",
+        "value": "540",
+        "numericValue": 540
+      },
+      {
+        "id": "ord-vg-001-i4",
+        "name": "Mewtwo",
+        "value": "680",
+        "numericValue": 680
+      },
+      {
+        "id": "ord-vg-001-i5",
+        "name": "Arceus",
+        "value": "720",
+        "numericValue": 720
+      }
+    ]
+  },
+  {
+    "id": "p20260908-geo",
+    "date": "2026-09-08",
+    "category": "Geography",
+    "question": "Order these national capitals by their mean elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260908-geo-i1",
+        "name": "Amsterdam (Netherlands)",
+        "value": "-2 m",
+        "numericValue": -2
+      },
+      {
+        "id": "p20260908-geo-i2",
+        "name": "London (United Kingdom)",
+        "value": "11 m",
+        "numericValue": 11
+      },
+      {
+        "id": "p20260908-geo-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "p20260908-geo-i4",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "p20260908-geo-i5",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m",
+        "numericValue": 2850
+      }
+    ]
+  },
+  {
+    "id": "music-duration-001",
+    "date": "2026-09-08",
+    "category": "Music",
+    "question": "Order these iconic songs by their original studio recording duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pmusic-i1",
+        "name": "\"I Want to Hold Your Hand\" (The Beatles)",
+        "value": "2:24",
+        "numericValue": 144
+      },
+      {
+        "id": "pmusic-i2",
+        "name": "\"Smells Like Teen Spirit\" (Nirvana)",
+        "value": "5:01",
+        "numericValue": 301
+      },
+      {
+        "id": "pmusic-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "pmusic-i4",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "pmusic-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:33",
+        "numericValue": 513
+      }
+    ]
+  },
+  {
+    "id": "science-shc-001",
+    "date": "2026-09-08",
+    "category": "Science",
+    "question": "Order these substances by their specific heat capacity at room temperature (25 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "shc-001-i1",
+        "name": "Gold",
+        "value": "129 J/(kg·K)",
+        "numericValue": 129
+      },
+      {
+        "id": "shc-001-i2",
+        "name": "Copper",
+        "value": "385 J/(kg·K)",
+        "numericValue": 385
+      },
+      {
+        "id": "shc-001-i3",
+        "name": "Iron",
+        "value": "450 J/(kg·K)",
+        "numericValue": 450
+      },
+      {
+        "id": "shc-001-i4",
+        "name": "Aluminum",
+        "value": "897 J/(kg·K)",
+        "numericValue": 897
+      },
+      {
+        "id": "shc-001-i5",
+        "name": "Liquid Water",
+        "value": "4,184 J/(kg·K)",
+        "numericValue": 4184
+      }
+    ]
+  },
+  {
+    "id": "puzzle-sports-001",
+    "date": "2026-09-08",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3337
+      },
+      {
+        "id": "p001-i2",
+        "name": "Autódromo José Carlos Pace (Interlagos)",
+        "value": "4.309 km",
+        "numericValue": 4309
+      },
+      {
+        "id": "p001-i3",
+        "name": "Red Bull Ring",
+        "value": "4.318 km",
+        "numericValue": 4318
+      },
+      {
+        "id": "p001-i4",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5793
+      },
+      {
+        "id": "p001-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7004
+      }
+    ]
   }
 ]
