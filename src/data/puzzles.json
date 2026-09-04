@@ -4435,5 +4435,245 @@
         "numericValue": 7004
       }
     ]
+  },
+  {
+    "id": "movie-nolan-runtime",
+    "date": "2026-09-09",
+    "category": "Movies",
+    "question": "Order these Christopher Nolan films by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Following",
+        "value": "70 minutes",
+        "numericValue": 70
+      },
+      {
+        "id": "p1-i2",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p1-i3",
+        "name": "Memento",
+        "value": "113 minutes",
+        "numericValue": 113
+      },
+      {
+        "id": "p1-i4",
+        "name": "Inception",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p1-i5",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      }
+    ]
+  },
+  {
+    "id": "game-metascore-01",
+    "date": "2026-09-09",
+    "category": "Video Games",
+    "question": "Order these critically acclaimed video games by their official Metacritic score (Metascore) on their primary launch platform, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Minecraft (PC)",
+        "value": "93/100",
+        "numericValue": 93
+      },
+      {
+        "id": "p1-i2",
+        "name": "God of War (PS4, 2018)",
+        "value": "94/100",
+        "numericValue": 94
+      },
+      {
+        "id": "p1-i3",
+        "name": "Portal 2 (PC)",
+        "value": "95/100",
+        "numericValue": 95
+      },
+      {
+        "id": "p1-i4",
+        "name": "Elden Ring (PS5)",
+        "value": "96/100",
+        "numericValue": 96
+      },
+      {
+        "id": "p1-i5",
+        "name": "Super Mario Odyssey (Switch)",
+        "value": "97/100",
+        "numericValue": 97
+      }
+    ]
+  },
+  {
+    "id": "geo-elevations-01",
+    "date": "2026-09-09",
+    "category": "Geography",
+    "question": "Order these world capital cities by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-elevations-01-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m",
+        "numericValue": -28
+      },
+      {
+        "id": "geo-elevations-01-i2",
+        "name": "Amsterdam (Netherlands)",
+        "value": "-2 m",
+        "numericValue": -2
+      },
+      {
+        "id": "geo-elevations-01-i3",
+        "name": "London (United Kingdom)",
+        "value": "11 m",
+        "numericValue": 11
+      },
+      {
+        "id": "geo-elevations-01-i4",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "geo-elevations-01-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-grammy-wins-female",
+    "date": "2026-09-09",
+    "category": "Music",
+    "question": "Order these female music artists by the total number of Grammy Awards won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i2",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      },
+      {
+        "id": "p1-i3",
+        "name": "Aretha Franklin",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "p1-i4",
+        "name": "Alison Krauss",
+        "value": "27 Grammys",
+        "numericValue": 27
+      },
+      {
+        "id": "p1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "science-element-melting-points",
+    "date": "2026-09-09",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "p1-i2",
+        "name": "Tin",
+        "value": "231.9 °C",
+        "numericValue": 231.93
+      },
+      {
+        "id": "p1-i3",
+        "name": "Aluminum",
+        "value": "660.3 °C",
+        "numericValue": 660.32
+      },
+      {
+        "id": "p1-i4",
+        "name": "Gold",
+        "value": "1,064.2 °C",
+        "numericValue": 1064.18
+      },
+      {
+        "id": "p1-i5",
+        "name": "Tungsten",
+        "value": "3,422 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-grand-slams",
+    "date": "2026-09-09",
+    "category": "Sports",
+    "question": "Order these male tennis legends by their total number of career Grand Slam singles titles, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260909-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "p20260909-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p20260909-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p20260909-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p20260909-i5",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      }
+    ]
   }
 ]
