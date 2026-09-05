@@ -4675,5 +4675,245 @@
         "numericValue": 11
       }
     ]
+  },
+  {
+    "id": "puzzle-20260910-movies",
+    "date": "2026-09-10",
+    "category": "Movies",
+    "question": "Order these Christopher Nolan directed films by official runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260910-i1",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p20260910-i2",
+        "name": "Inception",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p20260910-i3",
+        "name": "The Dark Knight",
+        "value": "152 minutes",
+        "numericValue": 152
+      },
+      {
+        "id": "p20260910-i4",
+        "name": "Interstellar",
+        "value": "169 minutes",
+        "numericValue": 169
+      },
+      {
+        "id": "p20260910-i5",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-hltb-01",
+    "date": "2026-09-10",
+    "category": "Video Games",
+    "question": "Order these video games by the average time required to complete their main story (according to HowLongToBeat data), from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "ord-vg-hltb-01-i1",
+        "name": "Portal",
+        "value": "3 hours",
+        "numericValue": 3
+      },
+      {
+        "id": "ord-vg-hltb-01-i2",
+        "name": "Halo: Combat Evolved",
+        "value": "10 hours",
+        "numericValue": 10
+      },
+      {
+        "id": "ord-vg-hltb-01-i3",
+        "name": "The Last of Us",
+        "value": "15 hours",
+        "numericValue": 15
+      },
+      {
+        "id": "ord-vg-hltb-01-i4",
+        "name": "Elden Ring",
+        "value": "55 hours",
+        "numericValue": 55
+      },
+      {
+        "id": "ord-vg-hltb-01-i5",
+        "name": "Persona 5 Royal",
+        "value": "101 hours",
+        "numericValue": 101
+      }
+    ]
+  },
+  {
+    "id": "geo-lakes-area-001",
+    "date": "2026-09-10",
+    "category": "Geography",
+    "question": "Order these lakes by surface area, from largest to smallest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Caspian Sea",
+        "value": "371,000 km²",
+        "numericValue": 371000
+      },
+      {
+        "id": "p001-i2",
+        "name": "Lake Superior",
+        "value": "82,100 km²",
+        "numericValue": 82100
+      },
+      {
+        "id": "p001-i3",
+        "name": "Lake Victoria",
+        "value": "68,800 km²",
+        "numericValue": 68800
+      },
+      {
+        "id": "p001-i4",
+        "name": "Lake Tanganyika",
+        "value": "32,900 km²",
+        "numericValue": 32900
+      },
+      {
+        "id": "p001-i5",
+        "name": "Lake Titicaca",
+        "value": "8,372 km²",
+        "numericValue": 8372
+      }
+    ]
+  },
+  {
+    "id": "music-billboard-no1-hits",
+    "date": "2026-09-10",
+    "category": "Music",
+    "question": "Order these music artists by their number of US Billboard Hot 100 number-one singles, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Whitney Houston",
+        "value": "11 number-one hits",
+        "numericValue": 11
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Madonna",
+        "value": "12 number-one hits",
+        "numericValue": 12
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Michael Jackson",
+        "value": "13 number-one hits",
+        "numericValue": 13
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Rihanna",
+        "value": "14 number-one hits",
+        "numericValue": 14
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Mariah Carey",
+        "value": "19 number-one hits",
+        "numericValue": 19
+      }
+    ]
+  },
+  {
+    "id": "science-density-elements",
+    "date": "2026-09-10",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-sci-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p-sci-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p-sci-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p-sci-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p-sci-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-grand-slams-01",
+    "date": "2026-09-10",
+    "category": "Sports",
+    "question": "Order these male tennis icons by their total number of career Grand Slam singles titles, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "p1-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p1-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p1-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i5",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      }
+    ]
   }
 ]
