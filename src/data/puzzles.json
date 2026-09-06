@@ -4915,5 +4915,245 @@
         "numericValue": 11
       }
     ]
+  },
+  {
+    "id": "puzzle-2026-09-11-movies",
+    "date": "2026-09-11",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260911m-i1",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "p20260911m-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p20260911m-i3",
+        "name": "The Last Emperor",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p20260911m-i4",
+        "name": "Amadeus",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p20260911m-i5",
+        "name": "Gravity",
+        "value": "7 Oscars",
+        "numericValue": 7
+      }
+    ]
+  },
+  {
+    "id": "order-vg-pokemon-speed",
+    "date": "2026-09-11",
+    "category": "Video Games",
+    "question": "Order these classic Generation I Pokémon by their official base Speed stat, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Slowpoke",
+        "value": "15",
+        "numericValue": 15
+      },
+      {
+        "id": "p1-i2",
+        "name": "Snorlax",
+        "value": "30",
+        "numericValue": 30
+      },
+      {
+        "id": "p1-i3",
+        "name": "Pikachu",
+        "value": "90",
+        "numericValue": 90
+      },
+      {
+        "id": "p1-i4",
+        "name": "Charizard",
+        "value": "100",
+        "numericValue": 100
+      },
+      {
+        "id": "p1-i5",
+        "name": "Electrode",
+        "value": "150",
+        "numericValue": 150
+      }
+    ]
+  },
+  {
+    "id": "geo-borders-20260911",
+    "date": "2026-09-11",
+    "category": "Geography",
+    "question": "Order these countries by the number of other sovereign nations they share a land border with, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260911-i1",
+        "name": "Italy",
+        "value": "6 countries",
+        "numericValue": 6
+      },
+      {
+        "id": "p20260911-i2",
+        "name": "Poland",
+        "value": "7 countries",
+        "numericValue": 7
+      },
+      {
+        "id": "p20260911-i3",
+        "name": "Turkey",
+        "value": "8 countries",
+        "numericValue": 8
+      },
+      {
+        "id": "p20260911-i4",
+        "name": "Germany",
+        "value": "9 countries",
+        "numericValue": 9
+      },
+      {
+        "id": "p20260911-i5",
+        "name": "Brazil",
+        "value": "10 countries",
+        "numericValue": 10
+      }
+    ]
+  },
+  {
+    "id": "music-album-track-count",
+    "date": "2026-09-11",
+    "category": "Music",
+    "question": "Order these iconic music albums by the number of tracks on their original standard studio release, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Led Zeppelin IV (Led Zeppelin)",
+        "value": "8 tracks",
+        "numericValue": 8
+      },
+      {
+        "id": "p1-i2",
+        "name": "Thriller (Michael Jackson)",
+        "value": "9 tracks",
+        "numericValue": 9
+      },
+      {
+        "id": "p1-i3",
+        "name": "The Dark Side of the Moon (Pink Floyd)",
+        "value": "10 tracks",
+        "numericValue": 10
+      },
+      {
+        "id": "p1-i4",
+        "name": "Rumours (Fleetwood Mac)",
+        "value": "11 tracks",
+        "numericValue": 11
+      },
+      {
+        "id": "p1-i5",
+        "name": "Sgt. Pepper's Lonely Hearts Club Band (The Beatles)",
+        "value": "13 tracks",
+        "numericValue": 13
+      }
+    ]
+  },
+  {
+    "id": "sci-bp-01",
+    "date": "2026-09-11",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-bp-01-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "sci-bp-01-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.8
+      },
+      {
+        "id": "sci-bp-01-i3",
+        "name": "Chlorine",
+        "value": "-34.0 °C",
+        "numericValue": -34
+      },
+      {
+        "id": "sci-bp-01-i4",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "sci-bp-01-i5",
+        "name": "Iron",
+        "value": "2,862 °C",
+        "numericValue": 2862
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length",
+    "date": "2026-09-11",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by their official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3337
+      },
+      {
+        "id": "p1-i2",
+        "name": "Circuit Zandvoort",
+        "value": "4.259 km",
+        "numericValue": 4259
+      },
+      {
+        "id": "p1-i3",
+        "name": "Interlagos (Autódromo José Carlos Pace)",
+        "value": "4.309 km",
+        "numericValue": 4309
+      },
+      {
+        "id": "p1-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5891
+      },
+      {
+        "id": "p1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7004
+      }
+    ]
   }
 ]
