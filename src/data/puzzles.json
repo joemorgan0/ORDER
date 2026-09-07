@@ -5155,5 +5155,245 @@
         "numericValue": 7004
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-09-12",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Titanic",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Mad Max: Fury Road",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Parasite",
+        "value": "4 Oscars",
+        "numericValue": 4
+      }
+    ]
+  },
+  {
+    "id": "vg-bst-001",
+    "date": "2026-09-12",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their official Base Stat Total (BST) in the main series video games, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-bst-001-i1",
+        "name": "Magikarp",
+        "value": "200",
+        "numericValue": 200
+      },
+      {
+        "id": "vg-bst-001-i2",
+        "name": "Snorlax",
+        "value": "540",
+        "numericValue": 540
+      },
+      {
+        "id": "vg-bst-001-i3",
+        "name": "Dragonite",
+        "value": "600",
+        "numericValue": 600
+      },
+      {
+        "id": "vg-bst-001-i4",
+        "name": "Mewtwo",
+        "value": "680",
+        "numericValue": 680
+      },
+      {
+        "id": "vg-bst-001-i5",
+        "name": "Arceus",
+        "value": "720",
+        "numericValue": 720
+      }
+    ]
+  },
+  {
+    "id": "geo-island-area-001",
+    "date": "2026-09-12",
+    "category": "Geography",
+    "question": "Order these islands by their total land area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Isle of Man",
+        "value": "572 km²",
+        "numericValue": 572
+      },
+      {
+        "id": "p001-i2",
+        "name": "Majorca",
+        "value": "3,640 km²",
+        "numericValue": 3640
+      },
+      {
+        "id": "p001-i3",
+        "name": "Jamaica",
+        "value": "10,991 km²",
+        "numericValue": 10991
+      },
+      {
+        "id": "p001-i4",
+        "name": "Sicily",
+        "value": "25,711 km²",
+        "numericValue": 25711
+      },
+      {
+        "id": "p001-i5",
+        "name": "Madagascar",
+        "value": "587,041 km²",
+        "numericValue": 587041
+      }
+    ]
+  },
+  {
+    "id": "music-song-lengths-01",
+    "date": "2026-09-12",
+    "category": "Music",
+    "question": "Order these iconic songs by their original studio recording duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "\"Yesterday\" (The Beatles)",
+        "value": "2:05",
+        "numericValue": 125
+      },
+      {
+        "id": "p001-i2",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p001-i3",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p001-i4",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p001-i5",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      }
+    ]
+  },
+  {
+    "id": "science-mohs-01",
+    "date": "2026-09-12",
+    "category": "Science",
+    "question": "Order these minerals by their rating on the Mohs scale of mineral hardness, from softest to hardest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p102-i1",
+        "name": "Gypsum",
+        "value": "2 Mohs",
+        "numericValue": 2
+      },
+      {
+        "id": "p102-i2",
+        "name": "Calcite",
+        "value": "3 Mohs",
+        "numericValue": 3
+      },
+      {
+        "id": "p102-i3",
+        "name": "Orthoclase Feldspar",
+        "value": "6 Mohs",
+        "numericValue": 6
+      },
+      {
+        "id": "p102-i4",
+        "name": "Topaz",
+        "value": "8 Mohs",
+        "numericValue": 8
+      },
+      {
+        "id": "p102-i5",
+        "name": "Diamond",
+        "value": "10 Mohs",
+        "numericValue": 10
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-001",
+    "date": "2026-09-12",
+    "category": "Sports",
+    "question": "Order these male tennis players by total Grand Slam singles titles won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Andre Agassi",
+        "value": "8 titles",
+        "numericValue": 8
+      },
+      {
+        "id": "p1-i2",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      },
+      {
+        "id": "p1-i3",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i4",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p1-i5",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      }
+    ]
   }
 ]
