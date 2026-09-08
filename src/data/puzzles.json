@@ -5395,5 +5395,125 @@
         "numericValue": 24
       }
     ]
+  },
+  {
+    "id": "vg-meta-001",
+    "date": "2026-09-13",
+    "category": "Video Games",
+    "question": "Order these acclaimed video games by their Metacritic score (critic metascore) at launch, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-meta-001-i1",
+        "name": "The Elder Scrolls V: Skyrim",
+        "value": "94 / 100",
+        "numericValue": 94
+      },
+      {
+        "id": "vg-meta-001-i2",
+        "name": "Portal 2",
+        "value": "95 / 100",
+        "numericValue": 95
+      },
+      {
+        "id": "vg-meta-001-i3",
+        "name": "Elden Ring",
+        "value": "96 / 100",
+        "numericValue": 96
+      },
+      {
+        "id": "vg-meta-001-i4",
+        "name": "Red Dead Redemption 2",
+        "value": "97 / 100",
+        "numericValue": 97
+      },
+      {
+        "id": "vg-meta-001-i5",
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "value": "99 / 100",
+        "numericValue": 99
+      }
+    ]
+  },
+  {
+    "id": "geo-lake-area-2026",
+    "date": "2026-09-13",
+    "category": "Geography",
+    "question": "Order these world lakes by total surface area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Lake Tahoe",
+        "value": "496 km²",
+        "numericValue": 496
+      },
+      {
+        "id": "p1-i2",
+        "name": "Lake Geneva",
+        "value": "580 km²",
+        "numericValue": 580
+      },
+      {
+        "id": "p1-i3",
+        "name": "Lake Titicaca",
+        "value": "8,372 km²",
+        "numericValue": 8372
+      },
+      {
+        "id": "p1-i4",
+        "name": "Lake Baikal",
+        "value": "31,722 km²",
+        "numericValue": 31722
+      },
+      {
+        "id": "p1-i5",
+        "name": "Lake Superior",
+        "value": "82,100 km²",
+        "numericValue": 82100
+      }
+    ]
+  },
+  {
+    "id": "music-grammys-won-2026",
+    "date": "2026-09-13",
+    "category": "Music",
+    "question": "Order these female musical artists by the total number of Grammy Awards they have won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "mgw-i1",
+        "name": "Madonna",
+        "value": "7 Grammys",
+        "numericValue": 7
+      },
+      {
+        "id": "mgw-i2",
+        "name": "Lady Gaga",
+        "value": "13 Grammys",
+        "numericValue": 13
+      },
+      {
+        "id": "mgw-i3",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "mgw-i4",
+        "name": "Aretha Franklin",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "mgw-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
   }
 ]
