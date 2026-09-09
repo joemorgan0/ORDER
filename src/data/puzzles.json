@@ -5515,5 +5515,245 @@
         "numericValue": 32
       }
     ]
+  },
+  {
+    "id": "movies-runtime-001",
+    "date": "2026-09-14",
+    "category": "Movies",
+    "question": "Order these famous movies by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "m-rt-1",
+        "name": "Dumbo (1941)",
+        "value": "64 minutes",
+        "numericValue": 64
+      },
+      {
+        "id": "m-rt-2",
+        "name": "The Lion King (1994)",
+        "value": "88 minutes",
+        "numericValue": 88
+      },
+      {
+        "id": "m-rt-3",
+        "name": "Jurassic Park (1993)",
+        "value": "127 minutes",
+        "numericValue": 127
+      },
+      {
+        "id": "m-rt-4",
+        "name": "Pulp Fiction (1994)",
+        "value": "154 minutes",
+        "numericValue": 154
+      },
+      {
+        "id": "m-rt-5",
+        "name": "Titanic (1997)",
+        "value": "194 minutes",
+        "numericValue": 194
+      }
+    ]
+  },
+  {
+    "id": "vg-meta-001",
+    "date": "2026-09-14",
+    "category": "Video Games",
+    "question": "Order these major video games by their highest Metacritic critic score (Metascore), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-meta-001-i1",
+        "name": "Starfield",
+        "value": "83 / 100",
+        "numericValue": 83
+      },
+      {
+        "id": "vg-meta-001-i2",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "93 / 100",
+        "numericValue": 93
+      },
+      {
+        "id": "vg-meta-001-i3",
+        "name": "Elden Ring",
+        "value": "96 / 100",
+        "numericValue": 96
+      },
+      {
+        "id": "vg-meta-001-i4",
+        "name": "Red Dead Redemption 2",
+        "value": "97 / 100",
+        "numericValue": 97
+      },
+      {
+        "id": "vg-meta-001-i5",
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "value": "99 / 100",
+        "numericValue": 99
+      }
+    ]
+  },
+  {
+    "id": "order-geo-2026-09-14",
+    "date": "2026-09-14",
+    "category": "Geography",
+    "question": "Order these national capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-item-1",
+        "name": "Amsterdam (Netherlands)",
+        "value": "-2 m",
+        "numericValue": -2
+      },
+      {
+        "id": "geo-item-2",
+        "name": "Berlin (Germany)",
+        "value": "34 m",
+        "numericValue": 34
+      },
+      {
+        "id": "geo-item-3",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "geo-item-4",
+        "name": "Bogotá (Colombia)",
+        "value": "2,640 m",
+        "numericValue": 2640
+      },
+      {
+        "id": "geo-item-5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-song-durations-01",
+    "date": "2026-09-14",
+    "category": "Music",
+    "question": "Order these iconic songs by their standard studio recording duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p01-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p01-i3",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p01-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p01-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "science-density-001",
+    "date": "2026-09-14",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Aluminum",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuits-length",
+    "date": "2026-09-14",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by lap distance, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-l1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "f1-l1-i2",
+        "name": "Red Bull Ring",
+        "value": "4.318 km",
+        "numericValue": 4.318
+      },
+      {
+        "id": "f1-l1-i3",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "f1-l1-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "f1-l1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
