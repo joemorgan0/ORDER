@@ -5755,5 +5755,165 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "geo-001",
+    "date": "2026-09-15",
+    "category": "Geography",
+    "question": "Order these lakes by maximum depth, from deepest to shallowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-001-i1",
+        "name": "Lake Baikal",
+        "value": "1,642 m",
+        "numericValue": 1642
+      },
+      {
+        "id": "pgeo-001-i2",
+        "name": "Lake Tanganyika",
+        "value": "1,470 m",
+        "numericValue": 1470
+      },
+      {
+        "id": "pgeo-001-i3",
+        "name": "Caspian Sea",
+        "value": "1,025 m",
+        "numericValue": 1025
+      },
+      {
+        "id": "pgeo-001-i4",
+        "name": "Lake Malawi",
+        "value": "706 m",
+        "numericValue": 706
+      },
+      {
+        "id": "pgeo-001-i5",
+        "name": "Crater Lake",
+        "value": "594 m",
+        "numericValue": 594
+      }
+    ]
+  },
+  {
+    "id": "music-song-durations-001",
+    "date": "2026-09-15",
+    "category": "Music",
+    "question": "Order these famous rock songs by the duration of their official studio album versions, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p001-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p001-i3",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p001-i4",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      },
+      {
+        "id": "p001-i5",
+        "name": "\"Free Bird\" (Lynyrd Skynyrd)",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "science-planet-density-01",
+    "date": "2026-09-15",
+    "category": "Science",
+    "question": "Order these planets in our Solar System by their mean density, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "science-planet-density-01-i1",
+        "name": "Saturn",
+        "value": "0.69 g/cm³",
+        "numericValue": 0.687
+      },
+      {
+        "id": "science-planet-density-01-i2",
+        "name": "Uranus",
+        "value": "1.27 g/cm³",
+        "numericValue": 1.27
+      },
+      {
+        "id": "science-planet-density-01-i3",
+        "name": "Jupiter",
+        "value": "1.33 g/cm³",
+        "numericValue": 1.326
+      },
+      {
+        "id": "science-planet-density-01-i4",
+        "name": "Mars",
+        "value": "3.93 g/cm³",
+        "numericValue": 3.933
+      },
+      {
+        "id": "science-planet-density-01-i5",
+        "name": "Earth",
+        "value": "5.51 g/cm³",
+        "numericValue": 5.514
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-women-grand-slams",
+    "date": "2026-09-15",
+    "category": "Sports",
+    "question": "Order these women's tennis players by the total number of Grand Slam singles titles won in their career, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Margaret Court",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "p1-i2",
+        "name": "Serena Williams",
+        "value": "23 titles",
+        "numericValue": 23
+      },
+      {
+        "id": "p1-i3",
+        "name": "Steffi Graf",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p1-i4",
+        "name": "Martina Navratilova",
+        "value": "18 titles",
+        "numericValue": 18
+      },
+      {
+        "id": "p1-i5",
+        "name": "Billie Jean King",
+        "value": "12 titles",
+        "numericValue": 12
+      }
+    ]
   }
 ]
