@@ -5915,5 +5915,165 @@
         "numericValue": 12
       }
     ]
+  },
+  {
+    "id": "p20260916-movies",
+    "date": "2026-09-16",
+    "category": "Movies",
+    "question": "Order these movies by the total number of Academy Awards (Oscars) won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260916-movies-i1",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p20260916-movies-i2",
+        "name": "The Last Emperor",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p20260916-movies-i3",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p20260916-movies-i4",
+        "name": "Mad Max: Fury Road",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p20260916-movies-i5",
+        "name": "Inception",
+        "value": "4 Oscars",
+        "numericValue": 4
+      }
+    ]
+  },
+  {
+    "id": "vg-smash-weight-01",
+    "date": "2026-09-16",
+    "category": "Video Games",
+    "question": "Order these Super Smash Bros. Ultimate characters by their official base weight attribute, from lightest to heaviest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg1-i1",
+        "name": "Pichu",
+        "value": "62",
+        "numericValue": 62
+      },
+      {
+        "id": "p-vg1-i2",
+        "name": "Fox",
+        "value": "77",
+        "numericValue": 77
+      },
+      {
+        "id": "p-vg1-i3",
+        "name": "Mario",
+        "value": "98",
+        "numericValue": 98
+      },
+      {
+        "id": "p-vg1-i4",
+        "name": "Ridley",
+        "value": "107",
+        "numericValue": 107
+      },
+      {
+        "id": "p-vg1-i5",
+        "name": "Bowser",
+        "value": "135",
+        "numericValue": 135
+      }
+    ]
+  },
+  {
+    "id": "puzzle-sci-001",
+    "date": "2026-09-16",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20°C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "psci-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "psci-i2",
+        "name": "Potassium",
+        "value": "0.89 g/cm³",
+        "numericValue": 0.89
+      },
+      {
+        "id": "psci-i3",
+        "name": "Aluminum",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "psci-i4",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "psci-i5",
+        "name": "Gold",
+        "value": "19.30 g/cm³",
+        "numericValue": 19.3
+      }
+    ]
+  },
+  {
+    "id": "sports-grand-slam-titles",
+    "date": "2026-09-16",
+    "category": "Sports",
+    "question": "Order these male tennis legends by their total number of Grand Slam singles titles won, highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-grand-slam-titles-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "sports-grand-slam-titles-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "sports-grand-slam-titles-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "sports-grand-slam-titles-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "sports-grand-slam-titles-i5",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      }
+    ]
   }
 ]
