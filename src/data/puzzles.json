@@ -6075,5 +6075,245 @@
         "numericValue": 11
       }
     ]
+  },
+  {
+    "id": "order-movies-oscar-wins",
+    "date": "2026-09-17",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Mad Max: Fury Road",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p001-i2",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "p001-i3",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p001-i4",
+        "name": "The Last Emperor",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p001-i5",
+        "name": "Titanic",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "vg-pokemon-gens-introduced-20260917",
+    "date": "2026-09-17",
+    "category": "Video Games",
+    "question": "Order these Pokémon video game generations by the number of new Pokémon species introduced, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-pokemon-gens-introduced-20260917-i1",
+        "name": "Generation VI (X & Y)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "vg-pokemon-gens-introduced-20260917-i2",
+        "name": "Generation II (Gold & Silver)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "vg-pokemon-gens-introduced-20260917-i3",
+        "name": "Generation IV (Diamond & Pearl)",
+        "value": "107 species",
+        "numericValue": 107
+      },
+      {
+        "id": "vg-pokemon-gens-introduced-20260917-i4",
+        "name": "Generation III (Ruby & Sapphire)",
+        "value": "135 species",
+        "numericValue": 135
+      },
+      {
+        "id": "vg-pokemon-gens-introduced-20260917-i5",
+        "name": "Generation V (Black & White)",
+        "value": "156 species",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "geo-capitals-elevation-2026",
+    "date": "2026-09-17",
+    "category": "Geography",
+    "question": "Order these national capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260917-i1",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "p20260917-i2",
+        "name": "Kabul (Afghanistan)",
+        "value": "1,790 m",
+        "numericValue": 1790
+      },
+      {
+        "id": "p20260917-i3",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "p20260917-i4",
+        "name": "Bogotá (Colombia)",
+        "value": "2,625 m",
+        "numericValue": 2625
+      },
+      {
+        "id": "p20260917-i5",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m",
+        "numericValue": 2850
+      }
+    ]
+  },
+  {
+    "id": "music-grammy-wins-01",
+    "date": "2026-09-17",
+    "category": "Music",
+    "question": "Order these musical acts by the total number of competitive Grammy Awards they have won, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-m1-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "p-m1-i2",
+        "name": "Aretha Franklin",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "p-m1-i3",
+        "name": "U2",
+        "value": "22 Grammys",
+        "numericValue": 22
+      },
+      {
+        "id": "p-m1-i4",
+        "name": "Alison Krauss",
+        "value": "27 Grammys",
+        "numericValue": 27
+      },
+      {
+        "id": "p-m1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "puzzle-20260917-sci",
+    "date": "2026-09-17",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260917-sci-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "p20260917-sci-i2",
+        "name": "Tin",
+        "value": "231.9 °C",
+        "numericValue": 231.93
+      },
+      {
+        "id": "p20260917-sci-i3",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.46
+      },
+      {
+        "id": "p20260917-sci-i4",
+        "name": "Gold",
+        "value": "1,064 °C",
+        "numericValue": 1064.18
+      },
+      {
+        "id": "p20260917-sci-i5",
+        "name": "Tungsten",
+        "value": "3,422 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-nba-points-01",
+    "date": "2026-09-17",
+    "category": "Sports",
+    "question": "Order these retired NBA players by total career regular season points scored, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-nba-points-01-i1",
+        "name": "Wilt Chamberlain",
+        "value": "31,419 points",
+        "numericValue": 31419
+      },
+      {
+        "id": "sports-nba-points-01-i2",
+        "name": "Michael Jordan",
+        "value": "32,292 points",
+        "numericValue": 32292
+      },
+      {
+        "id": "sports-nba-points-01-i3",
+        "name": "Kobe Bryant",
+        "value": "33,643 points",
+        "numericValue": 33643
+      },
+      {
+        "id": "sports-nba-points-01-i4",
+        "name": "Karl Malone",
+        "value": "36,928 points",
+        "numericValue": 36928
+      },
+      {
+        "id": "sports-nba-points-01-i5",
+        "name": "Kareem Abdul-Jabbar",
+        "value": "38,387 points",
+        "numericValue": 38387
+      }
+    ]
   }
 ]
