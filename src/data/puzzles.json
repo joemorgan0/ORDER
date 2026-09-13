@@ -6315,5 +6315,245 @@
         "numericValue": 38387
       }
     ]
+  },
+  {
+    "id": "movies-runtime-20260918",
+    "date": "2026-09-18",
+    "category": "Movies",
+    "question": "Order these famous movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mov-i1",
+        "name": "The Nightmare Before Christmas",
+        "value": "76 minutes",
+        "numericValue": 76
+      },
+      {
+        "id": "p-mov-i2",
+        "name": "Gravity",
+        "value": "91 minutes",
+        "numericValue": 91
+      },
+      {
+        "id": "p-mov-i3",
+        "name": "Mad Max: Fury Road",
+        "value": "120 minutes",
+        "numericValue": 120
+      },
+      {
+        "id": "p-mov-i4",
+        "name": "Inception",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p-mov-i5",
+        "name": "Avengers: Endgame",
+        "value": "181 minutes",
+        "numericValue": 181
+      }
+    ]
+  },
+  {
+    "id": "order-vg-fighting-rosters",
+    "date": "2026-09-18",
+    "category": "Video Games",
+    "question": "Order these iconic fighting games by the size of their base playable character roster at launch, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-1",
+        "name": "Street Fighter II: The World Warrior",
+        "value": "8 fighters",
+        "numericValue": 8
+      },
+      {
+        "id": "p-vg-2",
+        "name": "Super Smash Bros. (N64)",
+        "value": "12 fighters",
+        "numericValue": 12
+      },
+      {
+        "id": "p-vg-3",
+        "name": "Street Fighter V (Launch)",
+        "value": "16 fighters",
+        "numericValue": 16
+      },
+      {
+        "id": "p-vg-4",
+        "name": "Super Smash Bros. Melee",
+        "value": "26 fighters",
+        "numericValue": 26
+      },
+      {
+        "id": "p-vg-5",
+        "name": "Marvel vs. Capcom 2: New Age of Heroes",
+        "value": "56 fighters",
+        "numericValue": 56
+      }
+    ]
+  },
+  {
+    "id": "geo-elev-001",
+    "date": "2026-09-18",
+    "category": "Geography",
+    "question": "Order these European countries by the elevation of their highest point above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-elev-001-i1",
+        "name": "Denmark",
+        "value": "171 m (Møllehøj)",
+        "numericValue": 171
+      },
+      {
+        "id": "geo-elev-001-i2",
+        "name": "Estonia",
+        "value": "318 m (Suur Munamägi)",
+        "numericValue": 318
+      },
+      {
+        "id": "geo-elev-001-i3",
+        "name": "Hungary",
+        "value": "1,014 m (Kékes)",
+        "numericValue": 1014
+      },
+      {
+        "id": "geo-elev-001-i4",
+        "name": "Poland",
+        "value": "2,499 m (Rysy)",
+        "numericValue": 2499
+      },
+      {
+        "id": "geo-elev-001-i5",
+        "name": "Spain",
+        "value": "3,715 m (Mount Teide)",
+        "numericValue": 3715
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-09-18",
+    "category": "Music",
+    "question": "Order these iconic rock songs by their official studio album track duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "\"Station to Station\" (David Bowie)",
+        "value": "10:14",
+        "numericValue": 614
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "\"Rime of the Ancient Mariner\" (Iron Maiden)",
+        "value": "13:37",
+        "numericValue": 817
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "\"Echoes\" (Pink Floyd)",
+        "value": "23:31",
+        "numericValue": 1411
+      }
+    ]
+  },
+  {
+    "id": "puzzle-2026-09-18",
+    "date": "2026-09-18",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260918-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.8
+      },
+      {
+        "id": "p20260918-i2",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.5
+      },
+      {
+        "id": "p20260918-i3",
+        "name": "Gold",
+        "value": "1,064 °C",
+        "numericValue": 1064
+      },
+      {
+        "id": "p20260918-i4",
+        "name": "Iron",
+        "value": "1,538 °C",
+        "numericValue": 1538
+      },
+      {
+        "id": "p20260918-i5",
+        "name": "Tungsten",
+        "value": "3,422 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "order-sports-001",
+    "date": "2026-09-18",
+    "category": "Sports",
+    "question": "Order these legendary tennis players by the number of career Men's Singles Grand Slam titles they won, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p001-i2",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p001-i3",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      },
+      {
+        "id": "p001-i4",
+        "name": "Andre Agassi",
+        "value": "8 titles",
+        "numericValue": 8
+      },
+      {
+        "id": "p001-i5",
+        "name": "Boris Becker",
+        "value": "6 titles",
+        "numericValue": 6
+      }
+    ]
   }
 ]
