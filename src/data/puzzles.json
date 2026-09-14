@@ -6555,5 +6555,245 @@
         "numericValue": 6
       }
     ]
+  },
+  {
+    "id": "puzzle-2026-09-19-movies",
+    "date": "2026-09-19",
+    "category": "Movies",
+    "question": "Order these feature films by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260919-i1",
+        "name": "Dunkirk (2017)",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p20260919-i2",
+        "name": "Inception (2010)",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p20260919-i3",
+        "name": "Oppenheimer (2023)",
+        "value": "180 minutes",
+        "numericValue": 180
+      },
+      {
+        "id": "p20260919-i4",
+        "name": "Avengers: Endgame (2019)",
+        "value": "181 minutes",
+        "numericValue": 181
+      },
+      {
+        "id": "p20260919-i5",
+        "name": "Killers of the Flower Moon (2023)",
+        "value": "206 minutes",
+        "numericValue": 206
+      }
+    ]
+  },
+  {
+    "id": "vg-map-size-001",
+    "date": "2026-09-19",
+    "category": "Video Games",
+    "question": "Order these open-world video games by total map area in square kilometers, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260919-i1",
+        "name": "The Elder Scrolls V: Skyrim",
+        "value": "37 km²",
+        "numericValue": 37
+      },
+      {
+        "id": "p20260919-i2",
+        "name": "Grand Theft Auto V",
+        "value": "75 km²",
+        "numericValue": 75
+      },
+      {
+        "id": "p20260919-i3",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "135 km²",
+        "numericValue": 135
+      },
+      {
+        "id": "p20260919-i4",
+        "name": "Assassin's Creed Odyssey",
+        "value": "256 km²",
+        "numericValue": 256
+      },
+      {
+        "id": "p20260919-i5",
+        "name": "Just Cause 4",
+        "value": "1,024 km²",
+        "numericValue": 1024
+      }
+    ]
+  },
+  {
+    "id": "geo-capital-elevations-01",
+    "date": "2026-09-19",
+    "category": "Geography",
+    "question": "Order these world capital cities by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Addis Ababa (Ethiopia)",
+        "value": "2,355 m",
+        "numericValue": 2355
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Bogotá (Colombia)",
+        "value": "2,640 m",
+        "numericValue": 2640
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m",
+        "numericValue": 2850
+      }
+    ]
+  },
+  {
+    "id": "order-music-song-durations",
+    "date": "2026-09-19",
+    "category": "Music",
+    "question": "Order these iconic classic rock songs by the duration of their standard studio album versions, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mus-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p-mus-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p-mus-i3",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p-mus-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p-mus-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "sci-boiling-points-01",
+    "date": "2026-09-19",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-boiling-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.93
+      },
+      {
+        "id": "sci-boiling-i2",
+        "name": "Oxygen",
+        "value": "-183.0 °C",
+        "numericValue": -182.96
+      },
+      {
+        "id": "sci-boiling-i3",
+        "name": "Chlorine",
+        "value": "-34.0 °C",
+        "numericValue": -34.04
+      },
+      {
+        "id": "sci-boiling-i4",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.73
+      },
+      {
+        "id": "sci-boiling-i5",
+        "name": "Gold",
+        "value": "2,856 °C",
+        "numericValue": 2856
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-lengths",
+    "date": "2026-09-19",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by their official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-circuit-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "f1-circuit-i2",
+        "name": "Autódromo José Carlos Pace (Interlagos)",
+        "value": "4.309 km",
+        "numericValue": 4.309
+      },
+      {
+        "id": "f1-circuit-i3",
+        "name": "Circuit de Barcelona-Catalunya",
+        "value": "4.657 km",
+        "numericValue": 4.657
+      },
+      {
+        "id": "f1-circuit-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "f1-circuit-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
