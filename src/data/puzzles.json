@@ -6795,5 +6795,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-runtime-01",
+    "date": "2026-09-20",
+    "category": "Movies",
+    "question": "Order these famous feature films by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "p1-i2",
+        "name": "Avengers: Endgame",
+        "value": "181 minutes",
+        "numericValue": 181
+      },
+      {
+        "id": "p1-i3",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "p1-i4",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "201 minutes",
+        "numericValue": 201
+      },
+      {
+        "id": "p1-i5",
+        "name": "Gone with the Wind",
+        "value": "238 minutes",
+        "numericValue": 238
+      }
+    ]
+  },
+  {
+    "id": "vg-level-caps-01",
+    "date": "2026-09-20",
+    "category": "Video Games",
+    "question": "Order these famous RPGs by their maximum character level cap in the base game (without expansions or DLC), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-level-caps-01-i1",
+        "name": "Baldur's Gate 3",
+        "value": "Level 12",
+        "numericValue": 12
+      },
+      {
+        "id": "vg-level-caps-01-i2",
+        "name": "Fallout 3",
+        "value": "Level 20",
+        "numericValue": 20
+      },
+      {
+        "id": "vg-level-caps-01-i3",
+        "name": "Final Fantasy XIV: A Realm Reborn",
+        "value": "Level 50",
+        "numericValue": 50
+      },
+      {
+        "id": "vg-level-caps-01-i4",
+        "name": "World of Warcraft (Vanilla)",
+        "value": "Level 60",
+        "numericValue": 60
+      },
+      {
+        "id": "vg-level-caps-01-i5",
+        "name": "Pokémon Red and Blue",
+        "value": "Level 100",
+        "numericValue": 100
+      }
+    ]
+  },
+  {
+    "id": "geography-lakes-depth-asc",
+    "date": "2026-09-20",
+    "category": "Geography",
+    "question": "Order these bodies of water by maximum depth, from shallowest to deepest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeog-i1",
+        "name": "Lake Superior",
+        "value": "406 m",
+        "numericValue": 406
+      },
+      {
+        "id": "pgeog-i2",
+        "name": "Lake Malawi",
+        "value": "706 m",
+        "numericValue": 706
+      },
+      {
+        "id": "pgeog-i3",
+        "name": "Caspian Sea",
+        "value": "1,025 m",
+        "numericValue": 1025
+      },
+      {
+        "id": "pgeog-i4",
+        "name": "Lake Tanganyika",
+        "value": "1,470 m",
+        "numericValue": 1470
+      },
+      {
+        "id": "pgeog-i5",
+        "name": "Lake Baikal",
+        "value": "1,642 m",
+        "numericValue": 1642
+      }
+    ]
+  },
+  {
+    "id": "order-music-grammy-wins-female-artists",
+    "date": "2026-09-20",
+    "category": "Music",
+    "question": "Order these female musicians by the total number of Grammy Awards they have won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-music-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "p-music-i2",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      },
+      {
+        "id": "p-music-i3",
+        "name": "Aretha Franklin",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "p-music-i4",
+        "name": "Alison Krauss",
+        "value": "27 Grammys",
+        "numericValue": 27
+      },
+      {
+        "id": "p-music-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "puzzle-science-density",
+    "date": "2026-09-20",
+    "category": "Science",
+    "question": "Order these metals by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "density-i1",
+        "name": "Lithium",
+        "value": "0.53 g/cm³",
+        "numericValue": 0.53
+      },
+      {
+        "id": "density-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "density-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "density-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "density-i5",
+        "name": "Gold",
+        "value": "19.32 g/cm³",
+        "numericValue": 19.32
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-grand-slam-titles",
+    "date": "2026-09-20",
+    "category": "Sports",
+    "question": "Order these tennis legends by the number of career Grand Slam singles titles won, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Margaret Court",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "p001-i2",
+        "name": "Serena Williams",
+        "value": "23 titles",
+        "numericValue": 23
+      },
+      {
+        "id": "p001-i3",
+        "name": "Steffi Graf",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p001-i4",
+        "name": "Martina Navratilova",
+        "value": "18 titles",
+        "numericValue": 18
+      },
+      {
+        "id": "p001-i5",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      }
+    ]
   }
 ]
