@@ -7035,5 +7035,245 @@
         "numericValue": 14
       }
     ]
+  },
+  {
+    "id": "puzzle-2026-09-21-movies",
+    "date": "2026-09-21",
+    "category": "Movies",
+    "question": "Order these Oscar-winning movies by the total number of Academy Awards won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260921-i1",
+        "name": "Schindler's List",
+        "value": "7 wins",
+        "numericValue": 7
+      },
+      {
+        "id": "p20260921-i2",
+        "name": "Cabaret",
+        "value": "8 wins",
+        "numericValue": 8
+      },
+      {
+        "id": "p20260921-i3",
+        "name": "The Last Emperor",
+        "value": "9 wins",
+        "numericValue": 9
+      },
+      {
+        "id": "p20260921-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 wins",
+        "numericValue": 10
+      },
+      {
+        "id": "p20260921-i5",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 wins",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "vg-console-launch-price",
+    "date": "2026-09-21",
+    "category": "Video Games",
+    "question": "Order these video game consoles by their original U.S. launch price (unadjusted for inflation), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Game Boy",
+        "value": "$89.95",
+        "numericValue": 89.95
+      },
+      {
+        "id": "p1-i2",
+        "name": "Nintendo GameCube",
+        "value": "$199.99",
+        "numericValue": 199.99
+      },
+      {
+        "id": "p1-i3",
+        "name": "Nintendo Switch",
+        "value": "$299.99",
+        "numericValue": 299.99
+      },
+      {
+        "id": "p1-i4",
+        "name": "PlayStation 4",
+        "value": "$399.99",
+        "numericValue": 399.99
+      },
+      {
+        "id": "p1-i5",
+        "name": "PlayStation 3 (60GB model)",
+        "value": "$599.99",
+        "numericValue": 599.99
+      }
+    ]
+  },
+  {
+    "id": "geo-capital-elevations-01",
+    "date": "2026-09-21",
+    "category": "Geography",
+    "question": "Order these world capitals by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-capital-elevations-01-i1",
+        "name": "Tokyo (Japan)",
+        "value": "40 m",
+        "numericValue": 40
+      },
+      {
+        "id": "geo-capital-elevations-01-i2",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "geo-capital-elevations-01-i3",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "geo-capital-elevations-01-i4",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m",
+        "numericValue": 2850
+      },
+      {
+        "id": "geo-capital-elevations-01-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-track-lengths-01",
+    "date": "2026-09-21",
+    "category": "Music",
+    "question": "Order these iconic classic rock songs by their original studio album track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p01-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p01-i3",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p01-i4",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:33",
+        "numericValue": 513
+      },
+      {
+        "id": "p01-i5",
+        "name": "\"Free Bird\" (Lynyrd Skynyrd)",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "puzzle-2026-09-21-science",
+    "date": "2026-09-21",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.93
+      },
+      {
+        "id": "sci-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.79
+      },
+      {
+        "id": "sci-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.73
+      },
+      {
+        "id": "sci-i4",
+        "name": "Gold",
+        "value": "2,700 °C",
+        "numericValue": 2700
+      },
+      {
+        "id": "sci-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-grand-slams-01",
+    "date": "2026-09-21",
+    "category": "Sports",
+    "question": "Order these male tennis players by the number of career Grand Slam singles titles won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "p1-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p1-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p1-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i5",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      }
+    ]
   }
 ]
