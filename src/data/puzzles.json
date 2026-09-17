@@ -7275,5 +7275,245 @@
         "numericValue": 11
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-001",
+    "date": "2026-09-22",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "p001-i2",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p001-i3",
+        "name": "The Last Emperor",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p001-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p001-i5",
+        "name": "Ben-Hur (1959)",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "p20260922-vg",
+    "date": "2026-09-22",
+    "category": "Video Games",
+    "question": "Order these retro video game consoles by their main CPU clock speed, from slowest to fastest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260922-vg-i1",
+        "name": "Nintendo Entertainment System (NES)",
+        "value": "1.79 MHz",
+        "numericValue": 1.79
+      },
+      {
+        "id": "p20260922-vg-i2",
+        "name": "Super Nintendo (SNES)",
+        "value": "3.58 MHz",
+        "numericValue": 3.58
+      },
+      {
+        "id": "p20260922-vg-i3",
+        "name": "Sega Genesis",
+        "value": "7.67 MHz",
+        "numericValue": 7.67
+      },
+      {
+        "id": "p20260922-vg-i4",
+        "name": "Sony PlayStation (PS1)",
+        "value": "33.87 MHz",
+        "numericValue": 33.87
+      },
+      {
+        "id": "p20260922-vg-i5",
+        "name": "Nintendo 64",
+        "value": "93.75 MHz",
+        "numericValue": 93.75
+      }
+    ]
+  },
+  {
+    "id": "geo-elev-001",
+    "date": "2026-09-22",
+    "category": "Geography",
+    "question": "Order these capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m",
+        "numericValue": -28
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Amsterdam (Netherlands)",
+        "value": "2 m",
+        "numericValue": 2
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Nairobi (Kenya)",
+        "value": "1,795 m",
+        "numericValue": 1795
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m",
+        "numericValue": 2850
+      }
+    ]
+  },
+  {
+    "id": "music-song-durations-01",
+    "date": "2026-09-22",
+    "category": "Music",
+    "question": "Order these iconic rock songs by their official studio recording duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-song-durations-01-i1",
+        "name": "\"Blitzkrieg Bop\" (Ramones)",
+        "value": "2:12",
+        "numericValue": 132
+      },
+      {
+        "id": "music-song-durations-01-i2",
+        "name": "\"Paranoid\" (Black Sabbath)",
+        "value": "2:48",
+        "numericValue": 168
+      },
+      {
+        "id": "music-song-durations-01-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "music-song-durations-01-i4",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "music-song-durations-01-i5",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      }
+    ]
+  },
+  {
+    "id": "puzzle-science-2026-09-22",
+    "date": "2026-09-22",
+    "category": "Science",
+    "question": "Order these noble gases by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260922-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p20260922-i2",
+        "name": "Neon",
+        "value": "-246.1 °C",
+        "numericValue": -246.1
+      },
+      {
+        "id": "p20260922-i3",
+        "name": "Argon",
+        "value": "-185.9 °C",
+        "numericValue": -185.9
+      },
+      {
+        "id": "p20260922-i4",
+        "name": "Krypton",
+        "value": "-153.2 °C",
+        "numericValue": -153.2
+      },
+      {
+        "id": "p20260922-i5",
+        "name": "Xenon",
+        "value": "-108.1 °C",
+        "numericValue": -108.1
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuits-length",
+    "date": "2026-09-22",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by current track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-circuits-length-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "sports-f1-circuits-length-i2",
+        "name": "Circuit Zandvoort",
+        "value": "4.259 km",
+        "numericValue": 4.259
+      },
+      {
+        "id": "sports-f1-circuits-length-i3",
+        "name": "Autódromo José Carlos Pace (Interlagos)",
+        "value": "4.309 km",
+        "numericValue": 4.309
+      },
+      {
+        "id": "sports-f1-circuits-length-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "sports-f1-circuits-length-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
