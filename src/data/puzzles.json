@@ -7515,5 +7515,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "puzzle-movies-nolan-runtime",
+    "date": "2026-09-23",
+    "category": "Movies",
+    "question": "Order these Christopher Nolan movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mov-1",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p-mov-2",
+        "name": "The Prestige",
+        "value": "130 minutes",
+        "numericValue": 130
+      },
+      {
+        "id": "p-mov-3",
+        "name": "Inception",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p-mov-4",
+        "name": "Interstellar",
+        "value": "169 minutes",
+        "numericValue": 169
+      },
+      {
+        "id": "p-mov-5",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      }
+    ]
+  },
+  {
+    "id": "ord-2026-09-23-vg",
+    "date": "2026-09-23",
+    "category": "Video Games",
+    "question": "Order these video games by their Metacritic score on their specified release platform, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260923-i1",
+        "name": "Cyberpunk 2077 (PC)",
+        "value": "86",
+        "numericValue": 86
+      },
+      {
+        "id": "p20260923-i2",
+        "name": "Dark Souls (Xbox 360)",
+        "value": "89",
+        "numericValue": 89
+      },
+      {
+        "id": "p20260923-i3",
+        "name": "The Witcher 3: Wild Hunt (PC)",
+        "value": "93",
+        "numericValue": 93
+      },
+      {
+        "id": "p20260923-i4",
+        "name": "Elden Ring (PlayStation 5)",
+        "value": "96",
+        "numericValue": 96
+      },
+      {
+        "id": "p20260923-i5",
+        "name": "The Legend of Zelda: Ocarina of Time (Nintendo 64)",
+        "value": "99",
+        "numericValue": 99
+      }
+    ]
+  },
+  {
+    "id": "geo-2026-0923",
+    "date": "2026-09-23",
+    "category": "Geography",
+    "question": "Order these European capital cities by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p101-i1",
+        "name": "Amsterdam (Netherlands)",
+        "value": "-2 meters",
+        "numericValue": -2
+      },
+      {
+        "id": "p101-i2",
+        "name": "Paris (France)",
+        "value": "35 meters",
+        "numericValue": 35
+      },
+      {
+        "id": "p101-i3",
+        "name": "Vienna (Austria)",
+        "value": "171 meters",
+        "numericValue": 171
+      },
+      {
+        "id": "p101-i4",
+        "name": "Bern (Switzerland)",
+        "value": "540 meters",
+        "numericValue": 540
+      },
+      {
+        "id": "p101-i5",
+        "name": "Madrid (Spain)",
+        "value": "667 meters",
+        "numericValue": 667
+      }
+    ]
+  },
+  {
+    "id": "music-01",
+    "date": "2026-09-23",
+    "category": "Music",
+    "question": "Order these iconic studio albums by their original total running time, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-m01-i1",
+        "name": "Reign in Blood (Slayer)",
+        "value": "28 min 58 sec",
+        "numericValue": 1738
+      },
+      {
+        "id": "p-m01-i2",
+        "name": "Pet Sounds (The Beach Boys)",
+        "value": "35 min 57 sec",
+        "numericValue": 2157
+      },
+      {
+        "id": "p-m01-i3",
+        "name": "Thriller (Michael Jackson)",
+        "value": "42 min 19 sec",
+        "numericValue": 2539
+      },
+      {
+        "id": "p-m01-i4",
+        "name": "Abbey Road (The Beatles)",
+        "value": "47 min 23 sec",
+        "numericValue": 2843
+      },
+      {
+        "id": "p-m01-i5",
+        "name": "The Wall (Pink Floyd)",
+        "value": "81 min 08 sec",
+        "numericValue": 4868
+      }
+    ]
+  },
+  {
+    "id": "p20260923-science",
+    "date": "2026-09-23",
+    "category": "Science",
+    "question": "Order these metallic elements by their melting point, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260923-science-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.8
+      },
+      {
+        "id": "p20260923-science-i2",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.5
+      },
+      {
+        "id": "p20260923-science-i3",
+        "name": "Aluminium",
+        "value": "660.3 °C",
+        "numericValue": 660.3
+      },
+      {
+        "id": "p20260923-science-i4",
+        "name": "Gold",
+        "value": "1,064.2 °C",
+        "numericValue": 1064.2
+      },
+      {
+        "id": "p20260923-science-i5",
+        "name": "Tungsten",
+        "value": "3,422.0 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-001",
+    "date": "2026-09-23",
+    "category": "Sports",
+    "question": "Order these male tennis legends by total career Grand Slam singles titles, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-001-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "sports-001-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "sports-001-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "sports-001-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "sports-001-i5",
+        "name": "Roy Emerson",
+        "value": "12 titles",
+        "numericValue": 12
+      }
+    ]
   }
 ]
