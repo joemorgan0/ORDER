@@ -7755,5 +7755,245 @@
         "numericValue": 12
       }
     ]
+  },
+  {
+    "id": "p20260924-movies",
+    "date": "2026-09-24",
+    "category": "Movies",
+    "question": "Order these Best Picture-winning movies by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260924-movies-i1",
+        "name": "Marty",
+        "value": "90 minutes",
+        "numericValue": 90
+      },
+      {
+        "id": "p20260924-movies-i2",
+        "name": "Driving Miss Daisy",
+        "value": "99 minutes",
+        "numericValue": 99
+      },
+      {
+        "id": "p20260924-movies-i3",
+        "name": "The Silence of the Lambs",
+        "value": "118 minutes",
+        "numericValue": 118
+      },
+      {
+        "id": "p20260924-movies-i4",
+        "name": "Forrest Gump",
+        "value": "142 minutes",
+        "numericValue": 142
+      },
+      {
+        "id": "p20260924-movies-i5",
+        "name": "The Godfather Part II",
+        "value": "202 minutes",
+        "numericValue": 202
+      }
+    ]
+  },
+  {
+    "id": "vg-launch-roster-01",
+    "date": "2026-09-24",
+    "category": "Video Games",
+    "question": "Order these video games by the total number of playable characters available in their base launch roster, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-launch-roster-01-i1",
+        "name": "Street Fighter II (SNES)",
+        "value": "8 characters",
+        "numericValue": 8
+      },
+      {
+        "id": "vg-launch-roster-01-i2",
+        "name": "Super Smash Bros. (N64)",
+        "value": "12 characters",
+        "numericValue": 12
+      },
+      {
+        "id": "vg-launch-roster-01-i3",
+        "name": "Overwatch (Launch version)",
+        "value": "21 heroes",
+        "numericValue": 21
+      },
+      {
+        "id": "vg-launch-roster-01-i4",
+        "name": "Marvel vs. Capcom 2",
+        "value": "56 characters",
+        "numericValue": 56
+      },
+      {
+        "id": "vg-launch-roster-01-i5",
+        "name": "Super Smash Bros. Ultimate (Base game)",
+        "value": "74 fighters",
+        "numericValue": 74
+      }
+    ]
+  },
+  {
+    "id": "p2026-09-24-geo",
+    "date": "2026-09-24",
+    "category": "Geography",
+    "question": "Order these South American countries by total area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p2026-09-24-geo-i1",
+        "name": "Suriname",
+        "value": "163,820 km²",
+        "numericValue": 163820
+      },
+      {
+        "id": "p2026-09-24-geo-i2",
+        "name": "Ecuador",
+        "value": "283,561 km²",
+        "numericValue": 283561
+      },
+      {
+        "id": "p2026-09-24-geo-i3",
+        "name": "Paraguay",
+        "value": "406,752 km²",
+        "numericValue": 406752
+      },
+      {
+        "id": "p2026-09-24-geo-i4",
+        "name": "Chile",
+        "value": "756,102 km²",
+        "numericValue": 756102
+      },
+      {
+        "id": "p2026-09-24-geo-i5",
+        "name": "Argentina",
+        "value": "2,780,400 km²",
+        "numericValue": 2780400
+      }
+    ]
+  },
+  {
+    "id": "music-song-duration-01",
+    "date": "2026-09-24",
+    "category": "Music",
+    "question": "Order these iconic songs by their original studio album track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-song-duration-01-i1",
+        "name": "\"Eleanor Rigby\" (The Beatles)",
+        "value": "2:06",
+        "numericValue": 126
+      },
+      {
+        "id": "music-song-duration-01-i2",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "music-song-duration-01-i3",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "music-song-duration-01-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "music-song-duration-01-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "science-surface-gravity",
+    "date": "2026-09-24",
+    "category": "Science",
+    "question": "Order these Solar System bodies by their surface gravity, from weakest to strongest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "The Moon",
+        "value": "1.62 m/s²",
+        "numericValue": 1.62
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Mars",
+        "value": "3.72 m/s²",
+        "numericValue": 3.72
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Earth",
+        "value": "9.81 m/s²",
+        "numericValue": 9.81
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Neptune",
+        "value": "11.15 m/s²",
+        "numericValue": 11.15
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Jupiter",
+        "value": "24.79 m/s²",
+        "numericValue": 24.79
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-lengths",
+    "date": "2026-09-24",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-circuit-lengths-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i2",
+        "name": "Circuit Gilles Villeneuve",
+        "value": "4.361 km",
+        "numericValue": 4.361
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i3",
+        "name": "Circuit de Barcelona-Catalunya",
+        "value": "4.657 km",
+        "numericValue": 4.657
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
