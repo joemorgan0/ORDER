@@ -7995,5 +7995,205 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movie-oscar-wins-2026",
+    "date": "2026-09-25",
+    "category": "Movies",
+    "question": "Order these films by the number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260925-i1",
+        "name": "The Zone of Interest",
+        "value": "2 Oscars",
+        "numericValue": 2
+      },
+      {
+        "id": "p20260925-i2",
+        "name": "Jurassic Park",
+        "value": "3 Oscars",
+        "numericValue": 3
+      },
+      {
+        "id": "p20260925-i3",
+        "name": "Inception",
+        "value": "4 Oscars",
+        "numericValue": 4
+      },
+      {
+        "id": "p20260925-i4",
+        "name": "Gladiator",
+        "value": "5 Oscars",
+        "numericValue": 5
+      },
+      {
+        "id": "p20260925-i5",
+        "name": "La La Land",
+        "value": "6 Oscars",
+        "numericValue": 6
+      }
+    ]
+  },
+  {
+    "id": "geo-peaks-elevation-01",
+    "date": "2026-09-25",
+    "category": "Geography",
+    "question": "Order these famous mountain peaks by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "geo-peaks-elevation-01-i1",
+        "name": "Mount Kosciuszko",
+        "value": "2,228 m",
+        "numericValue": 2228
+      },
+      {
+        "id": "geo-peaks-elevation-01-i2",
+        "name": "Mont Blanc",
+        "value": "4,808 m",
+        "numericValue": 4808
+      },
+      {
+        "id": "geo-peaks-elevation-01-i3",
+        "name": "Mount Kilimanjaro",
+        "value": "5,895 m",
+        "numericValue": 5895
+      },
+      {
+        "id": "geo-peaks-elevation-01-i4",
+        "name": "Denali",
+        "value": "6,190 m",
+        "numericValue": 6190
+      },
+      {
+        "id": "geo-peaks-elevation-01-i5",
+        "name": "Mount Everest",
+        "value": "8,848 m",
+        "numericValue": 8848
+      }
+    ]
+  },
+  {
+    "id": "music-song-runtimes-01",
+    "date": "2026-09-25",
+    "category": "Music",
+    "question": "Order these classic hit songs by their official studio version runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-m1-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p-m1-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p-m1-i3",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p-m1-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p-m1-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "sci-mp-001",
+    "date": "2026-09-25",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-mp-001-i1",
+        "name": "Mercury",
+        "value": "-38.83 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "sci-mp-001-i2",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.5
+      },
+      {
+        "id": "sci-mp-001-i3",
+        "name": "Silver",
+        "value": "961.8 °C",
+        "numericValue": 961.8
+      },
+      {
+        "id": "sci-mp-001-i4",
+        "name": "Iron",
+        "value": "1,538 °C",
+        "numericValue": 1538
+      },
+      {
+        "id": "sci-mp-001-i5",
+        "name": "Tungsten",
+        "value": "3,422 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "puzzle-sports-f1-circuits",
+    "date": "2026-09-25",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-f1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p-f1-i2",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "p-f1-i3",
+        "name": "Suzuka Circuit",
+        "value": "5.807 km",
+        "numericValue": 5.807
+      },
+      {
+        "id": "p-f1-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p-f1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
