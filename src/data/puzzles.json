@@ -8195,5 +8195,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-09-26",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mov-i1",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "p-mov-i2",
+        "name": "Amadeus",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p-mov-i3",
+        "name": "The English Patient",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p-mov-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p-mov-i5",
+        "name": "Titanic",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "puzzle-vg-001",
+    "date": "2026-09-26",
+    "category": "Video Games",
+    "question": "Order these Pokémon video game generations by the number of new Pokémon species introduced, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Generation VI (Kalos)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "p1-i2",
+        "name": "Generation II (Johto)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "p1-i3",
+        "name": "Generation IV (Sinnoh)",
+        "value": "107 species",
+        "numericValue": 107
+      },
+      {
+        "id": "p1-i4",
+        "name": "Generation III (Hoenn)",
+        "value": "135 species",
+        "numericValue": 135
+      },
+      {
+        "id": "p1-i5",
+        "name": "Generation V (Unova)",
+        "value": "156 species",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "geo-capitals-elevation",
+    "date": "2026-09-26",
+    "category": "Geography",
+    "question": "Order these world capitals by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m",
+        "numericValue": -28
+      },
+      {
+        "id": "p1-i2",
+        "name": "London (United Kingdom)",
+        "value": "11 m",
+        "numericValue": 11
+      },
+      {
+        "id": "p1-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "p1-i4",
+        "name": "Nairobi (Kenya)",
+        "value": "1,795 m",
+        "numericValue": 1795
+      },
+      {
+        "id": "p1-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-song-lengths-01",
+    "date": "2026-09-26",
+    "category": "Music",
+    "question": "Order these iconic songs by their original studio album track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "\"Eleanor Rigby\" (The Beatles)",
+        "value": "2:06",
+        "numericValue": 126
+      },
+      {
+        "id": "p1-i2",
+        "name": "\"Billie Jean\" (Michael Jackson)",
+        "value": "4:54",
+        "numericValue": 294
+      },
+      {
+        "id": "p1-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p1-i4",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p1-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "science-melting-points-001",
+    "date": "2026-09-26",
+    "category": "Science",
+    "question": "Order these metallic elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-mp-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "sci-mp-i2",
+        "name": "Gallium",
+        "value": "29.8 °C",
+        "numericValue": 29.76
+      },
+      {
+        "id": "sci-mp-i3",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.46
+      },
+      {
+        "id": "sci-mp-i4",
+        "name": "Iron",
+        "value": "1,538 °C",
+        "numericValue": 1538
+      },
+      {
+        "id": "sci-mp-i5",
+        "name": "Tungsten",
+        "value": "3,422 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-09-26",
+    "category": "Sports",
+    "question": "Order these NBA players by their total career NBA regular season points scored, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "LeBron James",
+        "value": "40,474 points",
+        "numericValue": 40474
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Kareem Abdul-Jabbar",
+        "value": "38,387 points",
+        "numericValue": 38387
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Karl Malone",
+        "value": "36,928 points",
+        "numericValue": 36928
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Kobe Bryant",
+        "value": "33,643 points",
+        "numericValue": 33643
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Michael Jordan",
+        "value": "32,292 points",
+        "numericValue": 32292
+      }
+    ]
   }
 ]
