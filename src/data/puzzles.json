@@ -8435,5 +8435,165 @@
         "numericValue": 32292
       }
     ]
+  },
+  {
+    "id": "order-movies-runtime-101",
+    "date": "2026-09-27",
+    "category": "Movies",
+    "question": "Order these famous movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p101-i1",
+        "name": "Dumbo (1941)",
+        "value": "64 minutes",
+        "numericValue": 64
+      },
+      {
+        "id": "p101-i2",
+        "name": "Toy Story (1995)",
+        "value": "81 minutes",
+        "numericValue": 81
+      },
+      {
+        "id": "p101-i3",
+        "name": "Spirited Away (2001)",
+        "value": "125 minutes",
+        "numericValue": 125
+      },
+      {
+        "id": "p101-i4",
+        "name": "The Godfather (1972)",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "p101-i5",
+        "name": "Avatar: The Way of Water (2022)",
+        "value": "192 minutes",
+        "numericValue": 192
+      }
+    ]
+  },
+  {
+    "id": "geo-elevation-01",
+    "date": "2026-09-27",
+    "category": "Geography",
+    "question": "Order these countries by the elevation of their highest point above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-elevation-01-i1",
+        "name": "Netherlands",
+        "value": "322 m (Vaalserberg)",
+        "numericValue": 322
+      },
+      {
+        "id": "geo-elevation-01-i2",
+        "name": "United Kingdom",
+        "value": "1,345 m (Ben Nevis)",
+        "numericValue": 1345
+      },
+      {
+        "id": "geo-elevation-01-i3",
+        "name": "Australia",
+        "value": "2,228 m (Mount Kosciuszko)",
+        "numericValue": 2228
+      },
+      {
+        "id": "geo-elevation-01-i4",
+        "name": "Japan",
+        "value": "3,776 m (Mount Fuji)",
+        "numericValue": 3776
+      },
+      {
+        "id": "geo-elevation-01-i5",
+        "name": "France",
+        "value": "4,808 m (Mont Blanc)",
+        "numericValue": 4808
+      }
+    ]
+  },
+  {
+    "id": "p20260927-music",
+    "date": "2026-09-27",
+    "category": "Music",
+    "question": "Order these iconic songs by the duration of their original studio recordings, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20260927-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p20260927-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p20260927-i3",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p20260927-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p20260927-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-wins-001",
+    "date": "2026-09-27",
+    "category": "Sports",
+    "question": "Order these Formula 1 drivers by their total number of career Grand Prix wins, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-i1",
+        "name": "Lewis Hamilton",
+        "value": "105 wins",
+        "numericValue": 105
+      },
+      {
+        "id": "sports-f1-i2",
+        "name": "Michael Schumacher",
+        "value": "91 wins",
+        "numericValue": 91
+      },
+      {
+        "id": "sports-f1-i3",
+        "name": "Sebastian Vettel",
+        "value": "53 wins",
+        "numericValue": 53
+      },
+      {
+        "id": "sports-f1-i4",
+        "name": "Ayrton Senna",
+        "value": "41 wins",
+        "numericValue": 41
+      },
+      {
+        "id": "sports-f1-i5",
+        "name": "Niki Lauda",
+        "value": "25 wins",
+        "numericValue": 25
+      }
+    ]
   }
 ]
