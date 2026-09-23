@@ -8595,5 +8595,85 @@
         "numericValue": 25
       }
     ]
+  },
+  {
+    "id": "order-movies-oscar-wins-2026",
+    "date": "2026-09-28",
+    "category": "Movies",
+    "question": "Order these Oscar-winning films by the total number of Academy Awards they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mov-i1",
+        "name": "Annie Hall",
+        "value": "4 Oscars",
+        "numericValue": 4
+      },
+      {
+        "id": "p-mov-i2",
+        "name": "Gladiator",
+        "value": "5 Oscars",
+        "numericValue": 5
+      },
+      {
+        "id": "p-mov-i3",
+        "name": "Forrest Gump",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p-mov-i4",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "p-mov-i5",
+        "name": "Slumdog Millionaire",
+        "value": "8 Oscars",
+        "numericValue": 8
+      }
+    ]
+  },
+  {
+    "id": "vg-bst-20260928",
+    "date": "2026-09-28",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their core series Base Stat Total (BST), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-bst-i1",
+        "name": "Pikachu",
+        "value": "320 BST",
+        "numericValue": 320
+      },
+      {
+        "id": "vg-bst-i2",
+        "name": "Lucario",
+        "value": "525 BST",
+        "numericValue": 525
+      },
+      {
+        "id": "vg-bst-i3",
+        "name": "Charizard",
+        "value": "534 BST",
+        "numericValue": 534
+      },
+      {
+        "id": "vg-bst-i4",
+        "name": "Dragonite",
+        "value": "600 BST",
+        "numericValue": 600
+      },
+      {
+        "id": "vg-bst-i5",
+        "name": "Mewtwo",
+        "value": "680 BST",
+        "numericValue": 680
+      }
+    ]
   }
 ]
