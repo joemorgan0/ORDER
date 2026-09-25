@@ -8675,5 +8675,165 @@
         "numericValue": 680
       }
     ]
+  },
+  {
+    "id": "vg-metascore-001",
+    "date": "2026-09-29",
+    "category": "Video Games",
+    "question": "Order these video games by their official launch platform Metacritic Metascore, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Dark Souls (Xbox 360)",
+        "value": "89 / 100",
+        "numericValue": 89
+      },
+      {
+        "id": "p1-i2",
+        "name": "The Witcher 3: Wild Hunt (PC)",
+        "value": "93 / 100",
+        "numericValue": 93
+      },
+      {
+        "id": "p1-i3",
+        "name": "Portal 2 (PC)",
+        "value": "95 / 100",
+        "numericValue": 95
+      },
+      {
+        "id": "p1-i4",
+        "name": "Mass Effect 2 (Xbox 360)",
+        "value": "96 / 100",
+        "numericValue": 96
+      },
+      {
+        "id": "p1-i5",
+        "name": "The Legend of Zelda: Ocarina of Time (N64)",
+        "value": "99 / 100",
+        "numericValue": 99
+      }
+    ]
+  },
+  {
+    "id": "geo-borders-01",
+    "date": "2026-09-29",
+    "category": "Geography",
+    "question": "Order these countries by the number of other nations they share a land border with, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-borders-01-i1",
+        "name": "Australia",
+        "value": "0 land borders",
+        "numericValue": 0
+      },
+      {
+        "id": "geo-borders-01-i2",
+        "name": "United Kingdom",
+        "value": "1 land border",
+        "numericValue": 1
+      },
+      {
+        "id": "geo-borders-01-i3",
+        "name": "United States",
+        "value": "2 land borders",
+        "numericValue": 2
+      },
+      {
+        "id": "geo-borders-01-i4",
+        "name": "Brazil",
+        "value": "10 land borders",
+        "numericValue": 10
+      },
+      {
+        "id": "geo-borders-01-i5",
+        "name": "China",
+        "value": "14 land borders",
+        "numericValue": 14
+      }
+    ]
+  },
+  {
+    "id": "science-density-01",
+    "date": "2026-09-29",
+    "category": "Science",
+    "question": "Order these metals by their density at room temperature (20°C), from least dense to most dense.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p1-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p1-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p1-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p1-i5",
+        "name": "Gold",
+        "value": "19.30 g/cm³",
+        "numericValue": 19.3
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-lengths",
+    "date": "2026-09-29",
+    "category": "Sports",
+    "question": "Order these Formula 1 grand prix circuits by their current lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-circuit-1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "f1-circuit-2",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "f1-circuit-3",
+        "name": "Suzuka International Racing Course",
+        "value": "5.807 km",
+        "numericValue": 5.807
+      },
+      {
+        "id": "f1-circuit-4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "f1-circuit-5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
