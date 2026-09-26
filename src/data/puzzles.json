@@ -8835,5 +8835,165 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "mov-runtime-001",
+    "date": "2026-09-30",
+    "category": "Movies",
+    "question": "Order these feature films by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "mov-runtime-001-i1",
+        "name": "Dune: Part Two",
+        "value": "166 minutes",
+        "numericValue": 166
+      },
+      {
+        "id": "mov-runtime-001-i2",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      },
+      {
+        "id": "mov-runtime-001-i3",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "mov-runtime-001-i4",
+        "name": "The Godfather Part II",
+        "value": "202 minutes",
+        "numericValue": 202
+      },
+      {
+        "id": "mov-runtime-001-i5",
+        "name": "The Irishman",
+        "value": "209 minutes",
+        "numericValue": 209
+      }
+    ]
+  },
+  {
+    "id": "puzzle-vg-001",
+    "date": "2026-09-30",
+    "category": "Video Games",
+    "question": "Order these Pokémon generations by the total number of new Pokémon species introduced in that generation, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Generation VI (X & Y)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "p001-i2",
+        "name": "Generation VII (Sun & Moon)",
+        "value": "88 species",
+        "numericValue": 88
+      },
+      {
+        "id": "p001-i3",
+        "name": "Generation II (Gold & Silver)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "p001-i4",
+        "name": "Generation IV (Diamond & Pearl)",
+        "value": "107 species",
+        "numericValue": 107
+      },
+      {
+        "id": "p001-i5",
+        "name": "Generation V (Black & White)",
+        "value": "156 species",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "geo-lat-01",
+    "date": "2026-09-30",
+    "category": "Geography",
+    "question": "Order these European capital cities by their latitude, from southernmost to northernmost.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-lat-01-i1",
+        "name": "Athens",
+        "value": "37.98° N",
+        "numericValue": 37.98
+      },
+      {
+        "id": "geo-lat-01-i2",
+        "name": "Madrid",
+        "value": "40.42° N",
+        "numericValue": 40.42
+      },
+      {
+        "id": "geo-lat-01-i3",
+        "name": "Rome",
+        "value": "41.90° N",
+        "numericValue": 41.9
+      },
+      {
+        "id": "geo-lat-01-i4",
+        "name": "Paris",
+        "value": "48.86° N",
+        "numericValue": 48.86
+      },
+      {
+        "id": "geo-lat-01-i5",
+        "name": "Oslo",
+        "value": "59.91° N",
+        "numericValue": 59.91
+      }
+    ]
+  },
+  {
+    "id": "sports-golf-majors-001",
+    "date": "2026-09-30",
+    "category": "Sports",
+    "question": "Order these male golfers by the number of Men's Major Championships won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Jack Nicklaus",
+        "value": "18 majors",
+        "numericValue": 18
+      },
+      {
+        "id": "p001-i2",
+        "name": "Tiger Woods",
+        "value": "15 majors",
+        "numericValue": 15
+      },
+      {
+        "id": "p001-i3",
+        "name": "Walter Hagen",
+        "value": "11 majors",
+        "numericValue": 11
+      },
+      {
+        "id": "p001-i4",
+        "name": "Ben Hogan",
+        "value": "9 majors",
+        "numericValue": 9
+      },
+      {
+        "id": "p001-i5",
+        "name": "Nick Faldo",
+        "value": "6 majors",
+        "numericValue": 6
+      }
+    ]
   }
 ]
