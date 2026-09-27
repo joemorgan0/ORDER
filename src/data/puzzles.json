@@ -8995,5 +8995,245 @@
         "numericValue": 6
       }
     ]
+  },
+  {
+    "id": "movies-runtime-001",
+    "date": "2026-10-01",
+    "category": "Movies",
+    "question": "Order these Best Picture Oscar-winning films by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Marty (1955)",
+        "value": "90 minutes",
+        "numericValue": 90
+      },
+      {
+        "id": "p001-i2",
+        "name": "Annie Hall (1977)",
+        "value": "93 minutes",
+        "numericValue": 93
+      },
+      {
+        "id": "p001-i3",
+        "name": "The Silence of the Lambs (1991)",
+        "value": "118 minutes",
+        "numericValue": 118
+      },
+      {
+        "id": "p001-i4",
+        "name": "Forrest Gump (1994)",
+        "value": "142 minutes",
+        "numericValue": 142
+      },
+      {
+        "id": "p001-i5",
+        "name": "The Lord of the Rings: The Return of the King (2003)",
+        "value": "201 minutes",
+        "numericValue": 201
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-10-01",
+    "category": "Video Games",
+    "question": "Order these video games by average main story completion time (according to HowLongToBeat data), from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Portal",
+        "value": "3 hours",
+        "numericValue": 3
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Uncharted 2: Among Thieves",
+        "value": "10.5 hours",
+        "numericValue": 10.5
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "The Last of Us Part I",
+        "value": "15 hours",
+        "numericValue": 15
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "51.5 hours",
+        "numericValue": 51.5
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Persona 5 Royal",
+        "value": "101 hours",
+        "numericValue": 101
+      }
+    ]
+  },
+  {
+    "id": "geo-lake-depths-01",
+    "date": "2026-10-01",
+    "category": "Geography",
+    "question": "Order these major lakes by their maximum depth, from shallowest to deepest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Lake Winnipeg",
+        "value": "36 m",
+        "numericValue": 36
+      },
+      {
+        "id": "p1-i2",
+        "name": "Lake Erie",
+        "value": "64 m",
+        "numericValue": 64
+      },
+      {
+        "id": "p1-i3",
+        "name": "Lake Ontario",
+        "value": "244 m",
+        "numericValue": 244
+      },
+      {
+        "id": "p1-i4",
+        "name": "Lake Superior",
+        "value": "406 m",
+        "numericValue": 406
+      },
+      {
+        "id": "p1-i5",
+        "name": "Lake Baikal",
+        "value": "1,642 m",
+        "numericValue": 1642
+      }
+    ]
+  },
+  {
+    "id": "music-album-runtimes-1",
+    "date": "2026-10-01",
+    "category": "Music",
+    "question": "Order these iconic studio albums by their total runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Reign in Blood (Slayer)",
+        "value": "28m 58s",
+        "numericValue": 1738
+      },
+      {
+        "id": "p1-i2",
+        "name": "Rumours (Fleetwood Mac)",
+        "value": "39m 43s",
+        "numericValue": 2383
+      },
+      {
+        "id": "p1-i3",
+        "name": "Thriller (Michael Jackson)",
+        "value": "42m 19s",
+        "numericValue": 2539
+      },
+      {
+        "id": "p1-i4",
+        "name": "Master of Puppets (Metallica)",
+        "value": "54m 47s",
+        "numericValue": 3287
+      },
+      {
+        "id": "p1-i5",
+        "name": "To Pimp a Butterfly (Kendrick Lamar)",
+        "value": "78m 51s",
+        "numericValue": 4731
+      }
+    ]
+  },
+  {
+    "id": "sci-001",
+    "date": "2026-10-01",
+    "category": "Science",
+    "question": "Order these planets of the Solar System by their mean density, from least dense to most dense.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-001-i1",
+        "name": "Saturn",
+        "value": "0.69 g/cm³",
+        "numericValue": 0.69
+      },
+      {
+        "id": "sci-001-i2",
+        "name": "Uranus",
+        "value": "1.27 g/cm³",
+        "numericValue": 1.27
+      },
+      {
+        "id": "sci-001-i3",
+        "name": "Jupiter",
+        "value": "1.33 g/cm³",
+        "numericValue": 1.33
+      },
+      {
+        "id": "sci-001-i4",
+        "name": "Mars",
+        "value": "3.93 g/cm³",
+        "numericValue": 3.93
+      },
+      {
+        "id": "sci-001-i5",
+        "name": "Earth",
+        "value": "5.51 g/cm³",
+        "numericValue": 5.51
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuits-length",
+    "date": "2026-10-01",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by their official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-circuits-length-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "sports-f1-circuits-length-i2",
+        "name": "Red Bull Ring",
+        "value": "4.318 km",
+        "numericValue": 4.318
+      },
+      {
+        "id": "sports-f1-circuits-length-i3",
+        "name": "Circuit de Barcelona-Catalunya",
+        "value": "4.657 km",
+        "numericValue": 4.657
+      },
+      {
+        "id": "sports-f1-circuits-length-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "sports-f1-circuits-length-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
