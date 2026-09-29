@@ -9435,5 +9435,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-runtime-01",
+    "date": "2026-10-03",
+    "category": "Movies",
+    "question": "Order these famous movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "m1-i1",
+        "name": "Toy Story",
+        "value": "81 minutes",
+        "numericValue": 81
+      },
+      {
+        "id": "m1-i2",
+        "name": "Pulp Fiction",
+        "value": "154 minutes",
+        "numericValue": 154
+      },
+      {
+        "id": "m1-i3",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "m1-i4",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "m1-i5",
+        "name": "The Irishman",
+        "value": "209 minutes",
+        "numericValue": 209
+      }
+    ]
+  },
+  {
+    "id": "order-vg-pokemon-hp-001",
+    "date": "2026-10-03",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their base Hit Points (HP) stat, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-hp-i1",
+        "name": "Shedinja",
+        "value": "1 HP",
+        "numericValue": 1
+      },
+      {
+        "id": "p-vg-hp-i2",
+        "name": "Pikachu",
+        "value": "35 HP",
+        "numericValue": 35
+      },
+      {
+        "id": "p-vg-hp-i3",
+        "name": "Charizard",
+        "value": "78 HP",
+        "numericValue": 78
+      },
+      {
+        "id": "p-vg-hp-i4",
+        "name": "Snorlax",
+        "value": "160 HP",
+        "numericValue": 160
+      },
+      {
+        "id": "p-vg-hp-i5",
+        "name": "Blissey",
+        "value": "255 HP",
+        "numericValue": 255
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-10-03",
+    "category": "Geography",
+    "question": "Order these capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Berlin (Germany)",
+        "value": "34 m",
+        "numericValue": 34
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Nairobi (Kenya)",
+        "value": "1,795 m",
+        "numericValue": 1795
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Bogotá (Colombia)",
+        "value": "2,625 m",
+        "numericValue": 2625
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "order-music-grammys-01",
+    "date": "2026-10-03",
+    "category": "Music",
+    "question": "Order these famous musical artists by total Grammy Awards won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mus-1-i1",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      },
+      {
+        "id": "p-mus-1-i2",
+        "name": "Bruce Springsteen",
+        "value": "20 Grammys",
+        "numericValue": 20
+      },
+      {
+        "id": "p-mus-1-i3",
+        "name": "Stevie Wonder",
+        "value": "25 Grammys",
+        "numericValue": 25
+      },
+      {
+        "id": "p-mus-1-i4",
+        "name": "Quincy Jones",
+        "value": "28 Grammys",
+        "numericValue": 28
+      },
+      {
+        "id": "p-mus-1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "sci-metal-density-01",
+    "date": "2026-10-03",
+    "category": "Science",
+    "question": "Order these pure metals by density at room temperature (20°C), from least dense to most dense.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-metal-density-01-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "sci-metal-density-01-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "sci-metal-density-01-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "sci-metal-density-01-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "sci-metal-density-01-i5",
+        "name": "Gold",
+        "value": "19.30 g/cm³",
+        "numericValue": 19.3
+      }
+    ]
+  },
+  {
+    "id": "sports-001",
+    "date": "2026-10-03",
+    "category": "Sports",
+    "question": "Order these female tennis legends by the number of career Grand Slam singles titles they won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-001-i1",
+        "name": "Margaret Court",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "sports-001-i2",
+        "name": "Serena Williams",
+        "value": "23 titles",
+        "numericValue": 23
+      },
+      {
+        "id": "sports-001-i3",
+        "name": "Steffi Graf",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "sports-001-i4",
+        "name": "Billie Jean King",
+        "value": "12 titles",
+        "numericValue": 12
+      },
+      {
+        "id": "sports-001-i5",
+        "name": "Monica Seles",
+        "value": "9 titles",
+        "numericValue": 9
+      }
+    ]
   }
 ]
