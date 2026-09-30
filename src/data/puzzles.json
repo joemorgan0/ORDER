@@ -9675,5 +9675,205 @@
         "numericValue": 9
       }
     ]
+  },
+  {
+    "id": "movie-oscar-wins-01",
+    "date": "2026-10-04",
+    "category": "Movies",
+    "question": "Order these famous movies by their total number of Academy Award (Oscar) wins, lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p402-i1",
+        "name": "The Shawshank Redemption (1994)",
+        "value": "0 wins",
+        "numericValue": 0
+      },
+      {
+        "id": "p402-i2",
+        "name": "The Godfather (1972)",
+        "value": "3 wins",
+        "numericValue": 3
+      },
+      {
+        "id": "p402-i3",
+        "name": "La La Land (2016)",
+        "value": "6 wins",
+        "numericValue": 6
+      },
+      {
+        "id": "p402-i4",
+        "name": "Cabaret (1972)",
+        "value": "8 wins",
+        "numericValue": 8
+      },
+      {
+        "id": "p402-i5",
+        "name": "Titanic (1997)",
+        "value": "11 wins",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "vg-bst-001",
+    "date": "2026-10-04",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their Base Stat Total (BST) in the main series video games, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Magikarp",
+        "value": "200 BST",
+        "numericValue": 200
+      },
+      {
+        "id": "p1-i2",
+        "name": "Pikachu",
+        "value": "320 BST",
+        "numericValue": 320
+      },
+      {
+        "id": "p1-i3",
+        "name": "Gengar",
+        "value": "500 BST",
+        "numericValue": 500
+      },
+      {
+        "id": "p1-i4",
+        "name": "Charizard",
+        "value": "534 BST",
+        "numericValue": 534
+      },
+      {
+        "id": "p1-i5",
+        "name": "Mewtwo",
+        "value": "680 BST",
+        "numericValue": 680
+      }
+    ]
+  },
+  {
+    "id": "geo-borders-001",
+    "date": "2026-10-04",
+    "category": "Geography",
+    "question": "Order these countries by the number of other countries they share a direct land border with, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-b-i1",
+        "name": "Portugal",
+        "value": "1 country",
+        "numericValue": 1
+      },
+      {
+        "id": "geo-b-i2",
+        "name": "Argentina",
+        "value": "5 countries",
+        "numericValue": 5
+      },
+      {
+        "id": "geo-b-i3",
+        "name": "Poland",
+        "value": "7 countries",
+        "numericValue": 7
+      },
+      {
+        "id": "geo-b-i4",
+        "name": "Germany",
+        "value": "9 countries",
+        "numericValue": 9
+      },
+      {
+        "id": "geo-b-i5",
+        "name": "Brazil",
+        "value": "10 countries",
+        "numericValue": 10
+      }
+    ]
+  },
+  {
+    "id": "music-song-durations-01",
+    "date": "2026-10-04",
+    "category": "Music",
+    "question": "Order these famous songs by their standard album track duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-song-durations-01-i1",
+        "name": "\"Bohemian Rhapsody\" by Queen",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "music-song-durations-01-i2",
+        "name": "\"Stairway to Heaven\" by Led Zeppelin",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "music-song-durations-01-i3",
+        "name": "\"American Pie\" by Don McLean",
+        "value": "8:42",
+        "numericValue": 522
+      },
+      {
+        "id": "music-song-durations-01-i4",
+        "name": "\"Telegraph Road\" by Dire Straits",
+        "value": "14:18",
+        "numericValue": 858
+      },
+      {
+        "id": "music-song-durations-01-i5",
+        "name": "\"Echoes\" by Pink Floyd",
+        "value": "23:29",
+        "numericValue": 1409
+      }
+    ]
+  },
+  {
+    "id": "science-element-boiling-points",
+    "date": "2026-10-04",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p1-i2",
+        "name": "Oxygen",
+        "value": "-183.0 °C",
+        "numericValue": -183
+      },
+      {
+        "id": "p1-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "p1-i4",
+        "name": "Silver",
+        "value": "2,162 °C",
+        "numericValue": 2162
+      },
+      {
+        "id": "p1-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
   }
 ]
