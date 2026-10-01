@@ -9875,5 +9875,205 @@
         "numericValue": 5555
       }
     ]
+  },
+  {
+    "id": "movie-oscars-won-1",
+    "date": "2026-10-05",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) won, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Ben-Hur",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "p1-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p1-i3",
+        "name": "The Last Emperor",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p1-i4",
+        "name": "Cabaret",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p1-i5",
+        "name": "Gravity",
+        "value": "7 Oscars",
+        "numericValue": 7
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-file-size-001",
+    "date": "2026-10-05",
+    "category": "Video Games",
+    "question": "Order these famous video games by their original base game storage/file size, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Super Mario Bros.",
+        "value": "32 KB",
+        "numericValue": 0.032
+      },
+      {
+        "id": "p001-i2",
+        "name": "Super Mario 64",
+        "value": "8 MB",
+        "numericValue": 8
+      },
+      {
+        "id": "p001-i3",
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "value": "32 MB",
+        "numericValue": 32
+      },
+      {
+        "id": "p001-i4",
+        "name": "Grand Theft Auto: San Andreas",
+        "value": "4.7 GB",
+        "numericValue": 4700
+      },
+      {
+        "id": "p001-i5",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "35 GB",
+        "numericValue": 35000
+      }
+    ]
+  },
+  {
+    "id": "geo-elevation-capitals-01",
+    "date": "2026-10-05",
+    "category": "Geography",
+    "question": "Order these European capital cities by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1005-i1",
+        "name": "Amsterdam (Netherlands)",
+        "value": "-2 m (-7 ft)",
+        "numericValue": -2
+      },
+      {
+        "id": "p1005-i2",
+        "name": "Berlin (Germany)",
+        "value": "34 m (112 ft)",
+        "numericValue": 34
+      },
+      {
+        "id": "p1005-i3",
+        "name": "Vienna (Austria)",
+        "value": "171 m (561 ft)",
+        "numericValue": 171
+      },
+      {
+        "id": "p1005-i4",
+        "name": "Bern (Switzerland)",
+        "value": "540 m (1,772 ft)",
+        "numericValue": 540
+      },
+      {
+        "id": "p1005-i5",
+        "name": "Madrid (Spain)",
+        "value": "667 m (2,188 ft)",
+        "numericValue": 667
+      }
+    ]
+  },
+  {
+    "id": "science-boiling-points-01",
+    "date": "2026-10-05",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p105-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p105-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.8
+      },
+      {
+        "id": "p105-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "p105-i4",
+        "name": "Iron",
+        "value": "2,862 °C",
+        "numericValue": 2862
+      },
+      {
+        "id": "p105-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-gs-titles",
+    "date": "2026-10-05",
+    "category": "Sports",
+    "question": "Order these retired male tennis players by the number of career Grand Slam singles titles they won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-tennis-gs-titles-i1",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "sports-tennis-gs-titles-i2",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "sports-tennis-gs-titles-i3",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "sports-tennis-gs-titles-i4",
+        "name": "Björn Borg",
+        "value": "11 titles",
+        "numericValue": 11
+      },
+      {
+        "id": "sports-tennis-gs-titles-i5",
+        "name": "Andre Agassi",
+        "value": "8 titles",
+        "numericValue": 8
+      }
+    ]
   }
 ]
