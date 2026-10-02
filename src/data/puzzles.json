@@ -10075,5 +10075,205 @@
         "numericValue": 8
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-10-06",
+    "category": "Movies",
+    "question": "Order these Oscar-winning movies by their total number of Academy Award wins, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "movies-oscar-wins-01-i1",
+        "name": "La La Land (2016)",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "movies-oscar-wins-01-i2",
+        "name": "Gravity (2013)",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "movies-oscar-wins-01-i3",
+        "name": "Amadeus (1984)",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "movies-oscar-wins-01-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "movies-oscar-wins-01-i5",
+        "name": "The Lord of the Rings: The Return of the King (2003)",
+        "value": "11 Oscars",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "geo-301",
+    "date": "2026-10-06",
+    "category": "Geography",
+    "question": "Order these capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p301-i1",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "p301-i2",
+        "name": "Nairobi (Kenya)",
+        "value": "1,795 m",
+        "numericValue": 1795
+      },
+      {
+        "id": "p301-i3",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "p301-i4",
+        "name": "Bogotá (Colombia)",
+        "value": "2,640 m",
+        "numericValue": 2640
+      },
+      {
+        "id": "p301-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-song-durations-01",
+    "date": "2026-10-06",
+    "category": "Music",
+    "question": "Order these iconic rock songs by their studio album track duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "\"Fell in Love with a Girl\" (The White Stripes)",
+        "value": "1:50",
+        "numericValue": 110
+      },
+      {
+        "id": "p1-i2",
+        "name": "\"Song 2\" (Blur)",
+        "value": "2:02",
+        "numericValue": 122
+      },
+      {
+        "id": "p1-i3",
+        "name": "\"(I Can't Get No) Satisfaction\" (The Rolling Stones)",
+        "value": "3:42",
+        "numericValue": 222
+      },
+      {
+        "id": "p1-i4",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p1-i5",
+        "name": "\"Free Bird\" (Lynyrd Skynyrd)",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "sci-2026-10-06",
+    "date": "2026-10-06",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.83
+      },
+      {
+        "id": "p1-i2",
+        "name": "Tin",
+        "value": "231.9 °C",
+        "numericValue": 231.93
+      },
+      {
+        "id": "p1-i3",
+        "name": "Silver",
+        "value": "961.8 °C",
+        "numericValue": 961.78
+      },
+      {
+        "id": "p1-i4",
+        "name": "Gold",
+        "value": "1064.2 °C",
+        "numericValue": 1064.18
+      },
+      {
+        "id": "p1-i5",
+        "name": "Tungsten",
+        "value": "3422.0 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length",
+    "date": "2026-10-06",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-circuit-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "f1-circuit-i2",
+        "name": "Red Bull Ring",
+        "value": "4.318 km",
+        "numericValue": 4.318
+      },
+      {
+        "id": "f1-circuit-i3",
+        "name": "Circuit de Barcelona-Catalunya",
+        "value": "4.657 km",
+        "numericValue": 4.657
+      },
+      {
+        "id": "f1-circuit-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "f1-circuit-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
