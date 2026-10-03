@@ -10275,5 +10275,205 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-001",
+    "date": "2026-10-07",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "The English Patient",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Amadeus",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Gravity",
+        "value": "7 Oscars",
+        "numericValue": 7
+      }
+    ]
+  },
+  {
+    "id": "order-vg-pokemon-bst-001",
+    "date": "2026-10-07",
+    "category": "Video Games",
+    "question": "Order these iconic Pokémon by their Base Stat Total (BST) in the mainline core video games, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Magikarp",
+        "value": "200 BST",
+        "numericValue": 200
+      },
+      {
+        "id": "p1-i2",
+        "name": "Pikachu",
+        "value": "320 BST",
+        "numericValue": 320
+      },
+      {
+        "id": "p1-i3",
+        "name": "Lucario",
+        "value": "525 BST",
+        "numericValue": 525
+      },
+      {
+        "id": "p1-i4",
+        "name": "Dragonite",
+        "value": "600 BST",
+        "numericValue": 600
+      },
+      {
+        "id": "p1-i5",
+        "name": "Mewtwo",
+        "value": "680 BST",
+        "numericValue": 680
+      }
+    ]
+  },
+  {
+    "id": "geo-lake-surface-area-01",
+    "date": "2026-10-07",
+    "category": "Geography",
+    "question": "Order these famous natural lakes by surface area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-lake-surface-area-01-i1",
+        "name": "Lake Ontario",
+        "value": "18,960 km²",
+        "numericValue": 18960
+      },
+      {
+        "id": "geo-lake-surface-area-01-i2",
+        "name": "Lake Baikal",
+        "value": "31,722 km²",
+        "numericValue": 31722
+      },
+      {
+        "id": "geo-lake-surface-area-01-i3",
+        "name": "Lake Michigan",
+        "value": "58,030 km²",
+        "numericValue": 58030
+      },
+      {
+        "id": "geo-lake-surface-area-01-i4",
+        "name": "Lake Victoria",
+        "value": "59,940 km²",
+        "numericValue": 59940
+      },
+      {
+        "id": "geo-lake-surface-area-01-i5",
+        "name": "Lake Superior",
+        "value": "82,100 km²",
+        "numericValue": 82100
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-10-07",
+    "category": "Music",
+    "question": "Order these iconic songs by their original studio album track duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "\"Bohemian Rhapsody\" by Queen",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "\"Free Bird\" by Lynyrd Skynyrd",
+        "value": "9:08",
+        "numericValue": 548
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "\"Desolation Row\" by Bob Dylan",
+        "value": "11:21",
+        "numericValue": 681
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "\"Telegraph Road\" by Dire Straits",
+        "value": "14:18",
+        "numericValue": 858
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "\"In-A-Gadda-Da-Vida\" by Iron Butterfly",
+        "value": "17:05",
+        "numericValue": 1025
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length-01",
+    "date": "2026-10-07",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by their official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p1-i2",
+        "name": "Red Bull Ring (Austria)",
+        "value": "4.318 km",
+        "numericValue": 4.318
+      },
+      {
+        "id": "p1-i3",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "p1-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
