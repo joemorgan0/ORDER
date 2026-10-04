@@ -10475,5 +10475,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-20261008",
+    "date": "2026-10-08",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) won, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261008-i1",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "p20261008-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p20261008-i3",
+        "name": "The English Patient",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "p20261008-i4",
+        "name": "Amadeus",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p20261008-i5",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      }
+    ]
+  },
+  {
+    "id": "vg-roster-launch-01",
+    "date": "2026-10-08",
+    "category": "Video Games",
+    "question": "Order these video games by the number of playable characters included in their base roster at official launch, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "Street Fighter V",
+        "value": "16 characters",
+        "numericValue": 16
+      },
+      {
+        "id": "p01-i2",
+        "name": "Overwatch",
+        "value": "21 heroes",
+        "numericValue": 21
+      },
+      {
+        "id": "p01-i3",
+        "name": "Mortal Kombat 11",
+        "value": "25 characters",
+        "numericValue": 25
+      },
+      {
+        "id": "p01-i4",
+        "name": "League of Legends",
+        "value": "40 champions",
+        "numericValue": 40
+      },
+      {
+        "id": "p01-i5",
+        "name": "Dota 2",
+        "value": "102 heroes",
+        "numericValue": 102
+      }
+    ]
+  },
+  {
+    "id": "geo-capitals-elevation-01",
+    "date": "2026-10-08",
+    "category": "Geography",
+    "question": "Order these capital cities by their elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m (-92 ft)",
+        "numericValue": -28
+      },
+      {
+        "id": "p1-i2",
+        "name": "Amsterdam (Netherlands)",
+        "value": "2 m (7 ft)",
+        "numericValue": 2
+      },
+      {
+        "id": "p1-i3",
+        "name": "Canberra (Australia)",
+        "value": "580 m (1,903 ft)",
+        "numericValue": 580
+      },
+      {
+        "id": "p1-i4",
+        "name": "Madrid (Spain)",
+        "value": "667 m (2,188 ft)",
+        "numericValue": 667
+      },
+      {
+        "id": "p1-i5",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m (9,350 ft)",
+        "numericValue": 2850
+      }
+    ]
+  },
+  {
+    "id": "music-grammy-wins-women",
+    "date": "2026-10-08",
+    "category": "Music",
+    "question": "Order these female musicians by the total number of Grammy Awards they have won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pm1-i1",
+        "name": "Billie Eilish",
+        "value": "9 Grammys",
+        "numericValue": 9
+      },
+      {
+        "id": "pm1-i2",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "pm1-i3",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      },
+      {
+        "id": "pm1-i4",
+        "name": "Aretha Franklin",
+        "value": "18 Grammys",
+        "numericValue": 18
+      },
+      {
+        "id": "pm1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "sci-speed-of-sound-01",
+    "date": "2026-10-08",
+    "category": "Science",
+    "question": "Order these substances by the speed of sound traveling through them at room temperature, from slowest to fastest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-speed-of-sound-01-i1",
+        "name": "Air",
+        "value": "343 m/s",
+        "numericValue": 343
+      },
+      {
+        "id": "sci-speed-of-sound-01-i2",
+        "name": "Helium Gas",
+        "value": "965 m/s",
+        "numericValue": 965
+      },
+      {
+        "id": "sci-speed-of-sound-01-i3",
+        "name": "Fresh Water",
+        "value": "1,482 m/s",
+        "numericValue": 1482
+      },
+      {
+        "id": "sci-speed-of-sound-01-i4",
+        "name": "Copper",
+        "value": "3,810 m/s",
+        "numericValue": 3810
+      },
+      {
+        "id": "sci-speed-of-sound-01-i5",
+        "name": "Diamond",
+        "value": "12,000 m/s",
+        "numericValue": 12000
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-lengths",
+    "date": "2026-10-08",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-circuit-lengths-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i2",
+        "name": "Circuit Zandvoort",
+        "value": "4.259 km",
+        "numericValue": 4.259
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i3",
+        "name": "Autódromo José Carlos Pace (Interlagos)",
+        "value": "4.309 km",
+        "numericValue": 4.309
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "sports-f1-circuit-lengths-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
