@@ -10715,5 +10715,165 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-runtime-20261009",
+    "date": "2026-10-09",
+    "category": "Movies",
+    "question": "Order these Best Picture Oscar-winning movies by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "movies-runtime-20261009-i1",
+        "name": "Marty",
+        "value": "90 minutes",
+        "numericValue": 90
+      },
+      {
+        "id": "movies-runtime-20261009-i2",
+        "name": "Annie Hall",
+        "value": "93 minutes",
+        "numericValue": 93
+      },
+      {
+        "id": "movies-runtime-20261009-i3",
+        "name": "No Country for Old Men",
+        "value": "122 minutes",
+        "numericValue": 122
+      },
+      {
+        "id": "movies-runtime-20261009-i4",
+        "name": "Gladiator",
+        "value": "155 minutes",
+        "numericValue": 155
+      },
+      {
+        "id": "movies-runtime-20261009-i5",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "201 minutes",
+        "numericValue": 201
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-10-09",
+    "category": "Video Games",
+    "question": "Order these Pokémon game generations by the total number of new Pokémon species introduced, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Generation VI (Pokémon X & Y)",
+        "value": "72 Pokémon",
+        "numericValue": 72
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Generation IV (Pokémon Diamond & Pearl)",
+        "value": "107 Pokémon",
+        "numericValue": 107
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Generation III (Pokémon Ruby & Sapphire)",
+        "value": "135 Pokémon",
+        "numericValue": 135
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Generation I (Pokémon Red & Blue)",
+        "value": "151 Pokémon",
+        "numericValue": 151
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Generation V (Pokémon Black & White)",
+        "value": "156 Pokémon",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "music-song-runtimes-001",
+    "date": "2026-10-09",
+    "category": "Music",
+    "question": "Order these iconic classic songs by their official studio album runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p1-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p1-i3",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p1-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p1-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "order-sci-20261009",
+    "date": "2026-10-09",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261009-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p20261009-i2",
+        "name": "Oxygen",
+        "value": "-183.0 °C",
+        "numericValue": -183
+      },
+      {
+        "id": "p20261009-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "p20261009-i4",
+        "name": "Silver",
+        "value": "2,162 °C",
+        "numericValue": 2162
+      },
+      {
+        "id": "p20261009-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
   }
 ]
