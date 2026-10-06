@@ -10875,5 +10875,125 @@
         "numericValue": 5555
       }
     ]
+  },
+  {
+    "id": "movies-runtime-01",
+    "date": "2026-10-10",
+    "category": "Movies",
+    "question": "Order these Best Picture Oscar-winning movies by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "movies-runtime-01-i1",
+        "name": "Annie Hall",
+        "value": "93 minutes",
+        "numericValue": 93
+      },
+      {
+        "id": "movies-runtime-01-i2",
+        "name": "The Silence of the Lambs",
+        "value": "118 minutes",
+        "numericValue": 118
+      },
+      {
+        "id": "movies-runtime-01-i3",
+        "name": "Parasite",
+        "value": "132 minutes",
+        "numericValue": 132
+      },
+      {
+        "id": "movies-runtime-01-i4",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "movies-runtime-01-i5",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "201 minutes",
+        "numericValue": 201
+      }
+    ]
+  },
+  {
+    "id": "geo-elevation-001",
+    "date": "2026-10-10",
+    "category": "Geography",
+    "question": "Order these countries by their mean (average) elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "Netherlands",
+        "value": "30 m",
+        "numericValue": 30
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Australia",
+        "value": "330 m",
+        "numericValue": 330
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Spain",
+        "value": "660 m",
+        "numericValue": 660
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Switzerland",
+        "value": "1,350 m",
+        "numericValue": 1350
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Lesotho",
+        "value": "2,161 m",
+        "numericValue": 2161
+      }
+    ]
+  },
+  {
+    "id": "p20261010-sci",
+    "date": "2026-10-10",
+    "category": "Science",
+    "question": "Order these metals by their density at room temperature (20°C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261010-sci-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p20261010-sci-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p20261010-sci-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p20261010-sci-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p20261010-sci-i5",
+        "name": "Gold",
+        "value": "19.32 g/cm³",
+        "numericValue": 19.32
+      }
+    ]
   }
 ]
