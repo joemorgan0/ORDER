@@ -10995,5 +10995,245 @@
         "numericValue": 19.32
       }
     ]
+  },
+  {
+    "id": "20261011-movies-runtime",
+    "date": "2026-10-11",
+    "category": "Movies",
+    "question": "Order these iconic movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261011-i1",
+        "name": "Jurassic Park",
+        "value": "127 minutes",
+        "numericValue": 127
+      },
+      {
+        "id": "p20261011-i2",
+        "name": "Pulp Fiction",
+        "value": "154 minutes",
+        "numericValue": 154
+      },
+      {
+        "id": "p20261011-i3",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      },
+      {
+        "id": "p20261011-i4",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "p20261011-i5",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "201 minutes",
+        "numericValue": 201
+      }
+    ]
+  },
+  {
+    "id": "p20261011-vg",
+    "date": "2026-10-11",
+    "category": "Video Games",
+    "question": "Order these famous video game characters by their official canonical height, from shortest to tallest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261011-vg-i1",
+        "name": "Kirby",
+        "value": "20 cm (8 in)",
+        "numericValue": 20
+      },
+      {
+        "id": "p20261011-vg-i2",
+        "name": "Pikachu",
+        "value": "40 cm (1 ft 4 in)",
+        "numericValue": 40
+      },
+      {
+        "id": "p20261011-vg-i3",
+        "name": "Sonic the Hedgehog",
+        "value": "100 cm (3 ft 3 in)",
+        "numericValue": 100
+      },
+      {
+        "id": "p20261011-vg-i4",
+        "name": "Mario",
+        "value": "155 cm (5 ft 1 in)",
+        "numericValue": 155
+      },
+      {
+        "id": "p20261011-vg-i5",
+        "name": "Master Chief (Armored)",
+        "value": "218 cm (7 ft 2 in)",
+        "numericValue": 218
+      }
+    ]
+  },
+  {
+    "id": "geo-lakes-depth-01",
+    "date": "2026-10-11",
+    "category": "Geography",
+    "question": "Order these well-known lakes by their maximum depth, from deepest to shallowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "Lake Baikal",
+        "value": "1,642 m",
+        "numericValue": 1642
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Lake Tanganyika",
+        "value": "1,470 m",
+        "numericValue": 1470
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Great Slave Lake",
+        "value": "614 m",
+        "numericValue": 614
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Crater Lake",
+        "value": "594 m",
+        "numericValue": 594
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Lake Superior",
+        "value": "406 m",
+        "numericValue": 406
+      }
+    ]
+  },
+  {
+    "id": "music-song-length-01",
+    "date": "2026-10-11",
+    "category": "Music",
+    "question": "Order these iconic classic rock songs by their official studio recording length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "msl-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "msl-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "msl-i3",
+        "name": "\"Layla\" (Derek and the Dominos)",
+        "value": "7:04",
+        "numericValue": 424
+      },
+      {
+        "id": "msl-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "msl-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "science-element-melting-points",
+    "date": "2026-10-11",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Nitrogen",
+        "value": "-210 °C",
+        "numericValue": -210
+      },
+      {
+        "id": "p1-i2",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.8
+      },
+      {
+        "id": "p1-i3",
+        "name": "Gallium",
+        "value": "29.8 °C",
+        "numericValue": 29.8
+      },
+      {
+        "id": "p1-i4",
+        "name": "Silver",
+        "value": "961.8 °C",
+        "numericValue": 961.8
+      },
+      {
+        "id": "p1-i5",
+        "name": "Tungsten",
+        "value": "3,422 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-tennis-grand-slams-01",
+    "date": "2026-10-11",
+    "category": "Sports",
+    "question": "Order these male tennis players by their total number of career Grand Slam singles titles won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "stgs-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "stgs-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "stgs-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "stgs-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "stgs-i5",
+        "name": "Andre Agassi",
+        "value": "8 titles",
+        "numericValue": 8
+      }
+    ]
   }
 ]
