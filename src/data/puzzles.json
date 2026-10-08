@@ -11235,5 +11235,85 @@
         "numericValue": 8
       }
     ]
+  },
+  {
+    "id": "order-vg-map-size-01",
+    "date": "2026-10-12",
+    "category": "Video Games",
+    "question": "Order these open-world video games by their approximate map size, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Fallout 4",
+        "value": "25 km²",
+        "numericValue": 25
+      },
+      {
+        "id": "p1-i2",
+        "name": "The Elder Scrolls V: Skyrim",
+        "value": "37 km²",
+        "numericValue": 37
+      },
+      {
+        "id": "p1-i3",
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "value": "72 km²",
+        "numericValue": 72
+      },
+      {
+        "id": "p1-i4",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "135 km²",
+        "numericValue": 135
+      },
+      {
+        "id": "p1-i5",
+        "name": "Assassin's Creed Odyssey",
+        "value": "256 km²",
+        "numericValue": 256
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-wins-001",
+    "date": "2026-10-12",
+    "category": "Sports",
+    "question": "Order these Formula 1 drivers by total career Grand Prix victories, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-wins-001-i1",
+        "name": "Mika Häkkinen",
+        "value": "20 wins",
+        "numericValue": 20
+      },
+      {
+        "id": "sports-f1-wins-001-i2",
+        "name": "Ayrton Senna",
+        "value": "41 wins",
+        "numericValue": 41
+      },
+      {
+        "id": "sports-f1-wins-001-i3",
+        "name": "Sebastian Vettel",
+        "value": "53 wins",
+        "numericValue": 53
+      },
+      {
+        "id": "sports-f1-wins-001-i4",
+        "name": "Michael Schumacher",
+        "value": "91 wins",
+        "numericValue": 91
+      },
+      {
+        "id": "sports-f1-wins-001-i5",
+        "name": "Lewis Hamilton",
+        "value": "105 wins",
+        "numericValue": 105
+      }
+    ]
   }
 ]
