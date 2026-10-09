@@ -11315,5 +11315,45 @@
         "numericValue": 105
       }
     ]
+  },
+  {
+    "id": "science-boiling-points-01",
+    "date": "2026-10-13",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p1-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.8
+      },
+      {
+        "id": "p1-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "p1-i4",
+        "name": "Gold",
+        "value": "2,700 °C",
+        "numericValue": 2700
+      },
+      {
+        "id": "p1-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
   }
 ]
