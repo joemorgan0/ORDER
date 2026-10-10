@@ -11355,5 +11355,205 @@
         "numericValue": 5555
       }
     ]
+  },
+  {
+    "id": "order-movies-runtime-1",
+    "date": "2026-10-14",
+    "category": "Movies",
+    "question": "Order these famous blockbuster movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "p1-i2",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      },
+      {
+        "id": "p1-i3",
+        "name": "Avengers: Endgame",
+        "value": "181 minutes",
+        "numericValue": 181
+      },
+      {
+        "id": "p1-i4",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "p1-i5",
+        "name": "The Irishman",
+        "value": "209 minutes",
+        "numericValue": 209
+      }
+    ]
+  },
+  {
+    "id": "vg-pokemon-hp-01",
+    "date": "2026-10-14",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their base Hit Points (HP) stat, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Shedinja",
+        "value": "1 HP",
+        "numericValue": 1
+      },
+      {
+        "id": "p1-i2",
+        "name": "Pikachu",
+        "value": "35 HP",
+        "numericValue": 35
+      },
+      {
+        "id": "p1-i3",
+        "name": "Charizard",
+        "value": "78 HP",
+        "numericValue": 78
+      },
+      {
+        "id": "p1-i4",
+        "name": "Snorlax",
+        "value": "160 HP",
+        "numericValue": 160
+      },
+      {
+        "id": "p1-i5",
+        "name": "Blissey",
+        "value": "255 HP",
+        "numericValue": 255
+      }
+    ]
+  },
+  {
+    "id": "music-song-lengths-01",
+    "date": "2026-10-14",
+    "category": "Music",
+    "question": "Order these famous hit songs by track duration (original studio version), from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "\"Old Town Road\" by Lil Nas X",
+        "value": "1:53",
+        "numericValue": 113
+      },
+      {
+        "id": "p1-i2",
+        "name": "\"Eleanor Rigby\" by The Beatles",
+        "value": "2:06",
+        "numericValue": 126
+      },
+      {
+        "id": "p1-i3",
+        "name": "\"Single Ladies (Put a Ring on It)\" by Beyoncé",
+        "value": "3:13",
+        "numericValue": 193
+      },
+      {
+        "id": "p1-i4",
+        "name": "\"Bohemian Rhapsody\" by Queen",
+        "value": "5:54",
+        "numericValue": 354
+      },
+      {
+        "id": "p1-i5",
+        "name": "\"American Pie\" by Don McLean",
+        "value": "8:33",
+        "numericValue": 513
+      }
+    ]
+  },
+  {
+    "id": "sci-density-001",
+    "date": "2026-10-14",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-density-001-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "sci-density-001-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "sci-density-001-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "sci-density-001-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "sci-density-001-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-lengths",
+    "date": "2026-10-14",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p1-i2",
+        "name": "Circuit Zandvoort",
+        "value": "4.259 km",
+        "numericValue": 4.259
+      },
+      {
+        "id": "p1-i3",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "p1-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
