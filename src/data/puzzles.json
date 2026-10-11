@@ -11555,5 +11555,205 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movie-oscar-wins-01",
+    "date": "2026-10-15",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Schindler's List",
+        "value": "7 wins",
+        "numericValue": 7
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Slumdog Millionaire",
+        "value": "8 wins",
+        "numericValue": 8
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "The English Patient",
+        "value": "9 wins",
+        "numericValue": 9
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "West Side Story (1961)",
+        "value": "10 wins",
+        "numericValue": 10
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Titanic",
+        "value": "11 wins",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "p20261015-vg",
+    "date": "2026-10-15",
+    "category": "Video Games",
+    "question": "Order these Pokémon species by their official Pokédex height, from shortest to tallest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261015-vg-i1",
+        "name": "Pikachu",
+        "value": "0.4 m (1 ft 4 in)",
+        "numericValue": 0.4
+      },
+      {
+        "id": "p20261015-vg-i2",
+        "name": "Charizard",
+        "value": "1.7 m (5 ft 7 in)",
+        "numericValue": 1.7
+      },
+      {
+        "id": "p20261015-vg-i3",
+        "name": "Snorlax",
+        "value": "2.1 m (6 ft 11 in)",
+        "numericValue": 2.1
+      },
+      {
+        "id": "p20261015-vg-i4",
+        "name": "Gyarados",
+        "value": "6.5 m (21 ft 4 in)",
+        "numericValue": 6.5
+      },
+      {
+        "id": "p20261015-vg-i5",
+        "name": "Wailord",
+        "value": "14.5 m (47 ft 7 in)",
+        "numericValue": 14.5
+      }
+    ]
+  },
+  {
+    "id": "geo-capital-elevations-01",
+    "date": "2026-10-15",
+    "category": "Geography",
+    "question": "Order these European capital cities by their mean elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "geo-capital-elevations-01-i1",
+        "name": "Berlin (Germany)",
+        "value": "34 m",
+        "numericValue": 34
+      },
+      {
+        "id": "geo-capital-elevations-01-i2",
+        "name": "Vienna (Austria)",
+        "value": "171 m",
+        "numericValue": 171
+      },
+      {
+        "id": "geo-capital-elevations-01-i3",
+        "name": "Bern (Switzerland)",
+        "value": "540 m",
+        "numericValue": 540
+      },
+      {
+        "id": "geo-capital-elevations-01-i4",
+        "name": "Madrid (Spain)",
+        "value": "667 m",
+        "numericValue": 667
+      },
+      {
+        "id": "geo-capital-elevations-01-i5",
+        "name": "Andorra la Vella (Andorra)",
+        "value": "1,023 m",
+        "numericValue": 1023
+      }
+    ]
+  },
+  {
+    "id": "music-song-durations-001",
+    "date": "2026-10-15",
+    "category": "Music",
+    "question": "Order these iconic songs by their original studio recording track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "\"Eleanor Rigby\" by The Beatles",
+        "value": "2:06",
+        "numericValue": 126
+      },
+      {
+        "id": "p001-i2",
+        "name": "\"Bohemian Rhapsody\" by Queen",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p001-i3",
+        "name": "\"Hotel California\" by Eagles",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p001-i4",
+        "name": "\"Stairway to Heaven\" by Led Zeppelin",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p001-i5",
+        "name": "\"American Pie\" by Don McLean",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length-01",
+    "date": "2026-10-15",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-circuit-length-01-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "sports-f1-circuit-length-01-i2",
+        "name": "Autódromo José Carlos Pace (Interlagos)",
+        "value": "4.309 km",
+        "numericValue": 4.309
+      },
+      {
+        "id": "sports-f1-circuit-length-01-i3",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "sports-f1-circuit-length-01-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "sports-f1-circuit-length-01-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
