@@ -11755,5 +11755,85 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movie-runtimes-01",
+    "date": "2026-10-16",
+    "category": "Movies",
+    "question": "Order these famous movies by their original theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Pulp Fiction",
+        "value": "154 minutes",
+        "numericValue": 154
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "201 minutes",
+        "numericValue": 201
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "The Irishman",
+        "value": "209 minutes",
+        "numericValue": 209
+      }
+    ]
+  },
+  {
+    "id": "sci-2026-10-16-01",
+    "date": "2026-10-16",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261016-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p20261016-i2",
+        "name": "Aluminum",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p20261016-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p20261016-i4",
+        "name": "Gold",
+        "value": "19.32 g/cm³",
+        "numericValue": 19.32
+      },
+      {
+        "id": "p20261016-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
   }
 ]
