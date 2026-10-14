@@ -11835,5 +11835,45 @@
         "numericValue": 22.59
       }
     ]
+  },
+  {
+    "id": "movies-runtime-best-picture",
+    "date": "2026-10-17",
+    "category": "Movies",
+    "question": "Order these Academy Award Best Picture winners by theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Marty (1955)",
+        "value": "90 minutes",
+        "numericValue": 90
+      },
+      {
+        "id": "p1-i2",
+        "name": "Annie Hall (1977)",
+        "value": "93 minutes",
+        "numericValue": 93
+      },
+      {
+        "id": "p1-i3",
+        "name": "The Silence of the Lambs (1991)",
+        "value": "118 minutes",
+        "numericValue": 118
+      },
+      {
+        "id": "p1-i4",
+        "name": "Gladiator (2000)",
+        "value": "155 minutes",
+        "numericValue": 155
+      },
+      {
+        "id": "p1-i5",
+        "name": "The Lord of the Rings: The Return of the King (2003)",
+        "value": "201 minutes",
+        "numericValue": 201
+      }
+    ]
   }
 ]
