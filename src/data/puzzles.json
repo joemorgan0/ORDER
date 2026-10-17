@@ -11875,5 +11875,165 @@
         "numericValue": 201
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-10-18",
+    "category": "Movies",
+    "question": "Order these Academy Award Best Picture winners by the total number of Oscars they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Grand Hotel",
+        "value": "1 Oscar win",
+        "numericValue": 1
+      },
+      {
+        "id": "p1-i2",
+        "name": "The Silence of the Lambs",
+        "value": "5 Oscar wins",
+        "numericValue": 5
+      },
+      {
+        "id": "p1-i3",
+        "name": "Schindler's List",
+        "value": "7 Oscar wins",
+        "numericValue": 7
+      },
+      {
+        "id": "p1-i4",
+        "name": "The Last Emperor",
+        "value": "9 Oscar wins",
+        "numericValue": 9
+      },
+      {
+        "id": "p1-i5",
+        "name": "Ben-Hur",
+        "value": "11 Oscar wins",
+        "numericValue": 11
+      }
+    ]
+  },
+  {
+    "id": "music-song-runtime-01",
+    "date": "2026-10-18",
+    "category": "Music",
+    "question": "Order these famous rock songs by original studio album track runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Bohemian Rhapsody - Queen",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p1-i2",
+        "name": "Hotel California - Eagles",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p1-i3",
+        "name": "Hey Jude - The Beatles",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p1-i4",
+        "name": "Stairway to Heaven - Led Zeppelin",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p1-i5",
+        "name": "Free Bird - Lynyrd Skynyrd",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "sci-density-2026-10-18",
+    "date": "2026-10-18",
+    "category": "Science",
+    "question": "Order these chemical elements by density at standard room temperature, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-density-i1",
+        "name": "Aluminum",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "sci-density-i2",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "sci-density-i3",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "sci-density-i4",
+        "name": "Gold",
+        "value": "19.30 g/cm³",
+        "numericValue": 19.3
+      },
+      {
+        "id": "sci-density-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "sports-001",
+    "date": "2026-10-18",
+    "category": "Sports",
+    "question": "Order these male tennis players by their total career Grand Slam singles titles, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Easy",
+    "items": [
+      {
+        "id": "p-sp001-i1",
+        "name": "Novak Djokovic",
+        "value": "24 titles",
+        "numericValue": 24
+      },
+      {
+        "id": "p-sp001-i2",
+        "name": "Rafael Nadal",
+        "value": "22 titles",
+        "numericValue": 22
+      },
+      {
+        "id": "p-sp001-i3",
+        "name": "Roger Federer",
+        "value": "20 titles",
+        "numericValue": 20
+      },
+      {
+        "id": "p-sp001-i4",
+        "name": "Pete Sampras",
+        "value": "14 titles",
+        "numericValue": 14
+      },
+      {
+        "id": "p-sp001-i5",
+        "name": "Andre Agassi",
+        "value": "8 titles",
+        "numericValue": 8
+      }
+    ]
   }
 ]
