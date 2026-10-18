@@ -12035,5 +12035,125 @@
         "numericValue": 8
       }
     ]
+  },
+  {
+    "id": "movies-runtime-001",
+    "date": "2026-10-19",
+    "category": "Movies",
+    "question": "Order these iconic movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "The Dark Knight",
+        "value": "152 minutes",
+        "numericValue": 152
+      },
+      {
+        "id": "p001-i2",
+        "name": "Pulp Fiction",
+        "value": "154 minutes",
+        "numericValue": 154
+      },
+      {
+        "id": "p001-i3",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "p001-i4",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "p001-i5",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "201 minutes",
+        "numericValue": 201
+      }
+    ]
+  },
+  {
+    "id": "puzzle-video-games-metacritic-20261019",
+    "date": "2026-10-19",
+    "category": "Video Games",
+    "question": "Order these critically acclaimed video games by their Metacritic score, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "God of War (2018)",
+        "value": "94 / 100",
+        "numericValue": 94
+      },
+      {
+        "id": "p1-i2",
+        "name": "The Last of Us (2013)",
+        "value": "95 / 100",
+        "numericValue": 95
+      },
+      {
+        "id": "p1-i3",
+        "name": "Elden Ring",
+        "value": "96 / 100",
+        "numericValue": 96
+      },
+      {
+        "id": "p1-i4",
+        "name": "Grand Theft Auto V",
+        "value": "97 / 100",
+        "numericValue": 97
+      },
+      {
+        "id": "p1-i5",
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "value": "99 / 100",
+        "numericValue": 99
+      }
+    ]
+  },
+  {
+    "id": "science-density-elements-01",
+    "date": "2026-10-19",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Gold",
+        "value": "19.30 g/cm³",
+        "numericValue": 19.3
+      }
+    ]
   }
 ]
