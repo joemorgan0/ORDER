@@ -12395,5 +12395,165 @@
         "numericValue": 8
       }
     ]
+  },
+  {
+    "id": "movies-runtime-01",
+    "date": "2026-10-21",
+    "category": "Movies",
+    "question": "Order these epic movies by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "Avengers: Endgame",
+        "value": "181 minutes",
+        "numericValue": 181
+      },
+      {
+        "id": "p01-i2",
+        "name": "Avatar: The Way of Water",
+        "value": "192 minutes",
+        "numericValue": 192
+      },
+      {
+        "id": "p01-i3",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      },
+      {
+        "id": "p01-i4",
+        "name": "The Godfather Part II",
+        "value": "202 minutes",
+        "numericValue": 202
+      },
+      {
+        "id": "p01-i5",
+        "name": "Killers of the Flower Moon",
+        "value": "206 minutes",
+        "numericValue": 206
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-2026-1021",
+    "date": "2026-10-21",
+    "category": "Video Games",
+    "question": "Order these Pokémon generations by the total number of new Pokémon species introduced in their base region, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-vg-i1",
+        "name": "Generation VI (X & Y)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "p-vg-i2",
+        "name": "Generation II (Gold & Silver)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "p-vg-i3",
+        "name": "Generation IV (Diamond & Pearl)",
+        "value": "107 species",
+        "numericValue": 107
+      },
+      {
+        "id": "p-vg-i4",
+        "name": "Generation III (Ruby & Sapphire)",
+        "value": "135 species",
+        "numericValue": 135
+      },
+      {
+        "id": "p-vg-i5",
+        "name": "Generation V (Black & White)",
+        "value": "156 species",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "music-song-length-asc",
+    "date": "2026-10-21",
+    "category": "Music",
+    "question": "Order these famous hit songs by their official studio album track duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "\"Old Town Road\" (Lil Nas X)",
+        "value": "1:53",
+        "numericValue": 113
+      },
+      {
+        "id": "p1-i2",
+        "name": "\"Eleanor Rigby\" (The Beatles)",
+        "value": "2:06",
+        "numericValue": 126
+      },
+      {
+        "id": "p1-i3",
+        "name": "\"bad guy\" (Billie Eilish)",
+        "value": "3:14",
+        "numericValue": 194
+      },
+      {
+        "id": "p1-i4",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p1-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "p20261021-sci",
+    "date": "2026-10-21",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20°C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261021-sci-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p20261021-sci-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p20261021-sci-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p20261021-sci-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p20261021-sci-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
   }
 ]
