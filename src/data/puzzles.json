@@ -12675,5 +12675,125 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "p20261023",
+    "date": "2026-10-23",
+    "category": "Video Games",
+    "question": "Order these Pokémon generations by the total number of new Pokémon species introduced, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261023-i1",
+        "name": "Generation VI (X & Y)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "p20261023-i2",
+        "name": "Generation VII (Sun & Moon)",
+        "value": "88 species",
+        "numericValue": 88
+      },
+      {
+        "id": "p20261023-i3",
+        "name": "Generation VIII (Sword & Shield)",
+        "value": "96 species",
+        "numericValue": 96
+      },
+      {
+        "id": "p20261023-i4",
+        "name": "Generation II (Gold & Silver)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "p20261023-i5",
+        "name": "Generation III (Ruby & Sapphire)",
+        "value": "135 species",
+        "numericValue": 135
+      }
+    ]
+  },
+  {
+    "id": "order-music-001",
+    "date": "2026-10-23",
+    "category": "Music",
+    "question": "Order these famous songs by standard album track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "\"I Want to Hold Your Hand\" by The Beatles",
+        "value": "2 minutes 24 seconds",
+        "numericValue": 144
+      },
+      {
+        "id": "p001-i2",
+        "name": "\"Smells Like Teen Spirit\" by Nirvana",
+        "value": "5 minutes 1 second",
+        "numericValue": 301
+      },
+      {
+        "id": "p001-i3",
+        "name": "\"Bohemian Rhapsody\" by Queen",
+        "value": "5 minutes 55 seconds",
+        "numericValue": 355
+      },
+      {
+        "id": "p001-i4",
+        "name": "\"Hotel California\" by Eagles",
+        "value": "6 minutes 30 seconds",
+        "numericValue": 390
+      },
+      {
+        "id": "p001-i5",
+        "name": "\"Stairway to Heaven\" by Led Zeppelin",
+        "value": "8 minutes 2 seconds",
+        "numericValue": 482
+      }
+    ]
+  },
+  {
+    "id": "sci-001",
+    "date": "2026-10-23",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-001-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "sci-001-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "sci-001-i3",
+        "name": "Iron",
+        "value": "7.874 g/cm³",
+        "numericValue": 7.874
+      },
+      {
+        "id": "sci-001-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "sci-001-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
   }
 ]
