@@ -12795,5 +12795,165 @@
         "numericValue": 22.59
       }
     ]
+  },
+  {
+    "id": "movies-runtime-best-picture",
+    "date": "2026-10-24",
+    "category": "Movies",
+    "question": "Order these Best Picture Oscar winners by their theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261024-i1",
+        "name": "Annie Hall",
+        "value": "93 minutes",
+        "numericValue": 93
+      },
+      {
+        "id": "p20261024-i2",
+        "name": "The Silence of the Lambs",
+        "value": "118 minutes",
+        "numericValue": 118
+      },
+      {
+        "id": "p20261024-i3",
+        "name": "Parasite",
+        "value": "132 minutes",
+        "numericValue": 132
+      },
+      {
+        "id": "p20261024-i4",
+        "name": "Forrest Gump",
+        "value": "142 minutes",
+        "numericValue": 142
+      },
+      {
+        "id": "p20261024-i5",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-001",
+    "date": "2026-10-24",
+    "category": "Video Games",
+    "question": "Order these critically acclaimed video games by their Metacritic score on their initial launch platform, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "The Legend of Zelda: Ocarina of Time (Nintendo 64)",
+        "value": "99/100",
+        "numericValue": 99
+      },
+      {
+        "id": "p1-i2",
+        "name": "Grand Theft Auto IV (PlayStation 3)",
+        "value": "98/100",
+        "numericValue": 98
+      },
+      {
+        "id": "p1-i3",
+        "name": "Super Mario Odyssey (Nintendo Switch)",
+        "value": "97/100",
+        "numericValue": 97
+      },
+      {
+        "id": "p1-i4",
+        "name": "Elden Ring (PlayStation 5)",
+        "value": "96/100",
+        "numericValue": 96
+      },
+      {
+        "id": "p1-i5",
+        "name": "The Last of Us (PlayStation 3)",
+        "value": "95/100",
+        "numericValue": 95
+      }
+    ]
+  },
+  {
+    "id": "geo-borders-001",
+    "date": "2026-10-24",
+    "category": "Geography",
+    "question": "Order these countries by the number of land borders they share with other nations, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "Madagascar",
+        "value": "0 countries",
+        "numericValue": 0
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Portugal",
+        "value": "1 country",
+        "numericValue": 1
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Mongolia",
+        "value": "2 countries",
+        "numericValue": 2
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Chile",
+        "value": "3 countries",
+        "numericValue": 3
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Switzerland",
+        "value": "5 countries",
+        "numericValue": 5
+      }
+    ]
+  },
+  {
+    "id": "sports-nba-points-001",
+    "date": "2026-10-24",
+    "category": "Sports",
+    "question": "Order these retired NBA legends by their total career regular-season points scored, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-nba-1",
+        "name": "Kareem Abdul-Jabbar",
+        "value": "38,387 points",
+        "numericValue": 38387
+      },
+      {
+        "id": "p-nba-2",
+        "name": "Karl Malone",
+        "value": "36,928 points",
+        "numericValue": 36928
+      },
+      {
+        "id": "p-nba-3",
+        "name": "Kobe Bryant",
+        "value": "33,643 points",
+        "numericValue": 33643
+      },
+      {
+        "id": "p-nba-4",
+        "name": "Michael Jordan",
+        "value": "32,292 points",
+        "numericValue": 32292
+      },
+      {
+        "id": "p-nba-5",
+        "name": "Dirk Nowitzki",
+        "value": "31,560 points",
+        "numericValue": 31560
+      }
+    ]
   }
 ]
