@@ -12955,5 +12955,245 @@
         "numericValue": 31560
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-10-25",
+    "category": "Movies",
+    "question": "Order these films by the number of Academy Awards (Oscars) won, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261025-i1",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 wins",
+        "numericValue": 11
+      },
+      {
+        "id": "p20261025-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 wins",
+        "numericValue": 10
+      },
+      {
+        "id": "p20261025-i3",
+        "name": "The Last Emperor",
+        "value": "9 wins",
+        "numericValue": 9
+      },
+      {
+        "id": "p20261025-i4",
+        "name": "Slumdog Millionaire",
+        "value": "8 wins",
+        "numericValue": 8
+      },
+      {
+        "id": "p20261025-i5",
+        "name": "Schindler's List",
+        "value": "7 wins",
+        "numericValue": 7
+      }
+    ]
+  },
+  {
+    "id": "vg-metacritic-scores-001",
+    "date": "2026-10-25",
+    "category": "Video Games",
+    "question": "Order these acclaimed video games by their official Metacritic Metascore, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "value": "99/100",
+        "numericValue": 99
+      },
+      {
+        "id": "p1-i2",
+        "name": "Super Mario Galaxy",
+        "value": "97/100",
+        "numericValue": 97
+      },
+      {
+        "id": "p1-i3",
+        "name": "The Elder Scrolls V: Skyrim",
+        "value": "94/100",
+        "numericValue": 94
+      },
+      {
+        "id": "p1-i4",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "92/100",
+        "numericValue": 92
+      },
+      {
+        "id": "p1-i5",
+        "name": "Dark Souls",
+        "value": "89/100",
+        "numericValue": 89
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-10-25",
+    "category": "Geography",
+    "question": "Order these U.S. National Parks by land area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Gateway Arch National Park",
+        "value": "0.78 km²",
+        "numericValue": 0.78
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Hot Springs National Park",
+        "value": "22.5 km²",
+        "numericValue": 22.5
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Acadia National Park",
+        "value": "198.6 km²",
+        "numericValue": 198.6
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Zion National Park",
+        "value": "595.9 km²",
+        "numericValue": 595.9
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Yellowstone National Park",
+        "value": "8,983 km²",
+        "numericValue": 8983
+      }
+    ]
+  },
+  {
+    "id": "music-song-duration-01",
+    "date": "2026-10-25",
+    "category": "Music",
+    "question": "Order these iconic songs by their standard studio recording duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-song-duration-01-i1",
+        "name": "\"I Want to Hold Your Hand\" (The Beatles)",
+        "value": "2:24",
+        "numericValue": 144
+      },
+      {
+        "id": "music-song-duration-01-i2",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "music-song-duration-01-i3",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "music-song-duration-01-i4",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "music-song-duration-01-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "sci-density-metals-001",
+    "date": "2026-10-25",
+    "category": "Science",
+    "question": "Order these metals by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sci-density-metals-001-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "sci-density-metals-001-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "sci-density-metals-001-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "sci-density-metals-001-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "sci-density-metals-001-i5",
+        "name": "Gold",
+        "value": "19.32 g/cm³",
+        "numericValue": 19.32
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length",
+    "date": "2026-10-25",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by lap distance, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-f1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "sports-f1-i2",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "sports-f1-i3",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "sports-f1-i4",
+        "name": "Baku City Circuit",
+        "value": "6.003 km",
+        "numericValue": 6.003
+      },
+      {
+        "id": "sports-f1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
