@@ -13195,5 +13195,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-01",
+    "date": "2026-10-26",
+    "category": "Movies",
+    "question": "Order these famous movies by the total number of competitive Academy Awards (Oscars) they won, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "movies-oscar-wins-01-i1",
+        "name": "The Godfather",
+        "value": "3 Oscars",
+        "numericValue": 3
+      },
+      {
+        "id": "movies-oscar-wins-01-i2",
+        "name": "No Country for Old Men",
+        "value": "4 Oscars",
+        "numericValue": 4
+      },
+      {
+        "id": "movies-oscar-wins-01-i3",
+        "name": "Gladiator",
+        "value": "5 Oscars",
+        "numericValue": 5
+      },
+      {
+        "id": "movies-oscar-wins-01-i4",
+        "name": "Schindler's List",
+        "value": "7 Oscars",
+        "numericValue": 7
+      },
+      {
+        "id": "movies-oscar-wins-01-i5",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      }
+    ]
+  },
+  {
+    "id": "p20261026-vg",
+    "date": "2026-10-26",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their official Base Stat Total (BST), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261026-vg-i1",
+        "name": "Magikarp",
+        "value": "200 BST",
+        "numericValue": 200
+      },
+      {
+        "id": "p20261026-vg-i2",
+        "name": "Pikachu",
+        "value": "320 BST",
+        "numericValue": 320
+      },
+      {
+        "id": "p20261026-vg-i3",
+        "name": "Charizard",
+        "value": "534 BST",
+        "numericValue": 534
+      },
+      {
+        "id": "p20261026-vg-i4",
+        "name": "Dragonite",
+        "value": "600 BST",
+        "numericValue": 600
+      },
+      {
+        "id": "p20261026-vg-i5",
+        "name": "Arceus",
+        "value": "720 BST",
+        "numericValue": 720
+      }
+    ]
+  },
+  {
+    "id": "geo-lake-depths-01",
+    "date": "2026-10-26",
+    "category": "Geography",
+    "question": "Order these famous lakes by their maximum depth, from deepest to shallowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "Lake Baikal",
+        "value": "1,642 m",
+        "numericValue": 1642
+      },
+      {
+        "id": "p01-i2",
+        "name": "Lake Tanganyika",
+        "value": "1,470 m",
+        "numericValue": 1470
+      },
+      {
+        "id": "p01-i3",
+        "name": "Lake Malawi",
+        "value": "706 m",
+        "numericValue": 706
+      },
+      {
+        "id": "p01-i4",
+        "name": "Crater Lake",
+        "value": "594 m",
+        "numericValue": 594
+      },
+      {
+        "id": "p01-i5",
+        "name": "Loch Ness",
+        "value": "230 m",
+        "numericValue": 230
+      }
+    ]
+  },
+  {
+    "id": "order-music-grammy-wins",
+    "date": "2026-10-26",
+    "category": "Music",
+    "question": "Order these musical artists by their total number of competitive Grammy Award wins, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Beyoncé",
+        "value": "32 wins",
+        "numericValue": 32
+      },
+      {
+        "id": "p1-i2",
+        "name": "Quincy Jones",
+        "value": "28 wins",
+        "numericValue": 28
+      },
+      {
+        "id": "p1-i3",
+        "name": "Alison Krauss",
+        "value": "27 wins",
+        "numericValue": 27
+      },
+      {
+        "id": "p1-i4",
+        "name": "Stevie Wonder",
+        "value": "25 wins",
+        "numericValue": 25
+      },
+      {
+        "id": "p1-i5",
+        "name": "U2",
+        "value": "22 wins",
+        "numericValue": 22
+      }
+    ]
+  },
+  {
+    "id": "order-sci-gravity-01",
+    "date": "2026-10-26",
+    "category": "Science",
+    "question": "Order these Solar System bodies by their surface gravity, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "The Moon",
+        "value": "1.62 m/s²",
+        "numericValue": 1.62
+      },
+      {
+        "id": "p01-i2",
+        "name": "Mars",
+        "value": "3.72 m/s²",
+        "numericValue": 3.72
+      },
+      {
+        "id": "p01-i3",
+        "name": "Venus",
+        "value": "8.87 m/s²",
+        "numericValue": 8.87
+      },
+      {
+        "id": "p01-i4",
+        "name": "Earth",
+        "value": "9.81 m/s²",
+        "numericValue": 9.81
+      },
+      {
+        "id": "p01-i5",
+        "name": "Jupiter",
+        "value": "24.79 m/s²",
+        "numericValue": 24.79
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-track-lengths",
+    "date": "2026-10-26",
+    "category": "Sports",
+    "question": "Order these Formula 1 Grand Prix circuits by official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "f1-i2",
+        "name": "Autódromo José Carlos Pace (Interlagos)",
+        "value": "4.309 km",
+        "numericValue": 4.309
+      },
+      {
+        "id": "f1-i3",
+        "name": "Circuit de Barcelona-Catalunya",
+        "value": "4.657 km",
+        "numericValue": 4.657
+      },
+      {
+        "id": "f1-i4",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "f1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
