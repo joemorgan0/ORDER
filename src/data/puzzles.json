@@ -13435,5 +13435,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movie-oscar-noms-01",
+    "date": "2026-10-27",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Award (Oscar) nominations they received, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "movie-oscar-noms-01-i1",
+        "name": "Master and Commander: The Far Side of the World",
+        "value": "10 nominations",
+        "numericValue": 10
+      },
+      {
+        "id": "movie-oscar-noms-01-i2",
+        "name": "Everything Everywhere All at Once",
+        "value": "11 nominations",
+        "numericValue": 11
+      },
+      {
+        "id": "movie-oscar-noms-01-i3",
+        "name": "Lincoln",
+        "value": "12 nominations",
+        "numericValue": 12
+      },
+      {
+        "id": "movie-oscar-noms-01-i4",
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "value": "13 nominations",
+        "numericValue": 13
+      },
+      {
+        "id": "movie-oscar-noms-01-i5",
+        "name": "Titanic",
+        "value": "14 nominations",
+        "numericValue": 14
+      }
+    ]
+  },
+  {
+    "id": "NaN",
+    "date": "2026-10-27",
+    "category": "Video Games",
+    "question": "Order these Pokémon by their official Pokédex height, from shortest to tallest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Joltik",
+        "value": "0.1 m",
+        "numericValue": 0.1
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Pikachu",
+        "value": "0.4 m",
+        "numericValue": 0.4
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "Charizard",
+        "value": "1.7 m",
+        "numericValue": 1.7
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Snorlax",
+        "value": "2.1 m",
+        "numericValue": 2.1
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Wailord",
+        "value": "14.5 m",
+        "numericValue": 14.5
+      }
+    ]
+  },
+  {
+    "id": "geo-borders-001",
+    "date": "2026-10-27",
+    "category": "Geography",
+    "question": "Order these landlocked countries by the number of bordering countries, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Lesotho",
+        "value": "1 country",
+        "numericValue": 1
+      },
+      {
+        "id": "p001-i2",
+        "name": "Nepal",
+        "value": "2 countries",
+        "numericValue": 2
+      },
+      {
+        "id": "p001-i3",
+        "name": "Paraguay",
+        "value": "3 countries",
+        "numericValue": 3
+      },
+      {
+        "id": "p001-i4",
+        "name": "Switzerland",
+        "value": "5 countries",
+        "numericValue": 5
+      },
+      {
+        "id": "p001-i5",
+        "name": "Austria",
+        "value": "8 countries",
+        "numericValue": 8
+      }
+    ]
+  },
+  {
+    "id": "order-music-grammy-wins-2026",
+    "date": "2026-10-27",
+    "category": "Music",
+    "question": "Order these musical artists by their total number of Grammy Award wins (as of 2024), from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Taylor Swift",
+        "value": "14 Grammys",
+        "numericValue": 14
+      },
+      {
+        "id": "p1-i2",
+        "name": "Adele",
+        "value": "16 Grammys",
+        "numericValue": 16
+      },
+      {
+        "id": "p1-i3",
+        "name": "U2",
+        "value": "22 Grammys",
+        "numericValue": 22
+      },
+      {
+        "id": "p1-i4",
+        "name": "Quincy Jones",
+        "value": "28 Grammys",
+        "numericValue": 28
+      },
+      {
+        "id": "p1-i5",
+        "name": "Beyoncé",
+        "value": "32 Grammys",
+        "numericValue": 32
+      }
+    ]
+  },
+  {
+    "id": "sci-density-01",
+    "date": "2026-10-27",
+    "category": "Science",
+    "question": "Order these chemical elements by their density at room temperature (20 °C), from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "psci-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "psci-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "psci-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "psci-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "psci-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "sports-nba-career-points-01",
+    "date": "2026-10-27",
+    "category": "Sports",
+    "question": "Order these NBA legends by their total career regular season points scored, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-nba-career-points-01-i1",
+        "name": "Dirk Nowitzki",
+        "value": "31,560 points",
+        "numericValue": 31560
+      },
+      {
+        "id": "sports-nba-career-points-01-i2",
+        "name": "Michael Jordan",
+        "value": "32,292 points",
+        "numericValue": 32292
+      },
+      {
+        "id": "sports-nba-career-points-01-i3",
+        "name": "Kobe Bryant",
+        "value": "33,643 points",
+        "numericValue": 33643
+      },
+      {
+        "id": "sports-nba-career-points-01-i4",
+        "name": "Karl Malone",
+        "value": "36,928 points",
+        "numericValue": 36928
+      },
+      {
+        "id": "sports-nba-career-points-01-i5",
+        "name": "Kareem Abdul-Jabbar",
+        "value": "38,387 points",
+        "numericValue": 38387
+      }
+    ]
   }
 ]
