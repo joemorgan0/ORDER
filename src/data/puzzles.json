@@ -13675,5 +13675,245 @@
         "numericValue": 38387
       }
     ]
+  },
+  {
+    "id": "order-movie-runtime-001",
+    "date": "2026-10-28",
+    "category": "Movies",
+    "question": "Order these famous movies by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261028-i1",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p20261028-i2",
+        "name": "Inception",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p20261028-i3",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "p20261028-i4",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      },
+      {
+        "id": "p20261028-i5",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      }
+    ]
+  },
+  {
+    "id": "ord-vg-roster-001",
+    "date": "2026-10-28",
+    "category": "Video Games",
+    "question": "Order these fighting video games by the number of playable characters in their base roster at launch (excluding post-launch DLC), from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "ord-vg-roster-001-i1",
+        "name": "Street Fighter II",
+        "value": "8 characters",
+        "numericValue": 8
+      },
+      {
+        "id": "ord-vg-roster-001-i2",
+        "name": "Street Fighter V",
+        "value": "16 characters",
+        "numericValue": 16
+      },
+      {
+        "id": "ord-vg-roster-001-i3",
+        "name": "Tekken 7",
+        "value": "36 characters",
+        "numericValue": 36
+      },
+      {
+        "id": "ord-vg-roster-001-i4",
+        "name": "Marvel vs. Capcom 2",
+        "value": "56 characters",
+        "numericValue": 56
+      },
+      {
+        "id": "ord-vg-roster-001-i5",
+        "name": "Super Smash Bros. Ultimate",
+        "value": "74 characters",
+        "numericValue": 74
+      }
+    ]
+  },
+  {
+    "id": "geo-elevation-20261028",
+    "date": "2026-10-28",
+    "category": "Geography",
+    "question": "Order these countries by their mean (average) elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Maldives",
+        "value": "1.5 m",
+        "numericValue": 1.5
+      },
+      {
+        "id": "p1-i2",
+        "name": "Netherlands",
+        "value": "30 m",
+        "numericValue": 30
+      },
+      {
+        "id": "p1-i3",
+        "name": "Spain",
+        "value": "660 m",
+        "numericValue": 660
+      },
+      {
+        "id": "p1-i4",
+        "name": "Switzerland",
+        "value": "1,350 m",
+        "numericValue": 1350
+      },
+      {
+        "id": "p1-i5",
+        "name": "Bhutan",
+        "value": "3,280 m",
+        "numericValue": 3280
+      }
+    ]
+  },
+  {
+    "id": "music-song-duration-01",
+    "date": "2026-10-28",
+    "category": "Music",
+    "question": "Order these famous classic songs by the duration of their original studio recordings, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p001-i2",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p001-i3",
+        "name": "\"Hey Jude\" (The Beatles)",
+        "value": "7:11",
+        "numericValue": 431
+      },
+      {
+        "id": "p001-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p001-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "science-density-metals",
+    "date": "2026-10-28",
+    "category": "Science",
+    "question": "Order these metallic elements by their density at room temperature, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Lithium",
+        "value": "0.534 g/cm³",
+        "numericValue": 0.534
+      },
+      {
+        "id": "p1-i2",
+        "name": "Aluminium",
+        "value": "2.70 g/cm³",
+        "numericValue": 2.7
+      },
+      {
+        "id": "p1-i3",
+        "name": "Iron",
+        "value": "7.87 g/cm³",
+        "numericValue": 7.87
+      },
+      {
+        "id": "p1-i4",
+        "name": "Lead",
+        "value": "11.34 g/cm³",
+        "numericValue": 11.34
+      },
+      {
+        "id": "p1-i5",
+        "name": "Osmium",
+        "value": "22.59 g/cm³",
+        "numericValue": 22.59
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuits-2026",
+    "date": "2026-10-28",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by their official lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261028-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p20261028-i2",
+        "name": "Red Bull Ring",
+        "value": "4.318 km",
+        "numericValue": 4.318
+      },
+      {
+        "id": "p20261028-i3",
+        "name": "Circuit de Barcelona-Catalunya",
+        "value": "4.657 km",
+        "numericValue": 4.657
+      },
+      {
+        "id": "p20261028-i4",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "p20261028-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
