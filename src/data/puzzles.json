@@ -13915,5 +13915,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-oscar-wins-count",
+    "date": "2026-10-29",
+    "category": "Movies",
+    "question": "Order these movies by the total number of Academy Awards (Oscars) won, from most to least.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p-mov-i1",
+        "name": "The Lord of the Rings: The Return of the King",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "p-mov-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "p-mov-i3",
+        "name": "Cabaret",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "p-mov-i4",
+        "name": "Mad Max: Fury Road",
+        "value": "6 Oscars",
+        "numericValue": 6
+      },
+      {
+        "id": "p-mov-i5",
+        "name": "The Silence of the Lambs",
+        "value": "5 Oscars",
+        "numericValue": 5
+      }
+    ]
+  },
+  {
+    "id": "vg-pokemon-gens-count",
+    "date": "2026-10-29",
+    "category": "Video Games",
+    "question": "Order these Pokémon video game generations by the number of new Pokémon species introduced, from fewest to most.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "vg-pokemon-gens-count-i1",
+        "name": "Generation VI (X & Y)",
+        "value": "72 species",
+        "numericValue": 72
+      },
+      {
+        "id": "vg-pokemon-gens-count-i2",
+        "name": "Generation II (Gold & Silver)",
+        "value": "100 species",
+        "numericValue": 100
+      },
+      {
+        "id": "vg-pokemon-gens-count-i3",
+        "name": "Generation IV (Diamond & Pearl)",
+        "value": "107 species",
+        "numericValue": 107
+      },
+      {
+        "id": "vg-pokemon-gens-count-i4",
+        "name": "Generation III (Ruby & Sapphire)",
+        "value": "135 species",
+        "numericValue": 135
+      },
+      {
+        "id": "vg-pokemon-gens-count-i5",
+        "name": "Generation V (Black & White)",
+        "value": "156 species",
+        "numericValue": 156
+      }
+    ]
+  },
+  {
+    "id": "geo-capital-elevation-001",
+    "date": "2026-10-29",
+    "category": "Geography",
+    "question": "Order these national capitals by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Baku (Azerbaijan)",
+        "value": "-28 m (-92 ft)",
+        "numericValue": -28
+      },
+      {
+        "id": "p001-i2",
+        "name": "London (United Kingdom)",
+        "value": "11 m (36 ft)",
+        "numericValue": 11
+      },
+      {
+        "id": "p001-i3",
+        "name": "Madrid (Spain)",
+        "value": "667 m (2,188 ft)",
+        "numericValue": 667
+      },
+      {
+        "id": "p001-i4",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m (7,350 ft)",
+        "numericValue": 2240
+      },
+      {
+        "id": "p001-i5",
+        "name": "La Paz (Bolivia)",
+        "value": "3,640 m (11,942 ft)",
+        "numericValue": 3640
+      }
+    ]
+  },
+  {
+    "id": "music-001",
+    "date": "2026-10-29",
+    "category": "Music",
+    "question": "Order these famous songs by their original studio album track runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-001-i1",
+        "name": "\"Yesterday\" (The Beatles)",
+        "value": "2:05",
+        "numericValue": 125
+      },
+      {
+        "id": "music-001-i2",
+        "name": "\"Smells Like Teen Spirit\" (Nirvana)",
+        "value": "5:01",
+        "numericValue": 301
+      },
+      {
+        "id": "music-001-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "music-001-i4",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "music-001-i5",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      }
+    ]
+  },
+  {
+    "id": "puzzle-20261029-science",
+    "date": "2026-10-29",
+    "category": "Science",
+    "question": "Order these chemical elements by their melting point at standard atmospheric pressure, lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261029-i1",
+        "name": "Mercury",
+        "value": "-38.8 °C",
+        "numericValue": -38.8
+      },
+      {
+        "id": "p20261029-i2",
+        "name": "Gallium",
+        "value": "29.8 °C",
+        "numericValue": 29.8
+      },
+      {
+        "id": "p20261029-i3",
+        "name": "Lead",
+        "value": "327.5 °C",
+        "numericValue": 327.5
+      },
+      {
+        "id": "p20261029-i4",
+        "name": "Silver",
+        "value": "961.8 °C",
+        "numericValue": 961.8
+      },
+      {
+        "id": "p20261029-i5",
+        "name": "Tungsten",
+        "value": "3,422 °C",
+        "numericValue": 3422
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length-001",
+    "date": "2026-10-29",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by lap length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Circuit de Monaco (Monaco)",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p1-i2",
+        "name": "Autódromo José Carlos Pace / Interlagos (Brazil)",
+        "value": "4.309 km",
+        "numericValue": 4.309
+      },
+      {
+        "id": "p1-i3",
+        "name": "Silverstone Circuit (Great Britain)",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p1-i4",
+        "name": "Baku City Circuit (Azerbaijan)",
+        "value": "6.003 km",
+        "numericValue": 6.003
+      },
+      {
+        "id": "p1-i5",
+        "name": "Circuit de Spa-Francorchamps (Belgium)",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
