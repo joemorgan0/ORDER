@@ -14155,5 +14155,205 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-oscars-won",
+    "date": "2026-10-30",
+    "category": "Movies",
+    "question": "Order these films by the total number of Academy Awards (Oscars) they won, from most to fewest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Ben-Hur (1959)",
+        "value": "11 Oscars",
+        "numericValue": 11
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "West Side Story (1961)",
+        "value": "10 Oscars",
+        "numericValue": 10
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "The Last Emperor (1987)",
+        "value": "9 Oscars",
+        "numericValue": 9
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "On the Waterfront (1954)",
+        "value": "8 Oscars",
+        "numericValue": 8
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Schindler's List (1993)",
+        "value": "7 Oscars",
+        "numericValue": 7
+      }
+    ]
+  },
+  {
+    "id": "geo-sa-area-01",
+    "date": "2026-10-30",
+    "category": "Geography",
+    "question": "Order these South American countries by total area, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Suriname",
+        "value": "163,820 km²",
+        "numericValue": 163820
+      },
+      {
+        "id": "p001-i2",
+        "name": "Uruguay",
+        "value": "176,215 km²",
+        "numericValue": 176215
+      },
+      {
+        "id": "p001-i3",
+        "name": "Ecuador",
+        "value": "276,841 km²",
+        "numericValue": 276841
+      },
+      {
+        "id": "p001-i4",
+        "name": "Paraguay",
+        "value": "406,752 km²",
+        "numericValue": 406752
+      },
+      {
+        "id": "p001-i5",
+        "name": "Bolivia",
+        "value": "1,098,581 km²",
+        "numericValue": 1098581
+      }
+    ]
+  },
+  {
+    "id": "music-song-durations-01",
+    "date": "2026-10-30",
+    "category": "Music",
+    "question": "Order these iconic songs by their official studio album track duration, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "\"Paranoid\" (Black Sabbath)",
+        "value": "2:48",
+        "numericValue": 168
+      },
+      {
+        "id": "p1-i2",
+        "name": "\"Billie Jean\" (Michael Jackson)",
+        "value": "4:54",
+        "numericValue": 294
+      },
+      {
+        "id": "p1-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p1-i4",
+        "name": "\"Hotel California\" (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "p1-i5",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      }
+    ]
+  },
+  {
+    "id": "puzzle-science-boiling-points",
+    "date": "2026-10-30",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p1-i2",
+        "name": "Chlorine",
+        "value": "-34.0 °C",
+        "numericValue": -34
+      },
+      {
+        "id": "p1-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "p1-i4",
+        "name": "Copper",
+        "value": "2,562 °C",
+        "numericValue": 2562
+      },
+      {
+        "id": "p1-i5",
+        "name": "Tungsten",
+        "value": "5,930 °C",
+        "numericValue": 5930
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-circuit-length",
+    "date": "2026-10-30",
+    "category": "Sports",
+    "question": "Order these Formula 1 circuits by track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "p1-i2",
+        "name": "Circuit of the Americas",
+        "value": "5.513 km",
+        "numericValue": 5.513
+      },
+      {
+        "id": "p1-i3",
+        "name": "Suzuka International Racing Course",
+        "value": "5.807 km",
+        "numericValue": 5.807
+      },
+      {
+        "id": "p1-i4",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "p1-i5",
+        "name": "Circuit de Spa-Francorchamps",
+        "value": "7.004 km",
+        "numericValue": 7.004
+      }
+    ]
   }
 ]
