@@ -14355,5 +14355,245 @@
         "numericValue": 7.004
       }
     ]
+  },
+  {
+    "id": "movies-runtime-1",
+    "date": "2026-10-31",
+    "category": "Movies",
+    "question": "Order these famous feature films by their official theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Gravity",
+        "value": "91 minutes",
+        "numericValue": 91
+      },
+      {
+        "id": "p1-i2",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p1-i3",
+        "name": "The Godfather",
+        "value": "175 minutes",
+        "numericValue": 175
+      },
+      {
+        "id": "p1-i4",
+        "name": "Avengers: Endgame",
+        "value": "181 minutes",
+        "numericValue": 181
+      },
+      {
+        "id": "p1-i5",
+        "name": "Titanic",
+        "value": "194 minutes",
+        "numericValue": 194
+      }
+    ]
+  },
+  {
+    "id": "video-game-map-sizes-01",
+    "date": "2026-10-31",
+    "category": "Video Games",
+    "question": "Order these open-world video games by the approximate area of their in-game map, from smallest to largest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pNaN-i1",
+        "name": "Grand Theft Auto: San Andreas",
+        "value": "36 km²",
+        "numericValue": 36
+      },
+      {
+        "id": "pNaN-i2",
+        "name": "Grand Theft Auto V",
+        "value": "76 km²",
+        "numericValue": 76
+      },
+      {
+        "id": "pNaN-i3",
+        "name": "The Witcher 3: Wild Hunt",
+        "value": "136 km²",
+        "numericValue": 136
+      },
+      {
+        "id": "pNaN-i4",
+        "name": "Assassin's Creed Odyssey",
+        "value": "256 km²",
+        "numericValue": 256
+      },
+      {
+        "id": "pNaN-i5",
+        "name": "Just Cause 3",
+        "value": "1,024 km²",
+        "numericValue": 1024
+      }
+    ]
+  },
+  {
+    "id": "geo-capitals-elevation-01",
+    "date": "2026-10-31",
+    "category": "Geography",
+    "question": "Order these capital cities by their average elevation above sea level, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "pgeo-i1",
+        "name": "Kabul (Afghanistan)",
+        "value": "1,790 m",
+        "numericValue": 1790
+      },
+      {
+        "id": "pgeo-i2",
+        "name": "Mexico City (Mexico)",
+        "value": "2,240 m",
+        "numericValue": 2240
+      },
+      {
+        "id": "pgeo-i3",
+        "name": "Addis Ababa (Ethiopia)",
+        "value": "2,355 m",
+        "numericValue": 2355
+      },
+      {
+        "id": "pgeo-i4",
+        "name": "Bogotá (Colombia)",
+        "value": "2,640 m",
+        "numericValue": 2640
+      },
+      {
+        "id": "pgeo-i5",
+        "name": "Quito (Ecuador)",
+        "value": "2,850 m",
+        "numericValue": 2850
+      }
+    ]
+  },
+  {
+    "id": "music-song-lengths-01",
+    "date": "2026-10-31",
+    "category": "Music",
+    "question": "Order these famous songs by their official studio album track runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p01-i1",
+        "name": "\"Yesterday\" (The Beatles)",
+        "value": "2:05",
+        "numericValue": 125
+      },
+      {
+        "id": "p01-i2",
+        "name": "\"Smells Like Teen Spirit\" (Nirvana)",
+        "value": "5:01",
+        "numericValue": 301
+      },
+      {
+        "id": "p01-i3",
+        "name": "\"Bohemian Rhapsody\" (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "p01-i4",
+        "name": "\"Stairway to Heaven\" (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "p01-i5",
+        "name": "\"American Pie\" (Don McLean)",
+        "value": "8:42",
+        "numericValue": 522
+      }
+    ]
+  },
+  {
+    "id": "2026-10-31-science",
+    "date": "2026-10-31",
+    "category": "Science",
+    "question": "Order these chemical elements by their boiling point at standard atmospheric pressure, from lowest to highest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261031-i1",
+        "name": "Helium",
+        "value": "-268.9 °C",
+        "numericValue": -268.9
+      },
+      {
+        "id": "p20261031-i2",
+        "name": "Nitrogen",
+        "value": "-195.8 °C",
+        "numericValue": -195.8
+      },
+      {
+        "id": "p20261031-i3",
+        "name": "Mercury",
+        "value": "356.7 °C",
+        "numericValue": 356.7
+      },
+      {
+        "id": "p20261031-i4",
+        "name": "Silver",
+        "value": "2,162 °C",
+        "numericValue": 2162
+      },
+      {
+        "id": "p20261031-i5",
+        "name": "Tungsten",
+        "value": "5,555 °C",
+        "numericValue": 5555
+      }
+    ]
+  },
+  {
+    "id": "sports-f1-wins-01",
+    "date": "2026-10-31",
+    "category": "Sports",
+    "question": "Order these Formula 1 drivers by total career Grand Prix wins, from highest to lowest.",
+    "order": "desc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "f1-i1",
+        "name": "Lewis Hamilton",
+        "value": "105 wins",
+        "numericValue": 105
+      },
+      {
+        "id": "f1-i2",
+        "name": "Michael Schumacher",
+        "value": "91 wins",
+        "numericValue": 91
+      },
+      {
+        "id": "f1-i3",
+        "name": "Sebastian Vettel",
+        "value": "53 wins",
+        "numericValue": 53
+      },
+      {
+        "id": "f1-i4",
+        "name": "Alain Prost",
+        "value": "51 wins",
+        "numericValue": 51
+      },
+      {
+        "id": "f1-i5",
+        "name": "Ayrton Senna",
+        "value": "41 wins",
+        "numericValue": 41
+      }
+    ]
   }
 ]
