@@ -14595,5 +14595,205 @@
         "numericValue": 41
       }
     ]
+  },
+  {
+    "id": "order-mov-2026-11-01",
+    "date": "2026-11-01",
+    "category": "Movies",
+    "question": "Order these Christopher Nolan films by theatrical runtime, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p20261101-i1",
+        "name": "Dunkirk",
+        "value": "106 minutes",
+        "numericValue": 106
+      },
+      {
+        "id": "p20261101-i2",
+        "name": "Inception",
+        "value": "148 minutes",
+        "numericValue": 148
+      },
+      {
+        "id": "p20261101-i3",
+        "name": "The Dark Knight",
+        "value": "152 minutes",
+        "numericValue": 152
+      },
+      {
+        "id": "p20261101-i4",
+        "name": "Interstellar",
+        "value": "169 minutes",
+        "numericValue": 169
+      },
+      {
+        "id": "p20261101-i5",
+        "name": "Oppenheimer",
+        "value": "180 minutes",
+        "numericValue": 180
+      }
+    ]
+  },
+  {
+    "id": "game-smash-weight-01",
+    "date": "2026-11-01",
+    "category": "Video Games",
+    "question": "Order these Super Smash Bros. Ultimate fighters by their official weight stat, from lightest to heaviest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p1-i1",
+        "name": "Pichu",
+        "value": "62",
+        "numericValue": 62
+      },
+      {
+        "id": "p1-i2",
+        "name": "Fox",
+        "value": "77",
+        "numericValue": 77
+      },
+      {
+        "id": "p1-i3",
+        "name": "Mario",
+        "value": "98",
+        "numericValue": 98
+      },
+      {
+        "id": "p1-i4",
+        "name": "Captain Falcon",
+        "value": "104",
+        "numericValue": 104
+      },
+      {
+        "id": "p1-i5",
+        "name": "Bowser",
+        "value": "135",
+        "numericValue": 135
+      }
+    ]
+  },
+  {
+    "id": "geo-lakes-depth-01",
+    "date": "2026-11-01",
+    "category": "Geography",
+    "question": "Order these lakes by their maximum depth, from shallowest to deepest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "p001-i1",
+        "name": "Lake Erie",
+        "value": "64 m",
+        "numericValue": 64
+      },
+      {
+        "id": "p001-i2",
+        "name": "Lake Victoria",
+        "value": "81 m",
+        "numericValue": 81
+      },
+      {
+        "id": "p001-i3",
+        "name": "Lake Michigan",
+        "value": "281 m",
+        "numericValue": 281
+      },
+      {
+        "id": "p001-i4",
+        "name": "Lake Superior",
+        "value": "406 m",
+        "numericValue": 406
+      },
+      {
+        "id": "p001-i5",
+        "name": "Lake Baikal",
+        "value": "1,642 m",
+        "numericValue": 1642
+      }
+    ]
+  },
+  {
+    "id": "music-song-lengths-01",
+    "date": "2026-11-01",
+    "category": "Music",
+    "question": "Order these iconic classic rock songs by the duration of their original studio album versions, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "music-sl01-i1",
+        "name": "Bohemian Rhapsody (Queen)",
+        "value": "5:55",
+        "numericValue": 355
+      },
+      {
+        "id": "music-sl01-i2",
+        "name": "Hotel California (Eagles)",
+        "value": "6:30",
+        "numericValue": 390
+      },
+      {
+        "id": "music-sl01-i3",
+        "name": "Stairway to Heaven (Led Zeppelin)",
+        "value": "8:02",
+        "numericValue": 482
+      },
+      {
+        "id": "music-sl01-i4",
+        "name": "American Pie (Don McLean)",
+        "value": "8:33",
+        "numericValue": 513
+      },
+      {
+        "id": "music-sl01-i5",
+        "name": "Free Bird (Lynyrd Skynyrd)",
+        "value": "9:08",
+        "numericValue": 548
+      }
+    ]
+  },
+  {
+    "id": "sports-circuit-lengths-001",
+    "date": "2026-11-01",
+    "category": "Sports",
+    "question": "Order these famous motor racing circuits by their official track length, from shortest to longest.",
+    "order": "asc",
+    "difficulty": "Medium",
+    "items": [
+      {
+        "id": "sports-circuit-lengths-001-i1",
+        "name": "Circuit de Monaco",
+        "value": "3.337 km",
+        "numericValue": 3.337
+      },
+      {
+        "id": "sports-circuit-lengths-001-i2",
+        "name": "Autodromo Nazionale Monza",
+        "value": "5.793 km",
+        "numericValue": 5.793
+      },
+      {
+        "id": "sports-circuit-lengths-001-i3",
+        "name": "Silverstone Circuit",
+        "value": "5.891 km",
+        "numericValue": 5.891
+      },
+      {
+        "id": "sports-circuit-lengths-001-i4",
+        "name": "Circuit de la Sarthe (Le Mans)",
+        "value": "13.626 km",
+        "numericValue": 13.626
+      },
+      {
+        "id": "sports-circuit-lengths-001-i5",
+        "name": "Nürburgring Nordschleife",
+        "value": "20.832 km",
+        "numericValue": 20.832
+      }
+    ]
   }
 ]
